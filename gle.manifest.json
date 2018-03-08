@@ -1,0 +1,470 @@
+{
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution": [
+    {
+      "@value": "The National Library of Wales",
+      "@language": "en"
+    },
+    {
+      "@value": "Llyfrgell Genedlaethol Cymru",
+      "@language": "cy-GB"
+    }
+  ],
+  "logo": {
+    "service": {
+      "profile": "http://iiif.io/api/image/2/level1.json",
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/logo",
+      "@context": "http://iiif.io/api/image/2/context.json"
+    },
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/logo/full/400,/0/default.jpg"
+  },
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "label": "[Mr. and Mrs. Carr, Marian and Husband Jeffrey, Talweunydd]",
+  "metadata": [
+    {
+      "label": [
+        {
+          "@value": "Title",
+          "@language": "en"
+        },
+        {
+          "@value": "Teitl",
+          "@language": "cy-GB"
+        }
+      ],
+      "value": "[Mr. and Mrs. Carr, Marian and Husband Jeffrey, Talweunydd]"
+    },
+    {
+      "label": [
+        {
+          "@value": "Author",
+          "@language": "en"
+        },
+        {
+          "@value": "Awdur",
+          "@language": "cy-GB"
+        }
+      ],
+      "value": "Evans, Gwilym Livingstone photographer."
+    },
+    {
+      "label": [
+        {
+          "@value": "Period",
+          "@language": "en"
+        },
+        {
+          "@value": "Cyfnod",
+          "@language": "cy-GB"
+        }
+      ],
+      "value": "1960 - 1980"
+    },
+    {
+      "label": [
+        {
+          "@value": "Physical description",
+          "@language": "en"
+        },
+        {
+          "@value": "Disgrifiad ffisegol",
+          "@language": "cy-GB"
+        }
+      ],
+      "value": "15 slides : black and white ; 6 x 6 cm. or smaller."
+    },
+    {
+      "label": [
+        {
+          "@value": "Permalink",
+          "@language": "en"
+        },
+        {
+          "@value": "Dolen barhaol",
+          "@language": "cy-GB"
+        }
+      ],
+      "value": "<a href=\"http://hdl.handle.net/10107/4693089\">http://hdl.handle.net/10107/4693089</a>"
+    },
+    {
+      "label": [
+        {
+          "@value": "Repository",
+          "@language": "en"
+        },
+        {
+          "@value": "Ystorfa",
+          "@language": "cy-GB"
+        }
+      ],
+      "value": [
+        {
+          "@value": "This content has been digitised by The National Library of Wales",
+          "@language": "en"
+        },
+        {
+          "@value": "Digidwyd y cynnwys hwn gan Lyfrgell Genedlaethol Cymru",
+          "@language": "cy-GB"
+        }
+      ]
+    }
+  ],
+  "@type": "sc:Manifest",
+  "sequences": [
+    {
+      "canvases": [
+        {
+          "height": 7082,
+          "images": [
+            {
+              "resource": {
+                "height": 7082,
+                "width": 5571,
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "height": 7082,
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4693090",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "width": 5571,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1"
+                },
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/res/4693090.jpg"
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/annotation/4693090.json",
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693090.json"
+            }
+          ],
+          "width": 5571,
+          "label": "1B/1",
+          "@type": "sc:Canvas",
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693090.json"
+        },
+        {
+          "height": 6918,
+          "images": [
+            {
+              "resource": {
+                "height": 6918,
+                "width": 5532,
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "height": 6918,
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4693092",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "width": 5532,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1"
+                },
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/res/4693092.jpg"
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/annotation/4693092.json",
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693092.json"
+            }
+          ],
+          "width": 5532,
+          "label": "1B/3",
+          "@type": "sc:Canvas",
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693092.json"
+        },
+        {
+          "height": 7020,
+          "images": [
+            {
+              "resource": {
+                "height": 7020,
+                "width": 5517,
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "height": 7020,
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4693093",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "width": 5517,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1"
+                },
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/res/4693093.jpg"
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/annotation/4693093.json",
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693093.json"
+            }
+          ],
+          "width": 5517,
+          "label": "1B/4",
+          "@type": "sc:Canvas",
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693093.json"
+        },
+        {
+          "height": 6970,
+          "images": [
+            {
+              "resource": {
+                "height": 6970,
+                "width": 5579,
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "height": 6970,
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4693100",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "width": 5579,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1"
+                },
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/res/4693100.jpg"
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/annotation/4693100.json",
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693100.json"
+            }
+          ],
+          "width": 5579,
+          "label": "1B/11",
+          "@type": "sc:Canvas",
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693100.json"
+        },
+        {
+          "height": 7014,
+          "images": [
+            {
+              "resource": {
+                "height": 7014,
+                "width": 5345,
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "height": 7014,
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4693101",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "width": 5345,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1"
+                },
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/res/4693101.jpg"
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/annotation/4693101.json",
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693101.json"
+            }
+          ],
+          "width": 5345,
+          "label": "1B/12",
+          "@type": "sc:Canvas",
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693101.json"
+        },
+        {
+          "height": 7061,
+          "images": [
+            {
+              "resource": {
+                "height": 7061,
+                "width": 5596,
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "height": 7061,
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4693102",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "width": 5596,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1"
+                },
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/res/4693102.jpg"
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/annotation/4693102.json",
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693102.json"
+            }
+          ],
+          "width": 5596,
+          "label": "1B/13",
+          "@type": "sc:Canvas",
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693102.json"
+        },
+        {
+          "height": 7087,
+          "images": [
+            {
+              "resource": {
+                "height": 7087,
+                "width": 5610,
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "height": 7087,
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4693103",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "width": 5610,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1"
+                },
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/res/4693103.jpg"
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/annotation/4693103.json",
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693103.json"
+            }
+          ],
+          "width": 5610,
+          "label": "1B/14",
+          "@type": "sc:Canvas",
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693103.json"
+        },
+        {
+          "height": 7046,
+          "images": [
+            {
+              "resource": {
+                "height": 7046,
+                "width": 5938,
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "height": 7046,
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4693104",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "width": 5938,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1"
+                },
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/res/4693104.jpg"
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/annotation/4693104.json",
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693104.json"
+            }
+          ],
+          "width": 5938,
+          "label": "1B/15",
+          "@type": "sc:Canvas",
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/canvas/4693104.json"
+        }
+      ],
+      "viewingHint": "paged",
+      "viewingDirection": "left-to-right",
+      "label": "Current Page Order",
+      "@type": "sc:Sequence",
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/sequence/Physical.json"
+    }
+  ],
+  "description": "Images of Mr and Mrs Carr, Marian and Husband Jeffrey, Talweunydd.",
+  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693089/manifest.json"
+}
