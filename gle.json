@@ -1,8 +1,7 @@
-
-        {
-        "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://damsssl.llgc.org.uk/iiif/collection/gle.json",
-        "@type": "sc:Collection",
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://damsssl.llgc.org.uk/iiif/collection/gle.json",
+  "@type": "sc:Collection",
 
         "label": [
             {
