@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://damsssl.llgc.org.uk/iiif/collection/gle.json",
+  "@id": "https://nlw-paulm.github.io/gle.json",
   "@type": "sc:Collection",
 
         "label": [
