@@ -87,6 +87,12 @@
                 "description":""
             },
             {
+              "@id": "http://dams.llgc.org.uk/iiif/2.0/4694556/manifest.json",
+              "@type": "sc:Manifest",
+              "label": "Label 0",
+              "description": ""
+            },
+            {
                 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4654878/manifest.json",
                 "@type": "sc:Manifest",
                 "label" : "Contact Sheet 5 Box 1",
