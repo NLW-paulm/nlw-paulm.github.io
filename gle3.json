@@ -1,6 +1,6 @@
 {
    "@context": "http://iiif.io/api/presentation/2/context.json",
-   "@id": "https://nlw-paulm.github.io/gle.json",
+   "@id": "https://nlw-paulm.github.io/gle3.json",
    "@type": "sc:Collection",
    "label": [
       {
