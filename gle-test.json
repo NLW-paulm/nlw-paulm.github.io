@@ -63,40 +63,34 @@
         "manifests": [
 
             {
-                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693064/manifest.json",
-                "@type": "sc:Manifest",
-                "label" : "Contact Sheet 1 Box 1",
-                "description":""
-            },
-            {
-                "@id": "https://nlw-paulm.github.io/gle.manifest.json",
-                "@type": "sc:Manifest",
-                "label" : "Contact Sheet 2 Box 1 -",
-                "description":""
-            },
-            {
-                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693105/manifest.json",
-                "@type": "sc:Manifest",
-                "label" : "Contact Sheet 3 Box 1",
-                "description":""
-            },
-            {
-                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693116/manifest.json",
-                "@type": "sc:Manifest",
-                "label" : "Contact Sheet 4 Box 1",
-                "description":""
-            },
-            {
               "@id": "https://nlw-paulm.github.io/manifests/4693105.json",
               "@type": "sc:Manifest",
               "label": "Peacock Rhiw, Ceinwen unveiling etchells. A.P. Evans, Eryl, Ffestiniog",
               "description": ""
-            },
-            {
-                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4654878/manifest.json",
-                "@type": "sc:Manifest",
-                "label" : "Contact Sheet 5 Box 1",
-                "description":"Wm. Carey Jones, Isfryn, 4, Gwaenydd Terr. Rhiw-S Snar Traws. Part Marian Bryfdir Wedding."
+           },
+           {
+              "@id": "https://nlw-paulm.github.io/manifests/4654878.json",
+              "@type": "sc:Manifest",
+              "label": "Wm. Carey Jones, Isfryn, 4, Gwaenydd Terr. Rhiw-S Snar Traws. Part Marian Bryfdir Wedding.",
+              "description": ""
+           },
+           {
+              "@id": "https://nlw-paulm.github.io/manifests/4693116.json",
+              "@type": "sc:Manifest",
+              "label": "Portrait Photographs and an image of a cat",
+              "description": ""
+           },
+           {
+              "@id": "https://nlw-paulm.github.io/manifests/4693089.json",
+              "@type": "sc:Manifest",
+              "label": "Mr. and Mrs. Carr, Marian and Husband Jeffrey, Talweunydd",
+              "description": ""
+           },
+           {
+              "@id": "https://nlw-paulm.github.io/manifests/4654891.json",
+              "@type": "sc:Manifest",
+              "label": "G. Guest Dolgellau-Mrs. Pegy Evans-Jones-Mrs. Gwilym Lewis-Tywysoges Cristionogol, Tanygrisiau",
+              "description": ""
             }
         ]
         }
