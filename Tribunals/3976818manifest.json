@@ -4,7 +4,7 @@
    "@id":"https://damsssl.llgc.org.uk/iiif/2.0/3976818/manifest.json",
 	 "service": {
 		 "profile": "http://iiif.io/api/search/0/search",
-		 "@id": "https://elucidate.llgc.org.uk/annotation/w3c/services/search/target?fields=id&value=https%3A%2F%2Fdamsssl.llgc.org.uk%2Fiiif%2F2.0%2F3976818",
+		 "@id": "https://elucidate.llgc.org.uk/annotation/w3c/services/search/target?fields=id,source&value=https%3A%2F%2Fdamsssl.llgc.org.uk%2Fiiif%2F2.0%2F3976818",
 		 "@context": "http://iiif.io/api/search/0/context.json"
 	 },
    "label":"Newquay District - Appeal cases, [1916-1918]",
