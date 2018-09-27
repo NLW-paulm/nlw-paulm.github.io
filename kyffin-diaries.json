@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://nlw-paulm.github.io/kyffin-diaries.json",
+  "@type": "sc:Collection",
+
+        "label": [
+            {
+                "@value":"A collection of diaries written by Kyffin Williams",
+                "@language": "en"
+             },
+             {
+                "@value":"",
+                "@language": "cy-GB"
+            }
+         ],
+         "description": "The Kyffin Williams Diaries spanning 1990 - 2000.",
+         "attribution":"Llyfrgell Genedlaethol Cymru – The National Library of Wales",
+            "metadata": [
+            {
+                "label":[
+                    { "@value":"Title", "@language": "en"},
+                    { "@value":"Teitl", "@language": "cy-GB"}
+                ],
+                "value":[
+                    { "@value":"The Kyffin Williams Diaries spanning 1990 - 2000", "@language": "en"},
+                    { "@value":"", "@language": "cy-GB"}
+                ]
+            },
+            {
+                "label":[
+                    { "@value":"Author", "@language": "en"},
+                    { "@value":"Awdur", "@language": "cy-GB"}
+                ],
+                "value":"Williams, Kyffin artist."
+            },
+            {
+                "label":[
+                    { "@value":"Period", "@language": "en"},
+                    { "@value":"Cyfnod", "@language": "cy-GB"}
+                ],
+                "value":"1990 - 2000."
+            },
+            {
+            "label":[
+                    { "@value":"Physical description", "@language": "en"},
+                    { "@value":"Disgrifiad ffisegol", "@language": "cy-GB"}
+                ],
+                "value":"14 Diaries."
+            },
+            {
+                "label":[
+                    { "@value":"Repository", "@language": "en"},
+                    { "@value":"Ystorfa", "@language": "cy-GB"}
+					],
+                "value":[
+                    { "@value":"This content has been digitised by The National Library of Wales", "@language": "en"},
+                    { "@value":"Digidwyd y cynnwys hwn gan Lyfrgell Genedlaethol Cymru", "@language": "cy-GB"}
+                 ]
+             }
+            ],
+
+
+        "manifests": [
+
+           {
+             "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4763549/manifest.json",
+             "@type": "sc:Manifest",
+             "label" : "Diary",
+             "description":""
+         },
+         {
+
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4763678/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+           "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4763742/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4767534/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4763941/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4767589/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4764302/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4764695/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4765088/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4765489/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4765898/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4766307/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4766716/manifest.json",
+            "@type": "sc:Manifest",
+            "label" : "Diary",
+            "description":""
+        },
+        {
+
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4767125/manifest.json",
+          "@type": "sc:Manifest",
+          "label" : "Diary",
+          "description":""
+        }
+
+        ]
+        }
