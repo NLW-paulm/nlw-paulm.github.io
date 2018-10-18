@@ -1,0 +1,29 @@
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"@id": "http://mcgrattan.org/oa?canvas=https:%2F%2Fdamsssl.llgc.org.uk%2Fiiif%2F2.0%2F4078677%2Fcanvas%2F4078679.json&creator=46,11&flatten=True&show_keys=True&most_recent=False",
+"@type": "sc:AnnotationList",
+"resources": [
+{
+"@id": "246f1b95-bf66-4375-aab7-9b9d1a7d9df0",
+"@type": "oa:Annotation",
+"created": "2018-01-23 10:09:26+00:00",
+"motivation": "sc:painting",
+"on": "https://damsssl.llgc.org.uk/iiif/2.0/4078677/canvas/4078679.json#xywh=0,0,3597,5647",
+"resource": {
+"@type": "cnt:ContentAsText",
+"chars": "Reasons: Because I am the only one on the farm to manage and work the horses and to do the heavy work, especially now as my father is often troubled with passing gall stones, and is attended by Dr J W Stephens, Cardigan for same, and it would be a serious hardship to all concerned that I should be compelled to leave the farm.\nSignature: George Richards Davis\nAddress: as already stated\nOccupation, profession or business: as already stated\nWhy application made by applicant for the man: By the man and employer\nDate of application: 1916-02-15T10:16:16.000Z\nDecision of the Tribunal: Temporary exemption for 6 months. Conditionally on remaining in present occupation.\nD. James, Chairman of Tribunal\nFeby. 23 1916\nTag: Beige R41/42: Page 2",
+"format": "text/plain"
+}
+},
+{
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"resource": {
+"@type": "cnt:ContentAsText",
+"format": "text/plain",
+"chars": "TO THE PUBLIC."
+},
+"on": "https://damsssl.llgc.org.uk/iiif/2.0/4078677/canvas/4078679#xywh=417,1680,616,54"
+}
+]
+}

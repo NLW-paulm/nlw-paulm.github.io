@@ -2,6 +2,11 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://nlw-paulm.github.io/Tribunals/4078677manifest.json",
+	"service": {
+		"profile": "http://iiif.io/api/search/0/search",
+		"@id": "http://35.189.105.55:8888/search-api/3976818/search",
+		"@context": "http://iiif.io/api/search/0/context.json"
+	},
   "label": "Cardigan Borough District - Appeal cases, [1916-1918]",
   "metadata": [
     {
