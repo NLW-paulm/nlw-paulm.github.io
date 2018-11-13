@@ -5,7 +5,7 @@
 
         "label": [
             {
-                "@value":"[Trawsfynydd Carnival, Images of O'Brien and John Douglas]",
+                "@value":"GLE Minor test phase",
                 "@language": "en"
              },
              {
@@ -63,7 +63,7 @@
         "manifests": [
 
             {
-                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4693064/manifest.json",
+                "@id": "https://datasyllwr.llgc.org.uk/manifests/gle/4693064_t.json",
                 "@type": "sc:Manifest",
                 "label" : "Contact Sheet 1 Box 1",
                 "description":""
