@@ -1,0 +1,194 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nlw-paulm.github.io/4032800-S2.json",
+    "@type": "sc:Collection",
+    "label": "Financial records,",
+    "viewingHint": "multi-part",
+    "description": "Financial records, 1915-1919, comprising contribution books, 1915-1918; fund accounts, 1915-1919; bank books, 1917-1919; and receipts and invoices, 1915-1919, from Cohen, Weenen & Co., Manufacturers and Importers of Tobacco, Cigars and Cigarettes, London, and various other tobacconists and confectioners from Aberystwyth.",
+    "attribution": "Llyfrgell Genedlaethol Cymru – The National Library of Wales",
+    "metadata": [
+    {
+    "label": [
+    {
+    "@value": "Title",
+    "@language": "en"
+    },
+    {
+    "@value": "Teitl",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": [
+    {
+    "@value": "Financial records,",
+    "@language": "en"
+    },
+    {
+    "@value": "Financial records,",
+    "@language": "cy-GB"
+    }
+    ]
+    },
+    {
+    "label": [
+    {
+    "@value": "Period",
+    "@language": "en"
+    },
+    {
+    "@value": "Cyfnod",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": "1915-1919."
+    },
+    {
+    "label": [
+    {
+    "@value": "Physical description",
+    "@language": "en"
+    },
+    {
+    "@value": "Disgrifiad ffisegol",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": "7 bundles, 2 folders."
+    },
+    {
+    "label": [
+    {
+    "@value": "Repository",
+    "@language": "en"
+    },
+    {
+    "@value": "Ystorfa",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": [
+    {
+    "@value": "This content has been digitised by The National Library of Wales",
+    "@language": "en"
+    },
+    {
+    "@value": "Digidwyd y cynnwys hwn gan Lyfrgell Genedlaethol Cymru",
+    "@language": "cy-GB"
+    }
+    ]
+    }
+    ],
+    "members": [
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4040042/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Contribution books,",
+    "description": "Records of contributions to the Fund, 1915-1918, including the names of contributors and the total donations received."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4040264/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Fund accounts,",
+    "description": "Weekly accounts, 1915-1919, comprising details of the Fund's receipts and disbursements, and records of the Christmas Gift Fund account, 1915-1916, noting the names and addresses of subscribers and the amounts donated."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4040318/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Bank books,",
+    "description": "Account book of Sergeant Major Fear with The London and Provincial Bank Ltd., 1917-1919, including a half-used paying-in book and stub."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4040414/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Cohen, Weenen & Co. invoices,",
+    "description": "Invoices received from Cohen, Weenen & Co. recording the brand and amount of tobacco and cigarettes sent to Aberystwyth soldiers, 1915, including their names, military numbers and addresses whilst on active service."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4040663/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Cohen, Weenen & Co. invoices,",
+    "description": "Invoices received from Cohen, Weenen & Co. recording the brand and amount of tobacco and cigarettes sent to Aberystwyth soldiers, 1916, including their names, military numbers and addresses whilst on active service."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4041691/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Cohen, Weenen & Co. invoices,",
+    "description": "Invoices received from Cohen, Weenen & Co. recording the brand and amount of tobacco and cigarettes sent to Aberystwyth soldiers, 1917, including their names, military numbers and addresses whilst on active service."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4042098/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Cohen, Weenen & Co. invoices,",
+    "description": "Invoices received from Cohen, Weenen & Co. recording the brand and amount of tobacco and cigarettes sent to Aberystwyth soldiers, 1918, including their names, military numbers and addresses whilst on active service."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4042391/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Cohen, Weenen & Co. receipts,",
+    "description": "Receipts received from Cohen, Weenen & Co., 1915-1916."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4042479/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Receipts and invoices of purchases made in Aberystwyth,",
+    "description": "Receipts and invoices of purchases made by the Fund from companies in Aberystwyth, 1915-1919, including the Cambrian News Printing Works and various bakers and confectioners."
+    }
+    ],
+    "manifests": [
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4040042/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Contribution books,",
+    "description": "Records of contributions to the Fund, 1915-1918, including the names of contributors and the total donations received."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4040264/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Fund accounts,",
+    "description": "Weekly accounts, 1915-1919, comprising details of the Fund's receipts and disbursements, and records of the Christmas Gift Fund account, 1915-1916, noting the names and addresses of subscribers and the amounts donated."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4040318/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Bank books,",
+    "description": "Account book of Sergeant Major Fear with The London and Provincial Bank Ltd., 1917-1919, including a half-used paying-in book and stub."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4040414/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Cohen, Weenen & Co. invoices,",
+    "description": "Invoices received from Cohen, Weenen & Co. recording the brand and amount of tobacco and cigarettes sent to Aberystwyth soldiers, 1915, including their names, military numbers and addresses whilst on active service."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4040663/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Cohen, Weenen & Co. invoices,",
+    "description": "Invoices received from Cohen, Weenen & Co. recording the brand and amount of tobacco and cigarettes sent to Aberystwyth soldiers, 1916, including their names, military numbers and addresses whilst on active service."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4041691/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Cohen, Weenen & Co. invoices,",
+    "description": "Invoices received from Cohen, Weenen & Co. recording the brand and amount of tobacco and cigarettes sent to Aberystwyth soldiers, 1917, including their names, military numbers and addresses whilst on active service."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4042098/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Cohen, Weenen & Co. invoices,",
+    "description": "Invoices received from Cohen, Weenen & Co. recording the brand and amount of tobacco and cigarettes sent to Aberystwyth soldiers, 1918, including their names, military numbers and addresses whilst on active service."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4042391/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Cohen, Weenen & Co. receipts,",
+    "description": "Receipts received from Cohen, Weenen & Co., 1915-1916."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4042479/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Receipts and invoices of purchases made in Aberystwyth,",
+    "description": "Receipts and invoices of purchases made by the Fund from companies in Aberystwyth, 1915-1919, including the Cambrian News Printing Works and various bakers and confectioners."
+    }
+    ],
+    "collections": []
+    }

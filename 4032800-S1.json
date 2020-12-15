@@ -1,0 +1,797 @@
+        {
+        
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": "https://nlw-paulm.github.io/4032800-S1.json",
+        "@type": "sc:Collection",
+        "label": "Letters from servicemen,",
+		  "viewingHint":"multi-part",
+                
+        "description": "Letters from servicemen, 1915-1919, comprising letters, postcards and Christmas cards from Aberystwyth men serving in the First World War thanking Sergeant Major Fear, the local Comforts Fund and the people of Aberystwyth for the parcels and cards received by them abroad. Letters were received by Sergeant Major Fear from various fronts, including those in both Western and Eastern Europe, Palestine and Mesopotamia. Although predominantly letters of thanks, some provide valuable information with regard to local servicemen and on conditions within the trenches. Some letters contain detailed descriptions of the fighting, the weather and of life in general on the front line. The letters also include poems written by soldiers recounting their experiences. Particularly detailed letters are referred to in the descriptions at file level.",
+        "attribution":"Llyfrgell Genedlaethol Cymru – The National Library of Wales",
+        "metadata": [
+            {
+            "label":[
+             { "@value":"Title", "@language": "en"},
+             { "@value":"Teitl", "@language": "cy-GB"}
+            ],
+            "value":[
+                { "@value":"Letters from servicemen,", "@language": "en"},
+                { "@value":"Letters from servicemen,", "@language": "cy-GB"}
+            ]
+            },
+        
+            {
+                 "label":[
+                 { "@value":"Period", "@language": "en"},
+                 { "@value":"Cyfnod", "@language": "cy-GB"}
+                 ],
+                 "value":"1915-1919."
+            },
+        
+            {
+                "label":[
+                    { "@value":"Physical description", "@language": "en"},
+                    { "@value":"Disgrifiad ffisegol", "@language": "cy-GB"}
+                ],
+                "value":"41 folders, 3 bundles."
+            },
+        
+        {
+            "label":[
+                { "@value":"Repository", "@language": "en"},
+                { "@value":"Ystorfa", "@language": "cy-GB"}],
+            "value":[
+                { "@value":"This content has been digitised by The National Library of Wales", "@language": "en"},
+                { "@value":"Digidwyd y cynnwys hwn gan Lyfrgell Genedlaethol Cymru", "@language": "cy-GB"}
+            ]
+        }
+        ],
+		  "members":[
+			  
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4032801/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated October 1915, containing information on Allied attacks on German positions in France, and an undated letter documenting a soldier's experiences between March and July 1915 and the injuries he sustained at Dardanelles."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4034641/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes an undated letter discussing a soldier's experiences whilst posted in Egypt."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4034801/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated 10 August, describing a soldier's experiences under enemy fire."
+							 
+						 }
+					,
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/archive/4032800/vtls004594805/file.json",
+						 "@type": "sc:Collection",
+						 "viewingHint":"multi-part",
+						 "label" : "Letters,",
+						 "description":""
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035081/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated 15 October, from a soldier serving in Egypt regarding his views on conscientious objection."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035266/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035482/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035659/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated 12 January, describing in detail the movements of a soldier in Egypt."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035826/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035961/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated 19 March, describing in detail the life and duties of a soldier in Egypt and a poem composed by the soldier himself entitled 'Ode on Campaine Winds of Egypt'."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4036117/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4032988/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4036252/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated 8 May, containing descriptions of a gas attack and an air fight in Belgium."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4036488/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated 19 June, describing a soldier's experiences on the front line near Gaza."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4036621/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4036912/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated 19 August, describing a soldier's experience of a gas attack in Flanders and the effectiveness of the British artillery."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037092/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037287/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037474/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037565/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated 17 December, describing conditions in Palestine."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037805/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037973/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4033137/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes letters, dated 5 December and 19 December, describing conditions in the trenches."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4038175/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4038362/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated 27 April, describing events on the front line in France."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4038513/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4038713/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4038854/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes letters, dated 18 July and 19 July, describing conditions in France."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039141/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039333/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039599/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039815/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated 6 January, describing conditions in Syria."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4041102/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Undated letters,"
+							 ,
+								 "description":"Undated letters received by Sergeant Major Fear from troops, [1915]-[1919], including a letter detailing a soldier's experiences of going 'over the top' at the battle of Neuve Chapelle in March 1915."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4033561/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4041458/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters from Officers and wounded soldiers,"
+							 ,
+								 "description":"Letters to Sergeant Major Fear from Officers and wounded soldiers, 1915-1916. The file also includes letters from local chaplains and Sisters involved in the war effort abroad."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4041522/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters from the Cardiganshire Battery,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4041676/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters received by Mr Davies of the Cambrian News,"
+							 ,
+								 "description":"Letters, 1917-1918, addressed to Mr Davies, the Porthmadog correspondent for the Cambrian News, from troops serving abroad, including information on the daily lives of two soldiers and a description entitled 'The Knoll 60 Affair' detailing an unnamed soldier's experiences during an attack."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039875/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Postcards,"
+							 ,
+								 "description":"Picture postcards received by Sergeant Major Fear from soldiers, 1915-1918, from various countries, including France, Greece and Senegal."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039940/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Christmas cards,"
+							 ,
+								 "description":"Christmas and New Year cards received by Sergeant Major Fear from troops and various regiments, 1915-1919."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4033793/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4033959/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4034149/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 ,
+								 "description":"The file includes a letter, dated 26 April, discussing life on the French front and the issue of conscientious objection."
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4034296/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					,
+						 
+						 { 
+							 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4034495/manifest.json",
+							 "@type": "sc:Manifest",
+							 "label" : "Letters,"
+							 
+						 }
+					],
+			  "manifests":[
+			  
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4032801/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated October 1915, containing information on Allied attacks on German positions in France, and an undated letter documenting a soldier's experiences between March and July 1915 and the injuries he sustained at Dardanelles."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4034641/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes an undated letter discussing a soldier's experiences whilst posted in Egypt."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4034801/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated 10 August, describing a soldier's experiences under enemy fire."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035081/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated 15 October, from a soldier serving in Egypt regarding his views on conscientious objection."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035266/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035482/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035659/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated 12 January, describing in detail the movements of a soldier in Egypt."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035826/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4035961/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated 19 March, describing in detail the life and duties of a soldier in Egypt and a poem composed by the soldier himself entitled 'Ode on Campaine Winds of Egypt'."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4036117/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4032988/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4036252/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated 8 May, containing descriptions of a gas attack and an air fight in Belgium."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4036488/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated 19 June, describing a soldier's experiences on the front line near Gaza."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4036621/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4036912/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated 19 August, describing a soldier's experience of a gas attack in Flanders and the effectiveness of the British artillery."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037092/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037287/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037474/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037565/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated 17 December, describing conditions in Palestine."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037805/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4037973/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4033137/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes letters, dated 5 December and 19 December, describing conditions in the trenches."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4038175/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4038362/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated 27 April, describing events on the front line in France."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4038513/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4038713/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4038854/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes letters, dated 18 July and 19 July, describing conditions in France."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039141/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039333/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039599/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039815/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated 6 January, describing conditions in Syria."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4041102/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Undated letters,"
+						 ,
+							 "description":"Undated letters received by Sergeant Major Fear from troops, [1915]-[1919], including a letter detailing a soldier's experiences of going 'over the top' at the battle of Neuve Chapelle in March 1915."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4033561/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4041458/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters from Officers and wounded soldiers,"
+						 ,
+							 "description":"Letters to Sergeant Major Fear from Officers and wounded soldiers, 1915-1916. The file also includes letters from local chaplains and Sisters involved in the war effort abroad."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4041522/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters from the Cardiganshire Battery,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4041676/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters received by Mr Davies of the Cambrian News,"
+						 ,
+							 "description":"Letters, 1917-1918, addressed to Mr Davies, the Porthmadog correspondent for the Cambrian News, from troops serving abroad, including information on the daily lives of two soldiers and a description entitled 'The Knoll 60 Affair' detailing an unnamed soldier's experiences during an attack."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039875/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Postcards,"
+						 ,
+							 "description":"Picture postcards received by Sergeant Major Fear from soldiers, 1915-1918, from various countries, including France, Greece and Senegal."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4039940/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Christmas cards,"
+						 ,
+							 "description":"Christmas and New Year cards received by Sergeant Major Fear from troops and various regiments, 1915-1919."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4033793/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4033959/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4034149/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 ,
+							 "description":"The file includes a letter, dated 26 April, discussing life on the French front and the issue of conscientious objection."
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4034296/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+},
+						 
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4034495/manifest.json",
+						 "@type": "sc:Manifest",
+						 "label" : "Letters,"
+						 
+}
+			  ],"collections":[
+			  
+						 { 
+						 "@id": "https://damsssl.llgc.org.uk/iiif/archive/4032800/vtls004594805/file.json",
+						 "@type": "sc:Collection",
+						 "viewingHint":"multi-part",
+						 "label" : "Letters,",
+						 "description":""
+						 }
+						 ]
+        }
+    

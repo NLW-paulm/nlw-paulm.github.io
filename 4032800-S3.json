@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nlw-paulm.github.io/4032800-S3.json",
+    "@type": "sc:Collection",
+    "label": "Administrative papers,",
+    "viewingHint": "multi-part",
+    "description": "Administrative papers, [1915]-1919, comprising an address book [1915]-[1918], lists of parcel recipients, 1916-1918, and letters, 1918-1919.",
+    "attribution": "Llyfrgell Genedlaethol Cymru – The National Library of Wales",
+    "metadata": [
+    {
+    "label": [
+    {
+    "@value": "Title",
+    "@language": "en"
+    },
+    {
+    "@value": "Teitl",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": [
+    {
+    "@value": "Administrative papers,",
+    "@language": "en"
+    },
+    {
+    "@value": "Administrative papers,",
+    "@language": "cy-GB"
+    }
+    ]
+    },
+    {
+    "label": [
+    {
+    "@value": "Period",
+    "@language": "en"
+    },
+    {
+    "@value": "Cyfnod",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": "[1915]-1919."
+    },
+    {
+    "label": [
+    {
+    "@value": "Physical description",
+    "@language": "en"
+    },
+    {
+    "@value": "Disgrifiad ffisegol",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": "1 volume, 1 folder, 1 bundle."
+    },
+    {
+    "label": [
+    {
+    "@value": "Repository",
+    "@language": "en"
+    },
+    {
+    "@value": "Ystorfa",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": [
+    {
+    "@value": "This content has been digitised by The National Library of Wales",
+    "@language": "en"
+    },
+    {
+    "@value": "Digidwyd y cynnwys hwn gan Lyfrgell Genedlaethol Cymru",
+    "@language": "cy-GB"
+    }
+    ]
+    }
+    ],
+    "members": [
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4042545/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Address book,",
+    "description": "Address book containing the names of Aberystwyth troops and their addresses whilst on active service. The volume also includes the names and home addresses of those who had agreed to join the Aberystwyth YMCA on their return from war."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4042680/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Lists of parcel recipients,",
+    "description": "Weekly lists, January 1916-November 1918, containing the names and addresses of parcel recipients, and calculations of the estimated cost of sending the parcels."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4043004/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Letters,",
+    "description": "Letters relating to the Fund's administration, 1918-1919, including letters received from the British-American Tobacco Company, Ltd. regarding the delivery of parcels to Prisoners of War, and a notice on the tobacco arrangements of the Australian Red Cross Society, 1918. The file also contains a postcard, dated 9 September 1918, from a soldier in a Prisoner of War camp near Wesel, Germany, and a letter regarding the delivery of a parcel to him."
+    }
+    ],
+    "manifests": [
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4042545/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Address book,",
+    "description": "Address book containing the names of Aberystwyth troops and their addresses whilst on active service. The volume also includes the names and home addresses of those who had agreed to join the Aberystwyth YMCA on their return from war."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4042680/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Lists of parcel recipients,",
+    "description": "Weekly lists, January 1916-November 1918, containing the names and addresses of parcel recipients, and calculations of the estimated cost of sending the parcels."
+    },
+    {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4043004/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Letters,",
+    "description": "Letters relating to the Fund's administration, 1918-1919, including letters received from the British-American Tobacco Company, Ltd. regarding the delivery of parcels to Prisoners of War, and a notice on the tobacco arrangements of the Australian Red Cross Society, 1918. The file also contains a postcard, dated 9 September 1918, from a soldier in a Prisoner of War camp near Wesel, Germany, and a letter regarding the delivery of a parcel to him."
+    }
+    ],
+    "collections": []
+    }

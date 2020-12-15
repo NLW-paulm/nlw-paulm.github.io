@@ -1,0 +1,128 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nlw-paulm.github.io/4032800-F.json",
+    "@type": "sc:Collection",
+    "label": "Aberystwyth Comforts Fund Papers,",
+    "viewingHint": "multi-part",
+    "description": "Papers relating to the Aberystwyth Weekly Comforts for Fighters Fund, comprising letters received by Sergeant Major Fear from Aberystwyth men serving overseas, 1915-1919, financial records, 1915-1919, and administrative papers, [1915]-1919.",
+    "attribution": "Llyfrgell Genedlaethol Cymru – The National Library of Wales",
+    "metadata": [
+    {
+    "label": [
+    {
+    "@value": "Title",
+    "@language": "en"
+    },
+    {
+    "@value": "Teitl",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": [
+    {
+    "@value": "Aberystwyth Comforts Fund Papers,",
+    "@language": "en"
+    },
+    {
+    "@value": "Aberystwyth Comforts Fund Papers,",
+    "@language": "cy-GB"
+    }
+    ]
+    },
+    {
+    "label": [
+    {
+    "@value": "Period",
+    "@language": "en"
+    },
+    {
+    "@value": "Cyfnod",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": "1915-1919"
+    },
+    {
+    "label": [
+    {
+    "@value": "Physical description",
+    "@language": "en"
+    },
+    {
+    "@value": "Disgrifiad ffisegol",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": "5 boxes (0.143 cubic metres)"
+    },
+    {
+    "label": [
+    {
+    "@value": "Repository",
+    "@language": "en"
+    },
+    {
+    "@value": "Ystorfa",
+    "@language": "cy-GB"
+    }
+    ],
+    "value": [
+    {
+    "@value": "This content has been digitised by The National Library of Wales",
+    "@language": "en"
+    },
+    {
+    "@value": "Digidwyd y cynnwys hwn gan Lyfrgell Genedlaethol Cymru",
+    "@language": "cy-GB"
+    }
+    ]
+    }
+    ],
+    "members": [
+    {
+    "@id": "https://nlw-paulm.github.io/4032800-S1.json",
+    "@type": "sc:Collection",
+    "viewingHint": "multi-part",
+    "label": "Letters from servicemen,",
+    "description": "Letters from servicemen, 1915-1919, comprising letters, postcards and Christmas cards from Aberystwyth men serving in the First World War thanking Sergeant Major Fear, the local Comforts Fund and the people of Aberystwyth for the parcels and cards received by them abroad. Letters were received by Sergeant Major Fear from various fronts, including those in both Western and Eastern Europe, Palestine and Mesopotamia. Although predominantly letters of thanks, some provide valuable information with regard to local servicemen and on conditions within the trenches. Some letters contain detailed descriptions of the fighting, the weather and of life in general on the front line. The letters also include poems written by soldiers recounting their experiences. Particularly detailed letters are referred to in the descriptions at file level."
+    },
+    {
+    "@id": "https://nlw-paulm.github.io/4032800-S2.json",
+    "@type": "sc:Collection",
+    "viewingHint": "multi-part",
+    "label": "Financial records,",
+    "description": "Financial records, 1915-1919, comprising contribution books, 1915-1918; fund accounts, 1915-1919; bank books, 1917-1919; and receipts and invoices, 1915-1919, from Cohen, Weenen & Co., Manufacturers and Importers of Tobacco, Cigars and Cigarettes, London, and various other tobacconists and confectioners from Aberystwyth."
+    },
+    {
+    "@id": "https://nlw-paulm.github.io/4032800-S3.json",
+    "@type": "sc:Collection",
+    "viewingHint": "multi-part",
+    "label": "Administrative papers,",
+    "description": "Administrative papers, [1915]-1919, comprising an address book [1915]-[1918], lists of parcel recipients, 1916-1918, and letters, 1918-1919."
+    }
+    ],
+    "manifests": [],
+    "collections": [
+    {
+    "@id": "https://nlw-paulm.github.io/4032800-S1.json",
+    "@type": "sc:Collection",
+    "viewingHint": "multi-part",
+    "label": "Letters from servicemen,",
+    "description": "Letters from servicemen, 1915-1919, comprising letters, postcards and Christmas cards from Aberystwyth men serving in the First World War thanking Sergeant Major Fear, the local Comforts Fund and the people of Aberystwyth for the parcels and cards received by them abroad. Letters were received by Sergeant Major Fear from various fronts, including those in both Western and Eastern Europe, Palestine and Mesopotamia. Although predominantly letters of thanks, some provide valuable information with regard to local servicemen and on conditions within the trenches. Some letters contain detailed descriptions of the fighting, the weather and of life in general on the front line. The letters also include poems written by soldiers recounting their experiences. Particularly detailed letters are referred to in the descriptions at file level."
+    },
+    {
+    "@id": "https://nlw-paulm.github.io/4032800-S2.json",
+    "@type": "sc:Collection",
+    "viewingHint": "multi-part",
+    "label": "Financial records,",
+    "description": "Financial records, 1915-1919, comprising contribution books, 1915-1918; fund accounts, 1915-1919; bank books, 1917-1919; and receipts and invoices, 1915-1919, from Cohen, Weenen & Co., Manufacturers and Importers of Tobacco, Cigars and Cigarettes, London, and various other tobacconists and confectioners from Aberystwyth."
+    },
+    {
+    "@id": "https://nlw-paulm.github.io/4032800-S3.json",
+    "@type": "sc:Collection",
+    "viewingHint": "multi-part",
+    "label": "Administrative papers,",
+    "description": "Administrative papers, [1915]-1919, comprising an address book [1915]-[1918], lists of parcel recipients, 1916-1918, and letters, 1918-1919."
+    }
+    ]
+    }
