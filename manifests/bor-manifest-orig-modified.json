@@ -2,11 +2,13 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@type": "sc:Manifest",
 	"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/manifest.json",
-	"service": {
+	"service": [
+        {
 		"profile": "http://iiif.io/api/search/0/search",
 		"@id": "https://damsssl.llgc.org.uk/iiif/4642022/search",
 		"@context": "http://iiif.io/api/search/0/context.json"
-	},
+	    }
+    ],
 	"label": "The Welsh Book of Remembrance 1928",
 	"metadata": [
 		{
