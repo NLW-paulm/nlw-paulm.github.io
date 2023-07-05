@@ -46052,17 +46052,17 @@
 			"members": [
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2-0",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Officers"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2-1",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Territorial Officers Attached to Royal Flying Corps"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2-2",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Airmen"
 				}
 			]
