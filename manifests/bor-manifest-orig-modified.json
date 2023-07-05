@@ -45684,12 +45684,12 @@
 			"members": [
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/1-0",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Officers"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/1-1",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Personnel"
 				}
 			]
@@ -46135,17 +46135,17 @@
 			"members": [
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3-0",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Officers"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3-1",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Women's Royal Air Force"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3-2",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Non-Commissioned Officers and Men"
 				}
 			]
@@ -46224,27 +46224,27 @@
 			"members": [
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-0",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Household Cavalry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-1",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Dragoon Guards"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-2",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Corps of Lancers"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Special Cavalry Reserve"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Corps of Hussars"
 				}
 			]
@@ -46257,22 +46257,22 @@
 			"members": [
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-0-0",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "First Life Guards"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-0-1",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Second Life Guards"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-0-2",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Royal Horse Guards (The Blues)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-0-3",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Household Battalion"
 				}
 			]
@@ -46352,12 +46352,12 @@
 			"members": [
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-1-0",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Second Dragoon Guards (Queen's Bays)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-1-1",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Third Dragoon Guards (Prince of Wales' Own)"
 				},
 				{
@@ -46367,32 +46367,32 @@
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-1-3",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Fourth Dragoon Guards (Royal Irish)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-1-4",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Fifth Dragoon Guards (Princess Charlotte's Own)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-1-5",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Sixth Dragoon Guards (Carabineers)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-1-6",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Seventh Dragoon Guards (Princess Royal's)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-1-7",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "First Royal Dragoons"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-1-8",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Sixth Dragoons (Inniskilling)"
 				}
 			]
@@ -46539,27 +46539,27 @@
 			"members": [
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-2-0",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Fifth Lancers (Royal Irish)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-2-1",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Ninth Lancers (Queen's Royal)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-2-2",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Sixteenth Lancers (The Queen's)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-2-3",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Seventeenth Lancers (Duke of Cambridge's Own)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-2-4",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Twenty-First Lancers (Empress of India's)"
 				}
 			]
@@ -46658,72 +46658,72 @@
 			"members": [
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-0",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "First King Edward's Horse"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-1",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "First Reserve Cavalry Regiment (1st & 5th Dragoon Gds.)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-2",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Second Reserve Cavalry Regiment (2nd Dragoon Gds. & 6th Dragoons)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-3",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Third Reserve Cavalry Regiment (3rd & 6th Dragoon Gds.)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-4",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Sixth Reserve Cavalry Regiment (5th & 12th Lancers)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-5",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Eighth Reserve Cavalry Regiment (16th & 17th Lancers)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-6",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Shropshire Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-7",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Duke of Lancaster's Own Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-8",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Berkshire Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-9",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Montgomeryshire Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-10",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Glamorganshire Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-11",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Lovat's Scouts"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-12",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Scottish Horse Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-3-13",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "City of London Yeomanry"
 				}
 			]
@@ -46972,127 +46972,127 @@
 			"members": [
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-0",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Fourth Hussars (Queen's Own)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-1",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Seventh Hussars (Queen's Own)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-2",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Tenth Hussars (Prince of Wales' Own Royal)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-3",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Eleventh Hussars (Prince Albert's Own)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-4",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Thirteenth Hussars"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-5",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Fourteenth (King's) Hussars"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-6",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Fifteenth Hussars (The King's)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-7",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Eighteenth Hussars (Queen Mary's Own Royal)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-8",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Nineteenth Hussars (Queen Alexandra's Own Royals)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-9",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Twentieth Hussars"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-10",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Second Reserve Regiment of Cavalry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-11",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Third Reserve Regiment of Cavalry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-12",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "North Irish Horse"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-13",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Royal Bucks Hussars"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-14",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Denbighshire Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-15",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Royal Gloucestershire Hussars"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-16",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Leicestershire Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-17",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "First County of London Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-18",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Pembroke Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-19",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Staffordshire Yeomanry (Queen's Own Royal Regiment)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-20",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Westmorland & Cumberland Hussars"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-21",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Royal Wiltshire Hussars"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-22",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Worcestershire Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-23",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Welsh Horse Yeomanry"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/4-4-24",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Sussex Yeomanry"
 				}
 			]
@@ -47517,67 +47517,67 @@
 			"members": [
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-0",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Royal Horse & Royal Field Artillery"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-1",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Royal Garrison Artillery"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-2",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Fourth Highland (Mountain Brigade)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-3",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Lancashire Heavy Brigade"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-4",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Welsh (Carnarvonshire)"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-5",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "North Midland (Staffordshire) Heavy Battery"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-6",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "South Midland (Warwickshire) Heavy Battery"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-7",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "London Heavy Brigade"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-8",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Dorset"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-9",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Essex and Suffolk"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-10",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Glamorgan"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-11",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Lancashire and Cheshire"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-12",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Pembrokeshire"
 				}
 			]
@@ -47604,12 +47604,12 @@
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-0-2",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Territorial Force"
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/5-0-3",
-					"@type": "sc:Range",
+					"@type": "sc:Canvas",
 					"label": "Territorial Force"
 				}
 			]
