@@ -46053,7 +46053,19 @@
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2-0",
 					"@type": "sc:Range",
-					"label": "Officers"
+					"label": "Officers",
+                    "members": [
+                        {
+                            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642083.json",
+                            "@type": "sc:Canvas",
+                            "label": "Officers - pg. 1"
+                        },
+                        {
+                            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642084.json",
+                            "@type": "sc:Canvas",
+                            "label": "Officers - pg. 2"
+                        }
+                    ]
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2-1",
@@ -46075,18 +46087,6 @@
 			"canvases": [
 				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642083.json",
 				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642084.json"
-			],
-			"members": [
-				{
-					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642083.json",
-					"@type": "sc:Canvas",
-					"label": "Officers - pg. 1"
-				},
-				{
-					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642084.json",
-					"@type": "sc:Canvas",
-					"label": "Officers - pg. 2"
-				}
 			]
 		},
 		{
