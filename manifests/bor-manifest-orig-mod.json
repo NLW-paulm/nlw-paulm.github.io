@@ -46086,84 +46086,30 @@
 			"members": [
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3-0",
-					"@type": "sc:Canvas",
-					"label": "Officers"
+					"@type": "sc:Range",
+					"label": "Officers",
+                    "canvases": [
+                        "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642086.json",
+                        "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642087.json",
+                        "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642088.json"
+                    ]
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3-1",
-					"@type": "sc:Canvas",
-					"label": "Women's Royal Air Force"
+					"@type": "sc:Range",
+					"label": "Women's Royal Air Force",
+                    "canvases": [
+                        "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642089.json"
+                    ]
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3-2",
-					"@type": "sc:Canvas",
-					"label": "Non-Commissioned Officers and Men"
-				}
-			]
-		},
-		{
-			"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3-0",
-			"@type": "sc:Range",
-			"label": "Officers",
-			"within": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3",
-			"canvases": [
-				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642086.json",
-				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642087.json",
-				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642088.json"
-			],
-			"members": [
-				{
-					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642086.json",
-					"@type": "sc:Canvas",
-					"label": "Officers - pg. 1"
-				},
-				{
-					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642087.json",
-					"@type": "sc:Canvas",
-					"label": "Officers - pg. 2"
-				},
-				{
-					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642088.json",
-					"@type": "sc:Canvas",
-					"label": "Officers - pg. 3"
-				}
-			]
-		},
-		{
-			"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3-1",
-			"@type": "sc:Range",
-			"label": "Women's Royal Air Force",
-			"within": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3",
-			"canvases": [
-				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642089.json"
-			],
-			"members": [
-				{
-					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642089.json",
-					"@type": "sc:Canvas",
-					"label": "Women's Royal Air Force - pg. 1"
-				}
-			]
-		},
-		{
-			"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3-2",
-			"@type": "sc:Range",
-			"label": "Non-Commissioned Officers and Men",
-			"within": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/3",
-			"canvases": [
-				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642089.json",
-				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642090.json"
-			],
-			"members": [
-				{
-					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642089.json",
-					"@type": "sc:Canvas",
-					"label": "Non-Commissioned Officers and Men - pg. 1"
-				},
-				{
-					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642090.json",
-					"@type": "sc:Canvas",
-					"label": "Non-Commissioned Officers and Men - pg. 2"
+					"@type": "sc:Range",
+					"label": "Non-Commissioned Officers and Men",
+                    "canvases": [
+                        "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642089.json",
+                        "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642090.json"
+                    ]
 				}
 			]
 		},
