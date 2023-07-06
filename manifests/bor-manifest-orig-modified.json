@@ -46061,52 +46061,20 @@
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2-1",
-					"@type": "sc:Canvas",
-					"label": "Territorial Officers Attached to Royal Flying Corps"
+					"@type": "sc:Range",
+					"label": "Territorial Officers Attached to Royal Flying Corps",
+                    "canvases": [
+                        "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642084.json",
+                        "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642085.json"
+                    ]
 				},
 				{
 					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2-2",
 					"@type": "sc:Canvas",
-					"label": "Airmen"
-				}
-			]
-		},
-		
-		{
-			"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2-1",
-			"@type": "sc:Range",
-			"label": "Territorial Officers Attached to Royal Flying Corps",
-			"within": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2",
-			"canvases": [
-				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642084.json",
-				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642085.json"
-			],
-			"members": [
-				{
-					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642084.json",
-					"@type": "sc:Canvas",
-					"label": "Territorial Officers Attached to Royal Flying Corps - pg. 1"
-				},
-				{
-					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642085.json",
-					"@type": "sc:Canvas",
-					"label": "Territorial Officers Attached to Royal Flying Corps - pg. 2"
-				}
-			]
-		},
-		{
-			"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2-2",
-			"@type": "sc:Range",
-			"label": "Airmen",
-			"within": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2",
-			"canvases": [
-				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642085.json"
-			],
-			"members": [
-				{
-					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642085.json",
-					"@type": "sc:Canvas",
-					"label": "Airmen - pg. 1"
+					"label": "Airmen",
+                    "canvases": [
+                        "https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642085.json"
+                    ]
 				}
 			]
 		},
