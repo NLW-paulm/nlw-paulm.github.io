@@ -46083,7 +46083,6 @@
 			"@id": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2-0",
 			"@type": "sc:Range",
 			"label": "Officers",
-			"within": "https://damsssl.llgc.org.uk/iiif/2.0/4642022/range/2",
 			"canvases": [
 				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642083.json",
 				"https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642084.json"
