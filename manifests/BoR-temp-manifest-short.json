@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "https://dev.gdmrdigital.com/manifests/1245635613/13763736/9e51f0383837ad7e23a1ddb11e6064af.json",
+  "@id": "https://nlw-paulm.github.io/manifests/BoR-temp-manifest-short.json",
   "service": [
     {
       "profile": "http://iiif.io/api/search/0/search",
