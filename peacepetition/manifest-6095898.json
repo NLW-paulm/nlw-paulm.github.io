@@ -1,0 +1,320 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@type": "sc:Manifest",
+	"@id": "https://nlw-paulm.github.io/peacepetition/manifest-6095898.json",
+	"label": "Petition - 7/6 1923",
+	"metadata": [
+		{
+			"label": [
+				{
+					"@value": "Title",
+					"@language": "en"
+				},
+				{
+					"@value": "Teitl",
+					"@language": "cy-GB"
+				}
+			],
+			"value": "Petition - 7/6 1923"
+		},
+		{
+			"label": [
+				{
+					"@value": "Date",
+					"@language": "en"
+				},
+				{
+					"@value": "Dyddiad",
+					"@language": "cy-GB"
+				}
+			],
+			"value": "1923"
+		},
+		{
+			"label": [
+				{
+					"@value": "Physical description",
+					"@language": "en"
+				},
+				{
+					"@value": "Disgrifiad ffisegol",
+					"@language": "cy-GB"
+				}
+			],
+			"value": "1 petition (4 pages)"
+		},
+		{
+			"label": "",
+			"value": [
+				{
+					"@value": "<a href=\"http://id.library.wales/petition-7-6\">View full catalogue record</a>",
+					"@language": "en"
+				},
+				{
+					"@value": "<a href=\"http://id.llyfrgell.cymru/petition-7-6\">Gweld y cofnod catalog llawn</a>",
+					"@language": "cy-GB"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "Permalink",
+					"@language": "en"
+				},
+				{
+					"@value": "Dolen barhaol",
+					"@language": "cy-GB"
+				}
+			],
+			"value": "<a href=\"http://hdl.handle.net/10107/6095898\">http://hdl.handle.net/10107/6095898</a>"
+		},
+		{
+			"label": [
+				{
+					"@value": "Language",
+					"@language": "en"
+				},
+				{
+					"@value": "Iaith",
+					"@language": "cy-GB"
+				}
+			],
+			"value": ""
+		},
+		{
+			"label": [
+				{
+					"@value": "Repository",
+					"@language": "en"
+				},
+				{
+					"@value": "Ystorfa",
+					"@language": "cy-GB"
+				}
+			],
+			"value": [
+				{
+					"@value": "This content has been digitised by The National Library of Wales",
+					"@language": "en"
+				},
+				{
+					"@value": "Digidwyd y cynnwys hwn gan Lyfrgell Genedlaethol Cymru",
+					"@language": "cy-GB"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "Location",
+					"@language": "en"
+				},
+				{
+					"@value": "Location-cy",
+					"@language": "cy"
+				}
+			],
+			"value": [
+				{
+					"@value": "Cardiff",
+					"@language": "en"
+				},
+				{
+					"@value": "Caerdydd",
+					"@language": "cy"
+				}
+			]
+		}
+	],
+	"description": "44 signatures from the area of Flint with various addresses provided.",
+	"license": "MISSING RIGHTS STATEMENT",
+	"logo": {
+		"@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/logo/full/400,/0/default.jpg",
+		"service": {
+			"@context": "http://iiif.io/api/image/2/context.json",
+			"@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/logo",
+			"profile": "http://iiif.io/api/image/2/level1.json"
+		}
+	},
+	"attribution": "Llyfrgell Genedlaethol Cymru – The National Library of Wales",
+	"sequences": [
+		{
+			"@id": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/sequence/Physical.json",
+			"@type": "sc:Sequence",
+			"label": "Current Page Order",
+			"viewingDirection": "left-to-right",
+			"viewingHint": "paged",
+			"canvases": [
+				{
+					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/canvas/6095899.json",
+					"@type": "sc:Canvas",
+					"label": "7/6/1",
+					"height": 5491,
+					"width": 3579,
+					"images": [
+						{
+							"@id": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/annotation/6095899.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://dams.llgc.org.uk/iiif/2.0/6095898/res/6095899.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/6095899",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"height": 5491,
+									"width": 3579,
+									"tiles": [
+										{
+											"width": 256,
+											"scaleFactors": [
+												1,
+												2,
+												4,
+												8,
+												16,
+												32
+											]
+										}
+									]
+								},
+								"height": 5491,
+								"width": 3579
+							},
+							"on": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/canvas/6095899.json"
+						}
+					]
+				},
+				{
+					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/canvas/6095900.json",
+					"@type": "sc:Canvas",
+					"label": "7/6/2",
+					"height": 5527,
+					"width": 3637,
+					"images": [
+						{
+							"@id": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/annotation/6095900.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://dams.llgc.org.uk/iiif/2.0/6095898/res/6095900.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/6095900",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"height": 5527,
+									"width": 3637,
+									"tiles": [
+										{
+											"width": 256,
+											"scaleFactors": [
+												1,
+												2,
+												4,
+												8,
+												16,
+												32
+											]
+										}
+									]
+								},
+								"height": 5527,
+								"width": 3637
+							},
+							"on": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/canvas/6095900.json"
+						}
+					]
+				},
+				{
+					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/canvas/6095901.json",
+					"@type": "sc:Canvas",
+					"label": "7/6/3",
+					"height": 5498,
+					"width": 3651,
+					"images": [
+						{
+							"@id": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/annotation/6095901.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://dams.llgc.org.uk/iiif/2.0/6095898/res/6095901.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/6095901",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"height": 5498,
+									"width": 3651,
+									"tiles": [
+										{
+											"width": 256,
+											"scaleFactors": [
+												1,
+												2,
+												4,
+												8,
+												16,
+												32
+											]
+										}
+									]
+								},
+								"height": 5498,
+								"width": 3651
+							},
+							"on": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/canvas/6095901.json"
+						}
+					]
+				},
+				{
+					"@id": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/canvas/6095902.json",
+					"@type": "sc:Canvas",
+					"label": "7/6/4",
+					"height": 5527,
+					"width": 3586,
+					"images": [
+						{
+							"@id": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/annotation/6095902.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://dams.llgc.org.uk/iiif/2.0/6095898/res/6095902.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/6095902",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"height": 5527,
+									"width": 3586,
+									"tiles": [
+										{
+											"width": 256,
+											"scaleFactors": [
+												1,
+												2,
+												4,
+												8,
+												16,
+												32
+											]
+										}
+									]
+								},
+								"height": 5527,
+								"width": 3586
+							},
+							"on": "https://damsssl.llgc.org.uk/iiif/2.0/6095898/canvas/6095902.json"
+						}
+					]
+				}
+			]
+		}
+	]
+}

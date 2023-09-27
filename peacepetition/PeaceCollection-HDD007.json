@@ -1,0 +1,38 @@
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"@id": "https://nlw-paulm.github.io/peacepetition/PeaceCollection-HDD007.json",
+"@type": "sc:Collection",
+"label": "Peace Petition test Collection",
+"manifests": [
+{
+"@id": "https://nlw-paulm.github.io/peacepetition/manifest-6095873.json",
+"@type": "sc:Manifest",
+"label": "Petition - 7/1 1923"
+},
+{
+"@id": "https://nlw-paulm.github.io/peacepetition/manifest-6095878.json",
+"@type": "sc:Manifest",
+"label": "Petition - 7/2 1923"
+},
+{
+"@id": "https://nlw-paulm.github.io/peacepetition/manifest-6095883.json",
+"@type": "sc:Manifest",
+"label": "Petition - 7/3 1923"
+},
+{
+"@id": "https://nlw-paulm.github.io/peacepetition/manifest-6095888.json",
+"@type": "sc:Manifest",
+"label": "Petition - 7/4 1923"
+},
+{
+"@id": "https://nlw-paulm.github.io/peacepetition/manifest-6095893.json",
+"@type": "sc:Manifest",
+"label": "Petition - 7/5 1923"
+},
+{
+"@id": "https://nlw-paulm.github.io/peacepetition/manifest-6095898.json",
+"@type": "sc:Manifest",
+"label": "Petition - 7/6 1923"
+}
+]
+}
