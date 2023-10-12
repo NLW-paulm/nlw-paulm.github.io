@@ -2,7 +2,7 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@type": "sc:Manifest",
 	"@id": "https://nlw-paulm.github.io/peacepetition/manifest-6095873.json",
-	"label": "Petition - 7/1 1923",
+	"label": "Petition - 7/1 1923 - Conwy (manifest)",
 	"metadata": [
 		{
 			"label": [
@@ -113,6 +113,10 @@
 				{
 					"@value": "Location-cy",
 					"@language": "cy"
+				},
+				{	
+					"@value": "Location",
+					"@language": "cy-GB"
 				}
 			],
 			"value": [
@@ -121,8 +125,12 @@
 					"@language": "en"
 				},
 				{
-					"@value": "Caerdydd",
+					"@value": "Caerdydd - cy",
 					"@language": "cy"
+				},
+				{	
+					"@value": "Caerdydd - cy-GB",
+					"@language":"cy-GB"
 				}
 			]
 		}
