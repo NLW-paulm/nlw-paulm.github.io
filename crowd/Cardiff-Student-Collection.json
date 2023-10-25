@@ -6,7 +6,7 @@
     "manifests": [
         {
             "@type": "sc:Manifest",
-            "@id": "httpss://librarysearch.cardiff.ac.uk/view/iiif/presentation/44WHELF_CAR/12206144300002420/manifest?iiifVersion=3 ",
+            "@id": "https://librarysearch.cardiff.ac.uk/view/iiif/presentation/44WHELF_CAR/12206144300002420/manifest?iiifVersion=3 ",
             "Label": ""
         },
         {
