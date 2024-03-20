@@ -1,0 +1,644 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds/D261",
+  "type": "Collection",
+  "partOf": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds",
+      "type": "Collection"
+    }
+  ],
+  "label": {
+    "en": [
+      "Edwin Miles Photographic Collection"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Document reference"
+        ],
+        "cy": [
+          "Cyfeirnod"
+        ]
+      },
+      "value": {
+        "none": [
+          "D261"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title"
+        ],
+        "cy": [
+          "Teitl"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles Photographic Collection"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Level of description"
+        ],
+        "cy": [
+          "Lefel disgrifiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Fonds"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ],
+        "cy": [
+          "Dyddiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "c1900-1929"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ],
+        "cy": [
+          "Maint"
+        ]
+      },
+      "value": {
+        "none": [
+          "10 boxes"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Arrangement"
+        ],
+        "cy": [
+          "Trefn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Arranged chronologically by record series"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Background"
+        ],
+        "cy": [
+          "Cefndir"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles (c1869-1929) was born in Bristol, the son of Joseph Miles and his wife Sarah Ann, but by the date of the 1881 census his family had moved to Llanfihangel, Llantarnam, Monmouthshire. In January 1892 he married Mary Emma Thomas at Llantrisant parish church when he was described  as a signalman of St George-super-Ely. By 1901 he was living in Cowbridge Road, Oldcastle. The earliest evidence for his photographic career is a postcard published by him of John Street, Porthcawl, postmarked 1905 (DART/V/203: withdrawn from Glamorgan Archives by the depositor ). He ran photographic studios at number 40 Ewenny Road, Bridgend, and High Street, Cowbridge, primarily photographing family groups, weddings and parties. A report on his funeral can be found in the May 10th issue of the Glamorgan Gazette on page 5."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "cy": [
+          "Iaith"
+        ]
+      },
+      "value": {
+        "none": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Creator(s)"
+        ],
+        "cy": [
+          "Crew(y)r"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions of access"
+        ],
+        "cy": [
+          "Amodau mynediad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Glass negatives will only be produced for searchers in special circumstances. Positive digital copies are available for consultation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions governing reproduction"
+        ],
+        "cy": [
+          "Amodau hawlfraint"
+        ]
+      },
+      "value": {
+        "none": [
+          "Normal Glamorgan Record Office conditions apply; Copyright expired 70 years after the death of the photographer, ie April 1999"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Finding aids"
+        ],
+        "cy": [
+          "Cymhorthau chwilio"
+        ]
+      },
+      "value": {
+        "none": [
+          "A detailed catalogue is available"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Appraisal"
+        ],
+        "cy": [
+          "Cloriannu"
+        ]
+      },
+      "value": {
+        "none": [
+          "All records offered have been accepted and listed"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source of acquisition"
+        ],
+        "cy": [
+          "Ffynhonell derbyn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Deposited by a private individual, 2004"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0cb239ca-75e6-85b9-94dd-e8877516b688",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Cowbridge Street Scene showing Pavilion Cinema"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0abb16a0-60c1-5ecf-e495-e248f5a5174e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "West End, Cowbridge - street scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/301da3eb-c144-560b-0f2c-bb2b174bd934",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old West Toll Gate House, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/6ddaad7e-0e2b-bc99-927c-7255bd5ccd1b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "West End, Cowbridge - street scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5443cc0e-b4cd-41e5-02ef-ee8ec76d7486",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Grammar School, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1fffa428-7b8f-9088-772f-a3bba25b7c24",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Cowbridge railway station & train"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fe2c1b1e-4067-2964-fd12-e50861f9b03d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Cowbridge - general view"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d8a76594-f8af-d609-4aba-9823bbd46167",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vicarage, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c3f19e07-2571-20dd-e1c5-213b3ecf79d7",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vicarage, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d98afb87-47a3-b2c8-5d02-e267777c6787",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Mary's Church, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/69a27045-7b62-3f83-5ca8-7d771fa5aa82",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Mary's Church, Cowbridge - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3cefbd0f-d625-1686-c513-e792d557b347",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "High Street, Cowbridge - street scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/969dbd7e-d945-1ad9-3d13-b4dd3e041492",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Baptist Church & graveyard, Cowbridge - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/05344ce4-25e1-5734-6890-f1d9a9f3d773",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Calvinistic Methodist Church, Cowbridge - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/30c4552d-e805-d094-73f5-4ee4c50a7a41",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Derry Park (House), Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/61b7f2dd-dc63-2e1a-edbe-c184cffe8ee0",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tremains (House), Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/65453420-01bb-980e-d5b9-44f6576f2cf6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Glanogwr (House), Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/b4ba1bb6-a99d-56ec-01b3-f606ff082446",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bryntirion House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/17137c50-ed90-500f-d7ff-bb7937eaf3c4",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bryntirion House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3147fd64-a3ea-f9f4-951b-49a2887c0bbc",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bryntirion House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/321b6b5c-1ffb-93c6-be98-c69f520ff1c9",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Court Colman House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a2554d0d-14d9-0b92-d7e6-6253df3d9f79",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Court Colman House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/faf0a3e0-89e4-51d9-2cac-bb4faaa52760",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Court Colman House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/145ef365-ffb0-54c9-3dd6-705f1e20f13c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Court Colman House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/b86d7e68-8789-54af-b876-5d22bbcdecf1",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Terrace, Court Colman, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f41d9ba4-a8c6-2799-e5d9-2414c8cee208",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "All Saints Church, Penyfai - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f2cac3ad-a3ca-5a29-f9e0-7aae7c3041c8",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "All Saints Church, Penyfai - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/223fde56-b610-3443-b732-5fee80d76c5a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "All Saints Church, Penyfai - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/352e7fd5-f963-c511-161a-60e15ea3853d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Walk to Newbridge Fields, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/be701e34-2044-41d0-a37f-9a369e17bdbe",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Newbridge Fields, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/af82a6c4-294b-3db4-d9a9-44f4735e5502",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Newbridge Fields, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/da9d298f-4a95-0149-41c5-c2c80a50eb32",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Congregational Church, Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5ebc9ea6-c41c-36dd-8bc7-aa4e357c794b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Hermon Calvinistic Methodist Church, Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/44476a1c-38a6-a85e-b09a-bb276c683c02",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Nolton Church, Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c4f2552e-7063-fd54-c712-a8f64a1f241e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Mary's Church, Nolton - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f2103218-07da-c8df-f0a7-5fbb9a1f7093",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Mary's Church, Nolton - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a3b6891d-28a4-8e6e-c9a2-994a18501954",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chancel in St. Mary's Church, Nolton"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7c37b915-ddf6-2f86-6ce7-c6ad8ede7131",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wesley Church, Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5383ae2d-64e8-2b67-1cbe-61b45dfbf1b4",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Illtyd's Church, Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/778b10c2-d750-28aa-878c-1b0788eb9321",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Illtyd's Church, Bridgend - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/95e75a8a-dfad-119e-269b-4794440f4836",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Norman Gate, Newcastle, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/45fe5fc9-5b95-9ac1-dc0c-1616aa5f28c7",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Congregational Church, Bridgend - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/08d09ac3-16d6-fd80-e03f-686b993b2f9d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Hope English Baptist Church, Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a91296e4-e653-9cd4-abc7-24e2c46aa780",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Hope English Baptist Church, Bridgend - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/501e21d8-9084-a6be-df5b-a8cf5ffb1491",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Christ Church, Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/534824e8-ac07-70e3-2156-e9462064941c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Christ Church, Bridgend - Interior"
+        ]
+      }
+    }
+  ]
+}

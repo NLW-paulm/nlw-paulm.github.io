@@ -1,0 +1,608 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds/D261",
+  "type": "Collection",
+  "partOf": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds",
+      "type": "Collection"
+    }
+  ],
+  "label": {
+    "en": [
+      "Edwin Miles Photographic Collection"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Document reference"
+        ],
+        "cy": [
+          "Cyfeirnod"
+        ]
+      },
+      "value": {
+        "none": [
+          "D261"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title"
+        ],
+        "cy": [
+          "Teitl"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles Photographic Collection"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Level of description"
+        ],
+        "cy": [
+          "Lefel disgrifiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Fonds"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ],
+        "cy": [
+          "Dyddiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "c1900-1929"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ],
+        "cy": [
+          "Maint"
+        ]
+      },
+      "value": {
+        "none": [
+          "10 boxes"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Arrangement"
+        ],
+        "cy": [
+          "Trefn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Arranged chronologically by record series"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Background"
+        ],
+        "cy": [
+          "Cefndir"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles (c1869-1929) was born in Bristol, the son of Joseph Miles and his wife Sarah Ann, but by the date of the 1881 census his family had moved to Llanfihangel, Llantarnam, Monmouthshire. In January 1892 he married Mary Emma Thomas at Llantrisant parish church when he was described  as a signalman of St George-super-Ely. By 1901 he was living in Cowbridge Road, Oldcastle. The earliest evidence for his photographic career is a postcard published by him of John Street, Porthcawl, postmarked 1905 (DART/V/203: withdrawn from Glamorgan Archives by the depositor ). He ran photographic studios at number 40 Ewenny Road, Bridgend, and High Street, Cowbridge, primarily photographing family groups, weddings and parties. A report on his funeral can be found in the May 10th issue of the Glamorgan Gazette on page 5."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "cy": [
+          "Iaith"
+        ]
+      },
+      "value": {
+        "none": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Creator(s)"
+        ],
+        "cy": [
+          "Crew(y)r"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions of access"
+        ],
+        "cy": [
+          "Amodau mynediad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Glass negatives will only be produced for searchers in special circumstances. Positive digital copies are available for consultation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions governing reproduction"
+        ],
+        "cy": [
+          "Amodau hawlfraint"
+        ]
+      },
+      "value": {
+        "none": [
+          "Normal Glamorgan Record Office conditions apply; Copyright expired 70 years after the death of the photographer, ie April 1999"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Finding aids"
+        ],
+        "cy": [
+          "Cymhorthau chwilio"
+        ]
+      },
+      "value": {
+        "none": [
+          "A detailed catalogue is available"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Appraisal"
+        ],
+        "cy": [
+          "Cloriannu"
+        ]
+      },
+      "value": {
+        "none": [
+          "All records offered have been accepted and listed"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source of acquisition"
+        ],
+        "cy": [
+          "Ffynhonell derbyn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Deposited by a private individual, 2004"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/62d7f9e4-3ae9-2280-f44c-edd2cb8faa99",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Entrance Hall"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c341ead9-40da-9869-e4ba-299b1aaa8547",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Smoking Room"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f4ba51e4-a1f1-c570-9722-de558217bb2f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Corner in Lounge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c5b7c024-21d7-267a-9cb9-28b823f3075a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Plaque in Reception Hall"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/016dc8d9-fa46-176b-bfa1-f21083c89d1d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Card Room"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/74fe60a7-c6d5-35df-ed7e-8444becac51e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Adams Well"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/221be458-91e0-3a4c-b251-49247f082c12",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Glanely Hospital - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a8ca93cc-e3dd-4e42-0b25-29f7d5861a89",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Glanely Hospital - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e07981b7-360e-1c0c-c059-e12633f64f6c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Glanely Hospital - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/13c3f5de-db63-3837-9d03-4500e4208c40",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Glanely Hospital - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ce70612c-35e4-3182-1873-4ad55983c254",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Glanely Hospital - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/328acaf0-aa2e-b3a1-5453-228069372108",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Gileston Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/47cd7528-f842-4171-539b-80ba1f2a6502",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Illtyd's Church, Llantwit Major - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a3a0c77a-a551-c0b6-5a9d-20d7f5a713cc",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llancarfan Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/14512c56-659c-a355-5d1a-ad1a08f68334",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llancarfan Parish Church - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/15464c8d-0616-e6f9-2da8-85fa54cbbed3",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llantrithyd Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/639d7340-fbbe-ed32-b5ea-f941b88b673f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llantrithyd Parish Church - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0172d8d0-4ec5-5789-9a69-9944065c6416",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Michaelston-le-Pit Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7df4eb64-3954-0230-fd66-6d1a2b3abf7d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Unidentified village"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/74d319c9-8389-c99c-d27e-b6e194cd0106",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Stonehenge, Wiltshire"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7707c068-32e4-8b86-5a91-68cf053a8dbb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Well, Penmark"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ecff1a6a-ffdb-9bef-384d-18a1ad68cdcb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Darran Colliery, Blaengarw"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/6faa7c99-d0ba-04a6-3337-4c9ea25a2a6a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ocean Colliery, Blaengarw"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/007b81ee-ce79-9439-8d45-27e913ad5800",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Cottage, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e2cf5601-77db-84fe-62a3-536c71c4375c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dinas Powis street scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3054eb44-3d5e-2078-9ede-fdf971c8e64c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d41e87e4-fbd9-e5bf-3a0f-f93bc810ef9e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Abbey Ruins, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ff27934d-5473-3a7d-1fd9-97cfda5a4a1e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Penprisk, Pencoed"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/08108cdb-fed2-a8d6-0bd1-2c202998dfb6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dinas Powis street scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ef318fc4-e3cf-4300-a8cf-acf937543579",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pencoed street scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0a01b0ad-54cd-c0f5-ad8d-302b086c41a9",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dinas Powis street scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7fc10f79-b1ae-8cc4-a1e9-970faa7eda30",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Beaupre (ruins), Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/6e401ebb-91cd-891b-50a5-c3f32d7a5236",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llancarfan street scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f1f5f43c-d799-e24d-d336-5c211292848e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mill Brook Road, Dinas Powis"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/bac456db-0a25-5e7f-f526-ab9a71139708",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llancarfan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/36fb8b74-8a1d-f2dd-4466-9b256ba32717",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mill Road, Dinas Powis"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/16b2ae45-2cea-3904-754b-94757ebd9d7d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pencoed street scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ab0c1aeb-867c-1eca-21e6-afbce8ce5533",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Mill Farm, Dinas Powis"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/856b5ff1-8327-f1a0-78ac-6a0367d6cc23",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanharan Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/71858c64-9e05-8af7-765a-59040d66872c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llangan Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/87c34f9e-758a-dd87-8ad1-ace794205ca6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pencoed street scene showing chapel"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d77e9f51-237b-e594-14d1-14f082d2a0eb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Castle Ruins, Penmark"
+        ]
+      }
+    }
+  ]
+}

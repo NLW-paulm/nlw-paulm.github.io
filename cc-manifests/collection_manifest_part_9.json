@@ -1,0 +1,644 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds/D261",
+  "type": "Collection",
+  "partOf": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds",
+      "type": "Collection"
+    }
+  ],
+  "label": {
+    "en": [
+      "Edwin Miles Photographic Collection"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Document reference"
+        ],
+        "cy": [
+          "Cyfeirnod"
+        ]
+      },
+      "value": {
+        "none": [
+          "D261"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title"
+        ],
+        "cy": [
+          "Teitl"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles Photographic Collection"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Level of description"
+        ],
+        "cy": [
+          "Lefel disgrifiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Fonds"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ],
+        "cy": [
+          "Dyddiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "c1900-1929"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ],
+        "cy": [
+          "Maint"
+        ]
+      },
+      "value": {
+        "none": [
+          "10 boxes"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Arrangement"
+        ],
+        "cy": [
+          "Trefn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Arranged chronologically by record series"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Background"
+        ],
+        "cy": [
+          "Cefndir"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles (c1869-1929) was born in Bristol, the son of Joseph Miles and his wife Sarah Ann, but by the date of the 1881 census his family had moved to Llanfihangel, Llantarnam, Monmouthshire. In January 1892 he married Mary Emma Thomas at Llantrisant parish church when he was described  as a signalman of St George-super-Ely. By 1901 he was living in Cowbridge Road, Oldcastle. The earliest evidence for his photographic career is a postcard published by him of John Street, Porthcawl, postmarked 1905 (DART/V/203: withdrawn from Glamorgan Archives by the depositor ). He ran photographic studios at number 40 Ewenny Road, Bridgend, and High Street, Cowbridge, primarily photographing family groups, weddings and parties. A report on his funeral can be found in the May 10th issue of the Glamorgan Gazette on page 5."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "cy": [
+          "Iaith"
+        ]
+      },
+      "value": {
+        "none": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Creator(s)"
+        ],
+        "cy": [
+          "Crew(y)r"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions of access"
+        ],
+        "cy": [
+          "Amodau mynediad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Glass negatives will only be produced for searchers in special circumstances. Positive digital copies are available for consultation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions governing reproduction"
+        ],
+        "cy": [
+          "Amodau hawlfraint"
+        ]
+      },
+      "value": {
+        "none": [
+          "Normal Glamorgan Record Office conditions apply; Copyright expired 70 years after the death of the photographer, ie April 1999"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Finding aids"
+        ],
+        "cy": [
+          "Cymhorthau chwilio"
+        ]
+      },
+      "value": {
+        "none": [
+          "A detailed catalogue is available"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Appraisal"
+        ],
+        "cy": [
+          "Cloriannu"
+        ]
+      },
+      "value": {
+        "none": [
+          "All records offered have been accepted and listed"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source of acquisition"
+        ],
+        "cy": [
+          "Ffynhonell derbyn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Deposited by a private individual, 2004"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3902e45b-e06c-6bb6-2b25-6ba3adc6a277",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mount Pleasant, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/10b14cb5-d45d-c6bf-f148-4dcebdd23e38",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Cowbridge Street Scene showing the Bear Hotel"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/06cfc611-7a91-6eac-b693-59200802f779",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Beaupre Porch, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/976df37c-2cd8-5eb9-3aa0-73dbac0eb345",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Hounds and hunt members Parc house"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c5f1fd47-7624-b7d1-0238-3cd26a148e4a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Parc (house), Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/126a3881-d8b2-5138-bc2a-e79b6839ad9a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "New Law Courts, Cardiff"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ad7ce157-ade8-e121-b42f-51e8e2cad964",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Town Hall, Cardiff"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/dc13f65b-325d-d57a-8f87-213a04f54994",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tregroes (House), Pencoed"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/38318c2a-da76-42c3-4b70-c3940e9bb62c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Bungalows, West End, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/547cfef5-ed79-d897-fabf-67e5db24ce08",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llantwit Major War Memorial"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/56bf3305-3206-4b2b-338c-7c11a52900e7",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Culvery House, Llancarfan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/235f2f94-6e87-9db0-ebfe-795e7fa8936f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Penmark Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8713b588-37fe-95bc-86d5-6a5b93a71439",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Penmark Church - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8ebac5fc-690e-8f5e-034a-e29b1cdf0f21",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Athan Church - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/906e91f9-ff72-1519-580e-80e19ad84173",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Donats Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d8eccb05-3174-dc3c-e327-c13da572b7f3",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wenvoe Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a2cd552c-6972-9704-c04d-f856934e1a16",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wenvoe Church - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/62712e29-bda5-d032-23f8-8baf80aaa870",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Church at St. Andrews - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/20ec4062-6600-0530-d9e7-5a65b4c46a5d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Church at St. Andrews - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7c9b5366-1f1b-ac59-daac-f5599b8d0ae9",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Donats Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7b2581ce-19cb-c426-0555-f369b6993ed6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Print of the late Dr Price"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/27b104f0-c2a8-1cf9-0c85-9d9fb1af8cc5",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The 'Lee' chapel in St. Andrews Church"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/abe52ddd-3919-119b-d000-e29ad0d5e4cd",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Mary's Church, Aberavon - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/930e5949-0b65-6480-f18c-26da8fdd64a4",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Greetings from Pencoed - 6 images on postcard"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/feffcfed-d860-f90b-c554-0a339fafbcdb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Bowling Green"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/89481d15-4521-e20f-fd16-c0ed0fd83723",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Winter Gardens"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/cfabf9e2-821e-2399-1d7f-1ca1f427efaf",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - The Lake"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/4c43085b-f30a-798a-4321-32baec5d4f32",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Adams Well"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1ed405ff-7869-e304-75ce-3fa1150db90d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/25f9f67a-aed8-9baa-30cc-8c9331668a52",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f4e9fced-fac5-f9cd-5cb9-c72ad51601e0",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Kitchen"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/6c0b2b85-c597-fe1f-6556-7cf686e99de3",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Dining Room"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0f071fbf-e935-fd4a-4200-3f67554a3880",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Blue Lounge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/952c8eb7-3ba9-bb4a-3803-9b8fb5ac9fb9",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Garden"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fbc1610d-bc30-16d7-da61-e578f2014632",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/290a4303-a3ab-9737-5ff3-f6752e5679a1",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/4c315ce6-186c-9cfd-8461-440cd778f25d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Corner in Winter Gardens"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a1d81f9f-cebd-d408-491a-1a4641891c0e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - The Lake"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f1678ebe-99e0-17b2-ee7b-009d952d1d1d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Bowling Green"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/b96e7b84-2f96-3d4f-fa0c-475f496bcecb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Winter Gardens"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e3bddd91-ced5-f76b-1de4-49e611ac81ae",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0019b0a7-65eb-0d90-c4b8-a9a08ad3c72c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - Main Hall"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/528b0178-389e-1360-6472-0514e444e1ce",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - The Lake"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/980a7729-4ce4-4689-7d61-fa317959253d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - The Lake"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8da82193-bd66-86f4-30e5-f14a4f4ce21c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House & Lake"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3a7caa51-6ae6-b821-52e5-d5429462bdc6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn House - The Lounge"
+        ]
+      }
+    }
+  ]
+}

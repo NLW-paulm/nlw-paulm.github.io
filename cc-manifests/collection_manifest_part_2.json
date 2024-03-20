@@ -1,0 +1,644 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds/D261",
+  "type": "Collection",
+  "partOf": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds",
+      "type": "Collection"
+    }
+  ],
+  "label": {
+    "en": [
+      "Edwin Miles Photographic Collection"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Document reference"
+        ],
+        "cy": [
+          "Cyfeirnod"
+        ]
+      },
+      "value": {
+        "none": [
+          "D261"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title"
+        ],
+        "cy": [
+          "Teitl"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles Photographic Collection"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Level of description"
+        ],
+        "cy": [
+          "Lefel disgrifiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Fonds"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ],
+        "cy": [
+          "Dyddiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "c1900-1929"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ],
+        "cy": [
+          "Maint"
+        ]
+      },
+      "value": {
+        "none": [
+          "10 boxes"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Arrangement"
+        ],
+        "cy": [
+          "Trefn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Arranged chronologically by record series"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Background"
+        ],
+        "cy": [
+          "Cefndir"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles (c1869-1929) was born in Bristol, the son of Joseph Miles and his wife Sarah Ann, but by the date of the 1881 census his family had moved to Llanfihangel, Llantarnam, Monmouthshire. In January 1892 he married Mary Emma Thomas at Llantrisant parish church when he was described  as a signalman of St George-super-Ely. By 1901 he was living in Cowbridge Road, Oldcastle. The earliest evidence for his photographic career is a postcard published by him of John Street, Porthcawl, postmarked 1905 (DART/V/203: withdrawn from Glamorgan Archives by the depositor ). He ran photographic studios at number 40 Ewenny Road, Bridgend, and High Street, Cowbridge, primarily photographing family groups, weddings and parties. A report on his funeral can be found in the May 10th issue of the Glamorgan Gazette on page 5."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "cy": [
+          "Iaith"
+        ]
+      },
+      "value": {
+        "none": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Creator(s)"
+        ],
+        "cy": [
+          "Crew(y)r"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions of access"
+        ],
+        "cy": [
+          "Amodau mynediad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Glass negatives will only be produced for searchers in special circumstances. Positive digital copies are available for consultation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions governing reproduction"
+        ],
+        "cy": [
+          "Amodau hawlfraint"
+        ]
+      },
+      "value": {
+        "none": [
+          "Normal Glamorgan Record Office conditions apply; Copyright expired 70 years after the death of the photographer, ie April 1999"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Finding aids"
+        ],
+        "cy": [
+          "Cymhorthau chwilio"
+        ]
+      },
+      "value": {
+        "none": [
+          "A detailed catalogue is available"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Appraisal"
+        ],
+        "cy": [
+          "Cloriannu"
+        ]
+      },
+      "value": {
+        "none": [
+          "All records offered have been accepted and listed"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source of acquisition"
+        ],
+        "cy": [
+          "Ffynhonell derbyn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Deposited by a private individual, 2004"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/40f57f69-ab08-b3c9-3eb2-dffd99d50ef1",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "West Side, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a3d77218-606f-7edf-01e4-a2d501c54c41",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Margam Church - Exterior, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/32e5c230-933d-9026-f8c5-e1d35d254d43",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Margam Abbey Church - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/97719136-9197-6ba0-c456-4f72821f418b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Fountain in Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5e54146f-9f66-3ce5-5fdb-924c341c618b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Chapter House, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/36aad611-3076-a4f2-978f-1cd4282eea98",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Abbey Ruins, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/efc1ac7f-3701-e57a-938f-e63339b3c3b7",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Chapter House, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fecea771-4629-d584-d82a-52385195d935",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Orangery, Margam Park - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5835d463-e899-6c98-6898-b392cbc193a8",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Orangery, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/67cc1876-8770-913f-b5ef-9cbe89f58a50",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Orangery, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7a2f230e-e866-4875-9b88-e39528dc68b6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Orangery, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/4dbfe61d-57b4-6626-7c24-db3b108eaa88",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Lake, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/6b891a70-12d8-480c-2fde-69e6551487c3",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Groes, Margam"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/416c01ac-af4c-8f85-5415-4f112db691cc",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Groes, Margam"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8ba0eb9b-595b-bbe8-19d2-d967b9c75a8d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chapel, Groes, Margam"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f39d7207-9f91-72cd-e385-58504ce4dedc",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "East Lodges, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f8a4b478-6b6e-fa31-f718-1967450b1235",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "West Lodge, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0306ae92-fc97-dec6-9b09-0dbe6eababce",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "East Lodge, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d25b2606-0f2a-7b92-35ea-1d9f854c3654",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mid Lodge, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1db6c245-5840-776a-a1f4-51f3e2994133",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Twnyrhydd House, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5bb2255c-13dc-b64b-8d29-74a0090f7437",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Twnyrhydd House, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/22361adf-7e23-4bab-8c35-d406d02cb3ab",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Lake, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/46cf93f8-9440-512f-c172-c190fb4417f5",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Margam Village"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/00e7360a-7a63-7bca-6170-6c7bde4f1c68",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Drive, Margam"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/10225a48-108d-ca8f-6759-db2c300996b1",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Church (in ruins), Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/42fea6cd-75f9-b80c-ff93-f24b80932f25",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Part of old summer house, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fba1bca7-9422-bdbf-ab98-aad3223e5094",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Houses in Margam Village"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/9b82dec4-4c25-573f-2c34-a9133041ffef",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Margam Abbey Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/65cefae5-3eb3-dfe9-125e-39ab1d130fc8",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Gardens (showing pond), Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ce6db232-38d3-8b75-b3e8-98ed9e36989f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Gardens, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5e4c4458-859b-9c10-ee05-aa06474b5946",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Church & War Memorial at Margam"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/edef378b-915e-a487-39a6-705872332757",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Gardens, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c331bfa2-ff61-d2ae-6703-c66e43d6963c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "West Terrace, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d7c12123-6c72-35c0-4f47-fa4af0dcceb0",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "War Memorial, Margam"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/dd284735-02a4-3476-5930-30055712ad15",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "War Memorial, Margam"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a754de60-5d3a-c1c2-f0bd-b923d4d17205",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ewenny Priory Church, Bridgend - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/9725a652-aaed-e5ef-a3c7-2d3e9882a093",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "North Tower, Ewenny Priory, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/2edb4bd4-5a78-c54b-5def-b71f9c371b3d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ewenny Priory, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f2d74ab2-cb72-9dd7-f2fe-f97341e538b8",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ewenny Priory, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/18e03aa0-65b4-9036-c13f-74d4a0b873cb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "South Tower, Ewenny Priory, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/6dd35be3-f084-d1e2-774d-94119caed69c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Gardens, Ewenny Priory, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/4c5962d0-51fc-0b84-81c0-f11fd6d07ba2",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "South Lodge, Ewenny Priory, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/50167762-90d1-38bf-316e-4bbb1aa2e2c1",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ewenny Priory Drive, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/54f28151-a58a-db49-69b3-30bd6cf618bb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ewenny Priory Drive, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/9fddde4d-aa3b-df62-4cb4-17f27c3406de",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Street scene of Merthyr Mawr Road, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8919ff9d-0e4f-d4d4-93c5-e6132fcd138e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Colwinstone - Street Scene"
+        ]
+      }
+    }
+  ]
+}

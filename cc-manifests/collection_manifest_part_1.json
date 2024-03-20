@@ -1,0 +1,644 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds/D261",
+  "type": "Collection",
+  "partOf": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds",
+      "type": "Collection"
+    }
+  ],
+  "label": {
+    "en": [
+      "Edwin Miles Photographic Collection"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Document reference"
+        ],
+        "cy": [
+          "Cyfeirnod"
+        ]
+      },
+      "value": {
+        "none": [
+          "D261"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title"
+        ],
+        "cy": [
+          "Teitl"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles Photographic Collection"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Level of description"
+        ],
+        "cy": [
+          "Lefel disgrifiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Fonds"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ],
+        "cy": [
+          "Dyddiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "c1900-1929"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ],
+        "cy": [
+          "Maint"
+        ]
+      },
+      "value": {
+        "none": [
+          "10 boxes"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Arrangement"
+        ],
+        "cy": [
+          "Trefn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Arranged chronologically by record series"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Background"
+        ],
+        "cy": [
+          "Cefndir"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles (c1869-1929) was born in Bristol, the son of Joseph Miles and his wife Sarah Ann, but by the date of the 1881 census his family had moved to Llanfihangel, Llantarnam, Monmouthshire. In January 1892 he married Mary Emma Thomas at Llantrisant parish church when he was described  as a signalman of St George-super-Ely. By 1901 he was living in Cowbridge Road, Oldcastle. The earliest evidence for his photographic career is a postcard published by him of John Street, Porthcawl, postmarked 1905 (DART/V/203: withdrawn from Glamorgan Archives by the depositor ). He ran photographic studios at number 40 Ewenny Road, Bridgend, and High Street, Cowbridge, primarily photographing family groups, weddings and parties. A report on his funeral can be found in the May 10th issue of the Glamorgan Gazette on page 5."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "cy": [
+          "Iaith"
+        ]
+      },
+      "value": {
+        "none": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Creator(s)"
+        ],
+        "cy": [
+          "Crew(y)r"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions of access"
+        ],
+        "cy": [
+          "Amodau mynediad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Glass negatives will only be produced for searchers in special circumstances. Positive digital copies are available for consultation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions governing reproduction"
+        ],
+        "cy": [
+          "Amodau hawlfraint"
+        ]
+      },
+      "value": {
+        "none": [
+          "Normal Glamorgan Record Office conditions apply; Copyright expired 70 years after the death of the photographer, ie April 1999"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Finding aids"
+        ],
+        "cy": [
+          "Cymhorthau chwilio"
+        ]
+      },
+      "value": {
+        "none": [
+          "A detailed catalogue is available"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Appraisal"
+        ],
+        "cy": [
+          "Cloriannu"
+        ]
+      },
+      "value": {
+        "none": [
+          "All records offered have been accepted and listed"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source of acquisition"
+        ],
+        "cy": [
+          "Ffynhonell derbyn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Deposited by a private individual, 2004"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/cf9e23cc-ebd7-1ef3-71ba-7baba4d19a40",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Courtyrala House"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/02b0e52b-0749-c0f0-b6c4-52e36e984638",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llancarfan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/37ecfa2e-1538-8a0b-2a8c-c1bf19933c3c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tomb in St. Athan's Church"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/957e1100-b2e2-3857-c934-f9a9521fa8df",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Mill Falls, Dinas Powis"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1f4656af-4764-0782-c8b0-3ad514505011",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Courtyrala House, West Side"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5e96150b-2d25-2463-531b-a3e3917bffa9",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "East Lodge, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/2950ab46-8bb8-5718-cdbb-9792eb05e7fb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "New Inn Bridge, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3dfe34ec-c956-1b8e-251f-632e8394b380",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Merthyr Mawr House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/60ab7c31-08bb-3d75-942c-6109d274efc2",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Merthyr Mawr House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1220fe3b-b22f-a003-c857-69b04b23e365",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Merthyr Mawr House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e5492bd6-8600-b147-97a7-7be97af11a68",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Merthyr Mawr House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/6765d415-624b-2a74-0f0a-9e2d1b9eb834",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Merthyr Mawr Village, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/16710b70-b513-3388-cb6c-9972c24fa138",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "West Lodge, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/52b97034-e226-5cfe-0757-42640b0b6d2f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Village Road, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e9c97916-f44a-222e-e19e-42fa086814de",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "West Lodge, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8c205ac8-875c-a7d1-513f-d2e0e7b17c4f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "View on Ogmore Moors, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/14e8077b-2265-0e53-4d59-5ed61bdafe76",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ogmore Castle, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e7eb95fb-27b5-5347-cd36-b96b0b487ab1",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ogmore Castle, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/9477d489-7485-e703-32ec-90cae2829c52",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Candleston Court Ruins, Near Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7bd13bea-829f-85e1-3b84-c31a8b25d153",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sand Hills, Candleston, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/40e0800a-55b3-34c1-35ad-dde9fa3d1a13",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Swing Bridge, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7e8aa848-899f-8f3f-024e-af0e72b6b649",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Swing Bridge, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/aaffc083-f3da-ab79-b9cb-a3029af95969",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Cross, Merthyr Mawr Church"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1f817c80-0bb8-2fdc-9903-a6e140c0fd8c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Merthyr Mawr Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ddae14c7-6bcf-ca50-59a8-c6847288c3b9",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Brook, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e9e94ef6-d8ba-f5e0-8a58-d565c4f075df",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Avenue, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/665bb4ba-7606-a8dc-bb3a-2dd01047fcee",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Keepers Lodge, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/292a70ab-fa50-8af0-ef0d-e71b2e6653cb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wild Gardens, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e2f6819b-4710-e2b1-f2e5-167dea1ca1e8",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Winter - Ogmore Castle, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d99793c0-5dd3-1cea-81fc-1d5622532f8e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Winter - Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1cf13ca7-8541-488a-7d7a-d53c7cf1804d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Winter - Ogmore River, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/17d50b2c-008f-b0dd-c09d-8779de9c7978",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Winter - Merthyr Mawr Lodge, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f966b943-653b-d23c-c460-a6cb44831054",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Bridge, Merthyr Mawr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8600a0b5-911d-0fab-e90d-f90ca5b2214c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ogmore Sand Hills, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/2c5c45c3-ef35-0ddb-0116-32e668dfc04d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ogmore Castle Ruins, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5d1a837b-9aad-c237-d870-abaa2fc9ac76",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Marcross Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/75533ebc-831b-9d45-1179-fb75ff52b6d3",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Nash Point, Marcross - showing lighthouses"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1b7073a6-2bea-5bab-0f44-fab699c051d0",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Nash Point, Marcross - showing lighthouses"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/eea5cd61-e4db-8cc0-3f24-c7d4f9c79923",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Fog Siren, Nash Point, Marcross"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/bcad94f7-7120-80d3-bfa4-ff561627d8e3",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Cliffs, Marcross"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/378af92b-0503-fae9-45d0-e3c7ab1ffe5c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tythegston Court, near Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/cae0b54c-db63-0a2c-21dc-4ba3b79e2c82",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chapter House & Church, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/32b030be-2683-f21c-3e59-28a44951486c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Terrace on West Side, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/9d4fdf6f-d159-7b8d-0187-2340b59f6991",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1ffe51b2-bef7-bce2-6565-34f82f479623",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "North Side, Margam Park"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8244da13-9881-6d71-1753-560b578b4f8b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Margam Park"
+        ]
+      }
+    }
+  ]
+}

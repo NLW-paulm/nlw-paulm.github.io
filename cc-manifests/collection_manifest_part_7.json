@@ -1,0 +1,644 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds/D261",
+  "type": "Collection",
+  "partOf": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds",
+      "type": "Collection"
+    }
+  ],
+  "label": {
+    "en": [
+      "Edwin Miles Photographic Collection"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Document reference"
+        ],
+        "cy": [
+          "Cyfeirnod"
+        ]
+      },
+      "value": {
+        "none": [
+          "D261"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title"
+        ],
+        "cy": [
+          "Teitl"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles Photographic Collection"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Level of description"
+        ],
+        "cy": [
+          "Lefel disgrifiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Fonds"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ],
+        "cy": [
+          "Dyddiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "c1900-1929"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ],
+        "cy": [
+          "Maint"
+        ]
+      },
+      "value": {
+        "none": [
+          "10 boxes"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Arrangement"
+        ],
+        "cy": [
+          "Trefn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Arranged chronologically by record series"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Background"
+        ],
+        "cy": [
+          "Cefndir"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles (c1869-1929) was born in Bristol, the son of Joseph Miles and his wife Sarah Ann, but by the date of the 1881 census his family had moved to Llanfihangel, Llantarnam, Monmouthshire. In January 1892 he married Mary Emma Thomas at Llantrisant parish church when he was described  as a signalman of St George-super-Ely. By 1901 he was living in Cowbridge Road, Oldcastle. The earliest evidence for his photographic career is a postcard published by him of John Street, Porthcawl, postmarked 1905 (DART/V/203: withdrawn from Glamorgan Archives by the depositor ). He ran photographic studios at number 40 Ewenny Road, Bridgend, and High Street, Cowbridge, primarily photographing family groups, weddings and parties. A report on his funeral can be found in the May 10th issue of the Glamorgan Gazette on page 5."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "cy": [
+          "Iaith"
+        ]
+      },
+      "value": {
+        "none": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Creator(s)"
+        ],
+        "cy": [
+          "Crew(y)r"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions of access"
+        ],
+        "cy": [
+          "Amodau mynediad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Glass negatives will only be produced for searchers in special circumstances. Positive digital copies are available for consultation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions governing reproduction"
+        ],
+        "cy": [
+          "Amodau hawlfraint"
+        ]
+      },
+      "value": {
+        "none": [
+          "Normal Glamorgan Record Office conditions apply; Copyright expired 70 years after the death of the photographer, ie April 1999"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Finding aids"
+        ],
+        "cy": [
+          "Cymhorthau chwilio"
+        ]
+      },
+      "value": {
+        "none": [
+          "A detailed catalogue is available"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Appraisal"
+        ],
+        "cy": [
+          "Cloriannu"
+        ]
+      },
+      "value": {
+        "none": [
+          "All records offered have been accepted and listed"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source of acquisition"
+        ],
+        "cy": [
+          "Ffynhonell derbyn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Deposited by a private individual, 2004"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c5709eaf-e961-8d39-2a8c-4dcdff01b23d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Meeting House (Unitarian), Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/31cd94e0-1b14-5b1a-7395-cfeaa133feaa",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Mary's Roman Catholic Church, Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5c49efbc-d921-5f93-793e-b153b5b585cc",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Mary's Roman Catholic Church, Bridgend - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a6e35e15-2c43-2002-0676-36e03042630f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Mary's Presbytery, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/183f11a6-5c26-afe9-47ed-6b17a6f4f2cc",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Parc Gwyllt Asylum, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/cf4dc873-0638-e63f-ec5d-8738def2787d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "General view of Bridgend from Newcastle Tower"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/79b86485-9ddc-aacc-be15-7289cc9e1375",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "General view of Bridgend from Newcastle Tower"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/aeb5d297-85bf-9f77-281e-59d1cc7abc21",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "View of Newton, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/9e54be90-488a-8b9b-750d-374ef983873c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "View of Newton, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7ed08d6b-1e8c-aee0-5a12-5f025c8187cd",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "View of Newton, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f0b057fb-cbd0-158c-5905-51e34242c725",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ancient Pulpit in Newton Parish Church"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e103ee69-d306-7f53-4dda-be1dc5688490",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Newton Parish Church, Porthcawl - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fb31d9db-661d-198c-48e5-6ab1293c6f2e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Newton Parish Church, Porthcawl - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0dbdc9eb-e775-c68a-143d-0033c662e31e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Red House Ruins, Newton, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/453f8823-134a-ab21-eac7-e66e83cae98b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ancient Well, Newton, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/34534f63-9991-db4b-6fa4-00d54fc88e0a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Nottage Court, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/566f05a4-abb7-9829-cffe-087dff491355",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sker House, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e6458843-37b0-6457-a200-12df1c400e67",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sker House, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/611e8ce5-65c8-39f3-69c8-eb7217b29a16",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Rest (for men), Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/bb0540ee-71f5-6d96-2c2f-fc4573d283d0",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Blackrocks, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/aa060ab6-1fa3-3041-dfb5-6319c8bb4ec6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Pier, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/489764e1-3a4c-ca15-a042-d182b6de2c77",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Pier, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c1394f1d-60db-10be-9f89-5c19225f8611",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Pier, Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1034d5bb-204e-796a-5ce9-60c5036a6a48",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "View of Llantrisant, Glamorgan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fe69eec7-696f-2b71-ab75-e4e196e4314a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Town Hall, Llantrisant"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/87badff0-fe40-e67e-1d20-34c261dd8b3b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Castle, Llantrisant"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/71fcd282-5390-a551-7c00-fd985849ef7d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llantrisant Parish Church - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7dc7567c-c5f7-1ad1-738e-4ffae9ab95e2",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llantrisant Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/91949b90-5de3-e477-7008-21fd28d80cae",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Hensol Castle, South Front"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/39c44be3-45e5-5939-68f8-d4578f2fee47",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Lake at Hensol Castle"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/df4f37f1-0568-f675-17d7-eb16dbfe4bab",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Hensol Castle, West Side"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/9b5aa333-010e-da15-2ac5-309ef5448c79",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Hensol Castle, East Gate"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/cfd60473-ac56-95e2-6b46-9625bdc44ced",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Miskin Manor, Glamorgan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/98817e8f-a36c-2615-467f-152af12dca87",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Miskin Manor, Glamorgan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c8de0241-eb17-676a-005c-4210cc425461",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pantyquesta, Near Llantrisant"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8f8c9c25-fa6d-a54c-6aeb-81dd608b6525",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Miskin Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fbe33ccc-7606-438f-782f-7b8d505a4264",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Talygarn Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3caa4e89-1382-dc2d-2fc9-6e45124d27f8",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Church at Talygarn - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5caa858c-0039-acb0-2506-760b2b5f38dc",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Paul's Church, Pontyclun - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/b4757426-048a-f545-b12a-5f8753ad5b47",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanelay Bridge, Llantrisant"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/721ffea1-cb0b-d99d-fedf-c0881650c5af",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanelay Hall, Llantrisant"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3950c7d2-c50c-c005-44f8-74d48ffa2c1a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Drive Entrance to Llanharan House, Glamorgan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/307ca18b-5bb3-00de-8ae2-ab2723643b18",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanharan House - West Side"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d1e94435-9497-0ab0-8bdf-1fb9f4fa9180",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanharan House - West Side"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/07174918-9511-1a26-3730-9d34b0e13a76",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanharan House"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d925d952-948f-5a6f-e9c8-9aebe2d811e0",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Church & Graig, Llantrisant"
+        ]
+      }
+    }
+  ]
+}

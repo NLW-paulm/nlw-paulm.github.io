@@ -1,0 +1,644 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds/D261",
+  "type": "Collection",
+  "partOf": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds",
+      "type": "Collection"
+    }
+  ],
+  "label": {
+    "en": [
+      "Edwin Miles Photographic Collection"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Document reference"
+        ],
+        "cy": [
+          "Cyfeirnod"
+        ]
+      },
+      "value": {
+        "none": [
+          "D261"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title"
+        ],
+        "cy": [
+          "Teitl"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles Photographic Collection"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Level of description"
+        ],
+        "cy": [
+          "Lefel disgrifiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Fonds"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ],
+        "cy": [
+          "Dyddiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "c1900-1929"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ],
+        "cy": [
+          "Maint"
+        ]
+      },
+      "value": {
+        "none": [
+          "10 boxes"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Arrangement"
+        ],
+        "cy": [
+          "Trefn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Arranged chronologically by record series"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Background"
+        ],
+        "cy": [
+          "Cefndir"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles (c1869-1929) was born in Bristol, the son of Joseph Miles and his wife Sarah Ann, but by the date of the 1881 census his family had moved to Llanfihangel, Llantarnam, Monmouthshire. In January 1892 he married Mary Emma Thomas at Llantrisant parish church when he was described  as a signalman of St George-super-Ely. By 1901 he was living in Cowbridge Road, Oldcastle. The earliest evidence for his photographic career is a postcard published by him of John Street, Porthcawl, postmarked 1905 (DART/V/203: withdrawn from Glamorgan Archives by the depositor ). He ran photographic studios at number 40 Ewenny Road, Bridgend, and High Street, Cowbridge, primarily photographing family groups, weddings and parties. A report on his funeral can be found in the May 10th issue of the Glamorgan Gazette on page 5."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "cy": [
+          "Iaith"
+        ]
+      },
+      "value": {
+        "none": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Creator(s)"
+        ],
+        "cy": [
+          "Crew(y)r"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions of access"
+        ],
+        "cy": [
+          "Amodau mynediad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Glass negatives will only be produced for searchers in special circumstances. Positive digital copies are available for consultation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions governing reproduction"
+        ],
+        "cy": [
+          "Amodau hawlfraint"
+        ]
+      },
+      "value": {
+        "none": [
+          "Normal Glamorgan Record Office conditions apply; Copyright expired 70 years after the death of the photographer, ie April 1999"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Finding aids"
+        ],
+        "cy": [
+          "Cymhorthau chwilio"
+        ]
+      },
+      "value": {
+        "none": [
+          "A detailed catalogue is available"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Appraisal"
+        ],
+        "cy": [
+          "Cloriannu"
+        ]
+      },
+      "value": {
+        "none": [
+          "All records offered have been accepted and listed"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source of acquisition"
+        ],
+        "cy": [
+          "Ffynhonell derbyn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Deposited by a private individual, 2004"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/04c28da5-779d-b2cc-a46c-c0de1cc79190",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Penllyne Court, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/98904416-75a8-6e22-259d-fa882617d2a6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "West Side, Penlline Castle, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ae21cd99-e021-4f5a-ff0e-ef82bba8a26c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chapel of Ease, Penlline, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3442eb39-f18d-e6f5-ed5d-673c435f7b2c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Great House, Penlline, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/589f40ab-4b29-ed6e-0601-da97af21ede9",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Avenue, Penlline, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/16ca6edb-a6fa-427c-0335-772f774ed642",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Drive, Penlline Castle, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7c07c7db-e1de-173f-c53b-5816e44252ef",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old School, Penlline, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/064a154d-6797-eeca-dde1-813486ec2098",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Penllyne Church, Cowbridge - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/54f88b5a-f0ab-3fbb-bcbf-481bb7e30a0b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Drive Entrance to Penlline Castle, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/99da0f7e-94bd-bb2b-d17a-5f86d17aae40",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Green Walk, Penlline Castle, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/84e60b0c-d7ee-bdcc-4aba-f9fae7e3f431",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Grange, St. Hilary, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1104be89-da12-41da-091f-419969bf4370",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Rectory, St. Hilary"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ae955dc4-b3e1-efff-5d63-5d0b295c14f8",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Lych Gate, St. Hilary, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/91d0a48c-a5ee-491a-06af-59a6402b7d60",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Cottage, St. Hilary, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/453df173-5049-764e-d31a-a242eb602a44",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Cottage, St. Hilary, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/623a751d-730d-6646-c59b-f16d75e5bb14",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Manor House, St. Hilary, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/57ea9d62-9d58-65d5-e6c0-df43949b3397",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Hilary Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ce27fc63-7dae-1bc0-87aa-23899f60cbc0",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Hilary Church - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7f98adac-2332-d31c-8819-c27af519b805",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vicarage, St. Hilary, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f3124399-a998-4d84-0310-6b579396c884",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Aberthin, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ed0ebc0b-972a-e64c-b2a1-cd56150e05cf",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Aberthin, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a006823d-6621-f546-5d2d-33881eee23c0",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Aberthin, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/58aafa27-ee26-ce9b-f2d4-60fd51236aaf",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Aberthin, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/b8d88504-c3f0-0dcf-c77a-46da800b7a65",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ystradowen - street scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fc1dbc36-e0fa-b98f-c3c0-71fdd1aa9da1",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ash Hall, Ystradowen, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f9bd7a91-7678-0daf-163c-ee0ee8c282d5",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Owain's Church, Ystradowen - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/6de65042-bacc-e443-b387-20ffbc244f42",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Church at Welsh St. Donats - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/76468a37-79af-2d24-6e1d-c4421615d3e9",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llansannor Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/bc48f20e-bb6a-e2be-fc11-cb58385da2eb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llansannor Court, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e728c107-f6a4-b515-32c6-df0da9608b4f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llansannor Court, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/549faad9-d8d6-13c7-c29e-7afc72517f76",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Newton House, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7bf8a34f-aa3e-a529-6f77-c37edd9b8962",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llandow, Glamorgan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7267fda8-dea1-133a-172c-b3fd7b323ab0",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llandow, Glamorgan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/acf76dde-bcd0-df99-d4dc-811f0ccee9ab",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llandow, Glamorgan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/77ddaa05-ecb7-bed9-62c9-a4f721cd0496",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llandow Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3cb3e285-9fc8-2288-d6f1-65f7c24337e6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llandow, Glamorgan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8ed08e86-11a6-9e51-5ffc-b3c8251663f6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wild Gardens, Llandough Castle, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/4393b734-34e1-2c52-2007-50d075c6e4b5",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wild Gardens, Llandough Castle, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1e1f2c38-f5d7-eca0-7035-04379a799fe8",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llandough Castle, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/6ea35d0f-4db8-ff77-6b9b-c45739211f91",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llandough Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/2c655fd4-2d65-a992-0a41-7735bf33a395",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanblethian, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/35b63f64-35ac-7723-5987-0667accf21c3",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanblethian, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/4d59cbf7-b840-7efd-b517-fcc67f05f689",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanblethian, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/23dfa2df-19ac-b890-353d-7f00860f99ba",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanblethian Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f9ea69e0-56fc-c566-8b5c-19f2f30b02e6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Cross (House), Llanblethian, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/4beb8c14-6ab9-d934-d27e-569546d7361a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Cross (House), Llanblethian, Cowbridge"
+        ]
+      }
+    }
+  ]
+}

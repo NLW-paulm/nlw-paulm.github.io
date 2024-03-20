@@ -1,0 +1,644 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds/D261",
+  "type": "Collection",
+  "partOf": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds",
+      "type": "Collection"
+    }
+  ],
+  "label": {
+    "en": [
+      "Edwin Miles Photographic Collection"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Document reference"
+        ],
+        "cy": [
+          "Cyfeirnod"
+        ]
+      },
+      "value": {
+        "none": [
+          "D261"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title"
+        ],
+        "cy": [
+          "Teitl"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles Photographic Collection"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Level of description"
+        ],
+        "cy": [
+          "Lefel disgrifiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Fonds"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ],
+        "cy": [
+          "Dyddiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "c1900-1929"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ],
+        "cy": [
+          "Maint"
+        ]
+      },
+      "value": {
+        "none": [
+          "10 boxes"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Arrangement"
+        ],
+        "cy": [
+          "Trefn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Arranged chronologically by record series"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Background"
+        ],
+        "cy": [
+          "Cefndir"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles (c1869-1929) was born in Bristol, the son of Joseph Miles and his wife Sarah Ann, but by the date of the 1881 census his family had moved to Llanfihangel, Llantarnam, Monmouthshire. In January 1892 he married Mary Emma Thomas at Llantrisant parish church when he was described  as a signalman of St George-super-Ely. By 1901 he was living in Cowbridge Road, Oldcastle. The earliest evidence for his photographic career is a postcard published by him of John Street, Porthcawl, postmarked 1905 (DART/V/203: withdrawn from Glamorgan Archives by the depositor ). He ran photographic studios at number 40 Ewenny Road, Bridgend, and High Street, Cowbridge, primarily photographing family groups, weddings and parties. A report on his funeral can be found in the May 10th issue of the Glamorgan Gazette on page 5."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "cy": [
+          "Iaith"
+        ]
+      },
+      "value": {
+        "none": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Creator(s)"
+        ],
+        "cy": [
+          "Crew(y)r"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions of access"
+        ],
+        "cy": [
+          "Amodau mynediad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Glass negatives will only be produced for searchers in special circumstances. Positive digital copies are available for consultation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions governing reproduction"
+        ],
+        "cy": [
+          "Amodau hawlfraint"
+        ]
+      },
+      "value": {
+        "none": [
+          "Normal Glamorgan Record Office conditions apply; Copyright expired 70 years after the death of the photographer, ie April 1999"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Finding aids"
+        ],
+        "cy": [
+          "Cymhorthau chwilio"
+        ]
+      },
+      "value": {
+        "none": [
+          "A detailed catalogue is available"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Appraisal"
+        ],
+        "cy": [
+          "Cloriannu"
+        ]
+      },
+      "value": {
+        "none": [
+          "All records offered have been accepted and listed"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source of acquisition"
+        ],
+        "cy": [
+          "Ffynhonell derbyn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Deposited by a private individual, 2004"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/9e28090b-2752-2cd3-2c90-e129d9b8314a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sion Chapel, Colwinstone"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0a1b1c17-9fb1-2097-6d7d-86c26c9ab82a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Colwinstone - Street Scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7271e3a3-7fe5-4605-7f30-c5b64939989d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Colwinstone - Street Scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7690aa03-80dd-9b38-1eec-5452b4e7463b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Colwinstone"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/16ca6e8c-e9be-1b71-f3e1-091771f86421",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Colwinstone"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0a2c2cd4-8160-f47c-35b4-b3fca607746d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Michael's Church, Colwinstone - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0173af25-8ccd-535f-1c64-f6ce3c3e0c45",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Michael's Church, Colwinstone - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/90d9289a-5b36-7545-3589-bad6ff265c71",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Michael's Church, Colwinstone - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8f00ca4e-aa49-588d-02fb-295ae5df4ae9",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pwllywrach House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/55bc4db3-9489-e8c9-578b-05d576894c31",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pwllywrach House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/28197ce4-c75a-3b65-2d07-9f1431f96034",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pwllywrach House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/994cfa46-ee22-2bbe-eec9-96f03450164a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pwllywrach House, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ea8f54d2-a490-5040-02ee-72a59091cea1",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Coity Parish Church, Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ff50d3e1-c10e-1d67-151e-8f1612aa088d",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Coity Parish Church, Bridgend - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/603abbd2-d6f6-b26d-c9dc-901436d93016",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "By Eastwood, Coity, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/6004ba8a-7b1d-c445-2ed6-1e0f756fc45f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Coity Castle Cottage, Coity, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/bd02a47b-073c-d981-e42f-55436fa1189b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Coity Castle Ruins, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/9344dd67-b0fb-f3e2-3f3a-9232de5e3411",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Plas-coed-y-mwstr House, Glamorgan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/602ac3f5-becc-deed-485e-c11681dea5e9",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Plas-coed-y-mwstr House, Glamorgan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fc797e56-5e56-9f05-a8d2-cf26a5a5e5cc",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Plas-coed-y-mwstr, Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ef4b4cb0-5eaa-0a74-85b8-7f5103c81f05",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Coychurch Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5f6e50ed-9133-0c47-3b4a-5e15095bd527",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llangynwyd Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/71fe5fc2-0906-5580-f426-7a5443390f0b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Maid of Cefn ydfa"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e376c20d-7c15-bfc6-c100-d102b115589b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llangynwyd Parish Church - Chancel"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/40a62bd2-e735-7d8c-5905-f4b3270f3a57",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llangynwyd Parish Church - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/0c6114b0-f210-f77e-42c4-583b075c01bb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llangynwyd Parish Church - Old Porch"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/6969a084-b3b0-c659-02ad-d5d144b6dec4",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Brides Minor Church & Churchyard"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d120d320-9bb0-e971-2aea-5d058f3f306c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Rectory, St. Brides Minor"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/73b4af31-a587-d63c-93eb-4d923045d421",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Brides Minor Church & Churchyard"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/32e00a9a-9d4d-d165-f453-516e697242d2",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. John's Church, Aberkenfig - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/b590ca61-e11b-b279-be06-f4c7da006f28",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Baptist Church, Penyvai, near Bridgend"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/780dbaa8-3bde-7585-45a5-9a9c54d5eb3f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Derllwyn Hill, Tondu"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f068698b-3e28-d624-eabe-85f8345b1fce",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Round House, Coytrahen"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/b00e6731-10f1-3d5b-9faf-a0f6f9ca5c4c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "River Bridge & Round House, Coytrahen"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/363f59ad-82b7-54a5-6707-596ff6a3c379",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Farm, Coytrahen"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/46641b3d-6019-b461-94c0-ec5f04820b55",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wesley Church, Coytrahen - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a9dcb830-294b-6946-bef3-821114fc3d40",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tynygarn Arch, Aberkenfig"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a368000c-866e-8713-3d13-6a88b9193152",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Coytrahen Slip Colliery, Tondu"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a739ccc6-cfab-d83b-3fb5-b1c635593b3c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Council Schools, Tondu"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/30457772-f4ba-787c-b7a3-7e111a8fb476",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tondu House"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3c418ec3-fecb-ce12-5523-92dd09057003",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Church & Lodge, Penllyne, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ed7296fd-4547-2784-c3c3-e41cf95ed9e3",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Penllyne Village, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f1942ac6-999f-9198-0442-1133532e2b7f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Well, Penllyne, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a8957b63-abd9-9585-3ff8-9578b269216c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Methodist Church, Penllyne, Cowbridge - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f6e3a1e4-fb98-3dbf-2d42-6ea614a653b2",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Graig, Penllyne, Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/b90e642f-b382-7951-d19a-b142a0dbfd0f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Penllyne Court, Cowbridge"
+        ]
+      }
+    }
+  ]
+}

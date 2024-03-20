@@ -1,0 +1,644 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds/D261",
+  "type": "Collection",
+  "partOf": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/digital/collections/fonds",
+      "type": "Collection"
+    }
+  ],
+  "label": {
+    "en": [
+      "Edwin Miles Photographic Collection"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Document reference"
+        ],
+        "cy": [
+          "Cyfeirnod"
+        ]
+      },
+      "value": {
+        "none": [
+          "D261"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title"
+        ],
+        "cy": [
+          "Teitl"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles Photographic Collection"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Level of description"
+        ],
+        "cy": [
+          "Lefel disgrifiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Fonds"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ],
+        "cy": [
+          "Dyddiad"
+        ]
+      },
+      "value": {
+        "none": [
+          "c1900-1929"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ],
+        "cy": [
+          "Maint"
+        ]
+      },
+      "value": {
+        "none": [
+          "10 boxes"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Arrangement"
+        ],
+        "cy": [
+          "Trefn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Arranged chronologically by record series"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Background"
+        ],
+        "cy": [
+          "Cefndir"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles (c1869-1929) was born in Bristol, the son of Joseph Miles and his wife Sarah Ann, but by the date of the 1881 census his family had moved to Llanfihangel, Llantarnam, Monmouthshire. In January 1892 he married Mary Emma Thomas at Llantrisant parish church when he was described  as a signalman of St George-super-Ely. By 1901 he was living in Cowbridge Road, Oldcastle. The earliest evidence for his photographic career is a postcard published by him of John Street, Porthcawl, postmarked 1905 (DART/V/203: withdrawn from Glamorgan Archives by the depositor ). He ran photographic studios at number 40 Ewenny Road, Bridgend, and High Street, Cowbridge, primarily photographing family groups, weddings and parties. A report on his funeral can be found in the May 10th issue of the Glamorgan Gazette on page 5."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "cy": [
+          "Iaith"
+        ]
+      },
+      "value": {
+        "none": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Creator(s)"
+        ],
+        "cy": [
+          "Crew(y)r"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edwin Miles"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions of access"
+        ],
+        "cy": [
+          "Amodau mynediad"
+        ]
+      },
+      "value": {
+        "none": [
+          "Glass negatives will only be produced for searchers in special circumstances. Positive digital copies are available for consultation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Conditions governing reproduction"
+        ],
+        "cy": [
+          "Amodau hawlfraint"
+        ]
+      },
+      "value": {
+        "none": [
+          "Normal Glamorgan Record Office conditions apply; Copyright expired 70 years after the death of the photographer, ie April 1999"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Finding aids"
+        ],
+        "cy": [
+          "Cymhorthau chwilio"
+        ]
+      },
+      "value": {
+        "none": [
+          "A detailed catalogue is available"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Appraisal"
+        ],
+        "cy": [
+          "Cloriannu"
+        ]
+      },
+      "value": {
+        "none": [
+          "All records offered have been accepted and listed"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source of acquisition"
+        ],
+        "cy": [
+          "Ffynhonell derbyn"
+        ]
+      },
+      "value": {
+        "none": [
+          "Deposited by a private individual, 2004"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1e5a45e1-ccbd-23ec-d344-8fe2c31f5f7b",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanharan Parish Church - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/4485b44f-bda3-f445-22dd-f52b7aee670f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Welsh Chapel, Llanharan - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ab7bc2d7-2b52-cc83-fb1a-8281021a1344",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Meiros Colliery, Llanharan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ed1a0c76-0442-2e38-b5bd-f5c20bdb7971",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bethlehem Church, Llanharan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/f94b684c-544d-ae60-4380-ce6e4d063df5",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llanilid Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/057e847c-e395-0af0-24dc-8c2d1b6e1f9f",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Rest (for men), Porthcawl"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/48e53aba-376d-739d-dd7f-fbb790d4dbe5",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Church at St. Mary Hill - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5c7f8d55-131e-f77b-c025-4bb6cd5174e9",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Institute, Ogmore Vale"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e6b4f266-357d-79a4-2b04-73064fbf1948",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Institute, Ogmore Vale"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/39b558cc-df8c-95f0-8499-0ea7ed5f30e3",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wesley Church, Ogmore Vale - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1efba09b-bade-a4a9-395c-0e5a3a6717aa",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Nantymoel - Town View"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ab56e15e-5a29-212e-a086-54d4b6e85eec",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Falls at Nantymoel"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3dbbcfca-28de-7568-62d2-35c8a452dec6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Falls at Nantymoel"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1c8075d4-83d8-b11d-1bee-5ed42245209a",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Falls at Nantymoel"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/d3e13595-39e6-7999-1adf-326624e7ae58",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ocean Colliery, Nantymoel"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7ecfe8da-6d97-484b-521d-7cfbbb4a96cb",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Peter's Church, Nantymoel - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fd21336e-ce27-9630-0437-f23bde0758a1",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Council Schools, Nantymoel"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fb907ab3-ffe3-1653-f763-435aca754673",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wyndham Schools, Nantymoel"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fd3e861e-6cee-dc4c-d92d-089ead9b4045",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Commercial Street, Nantymoel"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7599ab01-7a25-3ffa-fd53-6a6d76c1c5a1",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Glynogwr Church, near Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/1caf1498-cc37-3a01-57ef-7302b6ff7cea",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Brynsion Congregational Church, Gilfach Goch - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c7f0dba7-7c3a-b99d-835b-4e0762496135",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Methodist Church, Tonyrefail - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/67934d85-7d8e-135a-14e1-33d79e4b8d71",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. John's Church, Tonyrefail - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/3850ef4d-0713-1772-35a3-54af23f6716c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. David's Church, Tonyrefail - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/b59ae00c-56db-9bf1-7768-71f567fd6bca",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Llangeinor Parish Church - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/fc7fc12c-3fc5-57a6-ad48-622c5d7891be",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Theodore's Church, Pontycymmer - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5bf2d91f-a99b-4713-a836-a2f83a87dde6",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tabernacle, Pontycymmer - Interior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/53732125-d2c7-5cef-0b26-081636b83e8c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Colugh Meadows, Llantwit Major"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/8ba080a6-d60f-82ac-78ac-931b0d27d678",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tressilian, Llantwit Major"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/31b84c41-d615-fe6d-e652-6c4aeaaf3895",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Pigeon House, Llantwit Major"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/82d32cf1-f486-4e97-6828-d795dd547b96",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "St. Donats Church Cross"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/75de3d78-0922-35c1-562d-514e3a872ba3",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Old Hope Baptist Church, Bridgend - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/ca0ac30f-0126-5af3-a12f-daeab74badfa",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "War Memorial, Pontyclun"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/436d1fcc-4dd4-016f-7518-522ef51e8549",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "War Memorial, Pencoed"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/27432937-f30e-b1fe-034e-8ee53f9c6453",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Great War Memorial, Llancarfan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/40514beb-d9f7-bbd9-eccd-ff71b1bdb2c5",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bethlehem Chapel, Llancarfan - Exterior"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/a5aeefd9-c324-0a31-a9d9-d2d074605875",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vicarage, Penmark"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c159aa7a-750e-05f1-5982-b5182f59d65c",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sutton (House), near Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/7c49acb7-8971-ceb1-2f07-f2f14e7fbbda",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "View of Llancarfan"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/e5640bb6-214f-1c26-009d-2b31b8c12730",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wenvoe, Street Scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/c2c050fc-85d2-9e84-ecae-c14e8b3643d8",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wenvoe, Street Scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/5a1bc115-d664-15c7-03de-8d2d02e18509",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wenvoe Castle"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/b7f0f864-e1bd-14ff-2646-e49759f23ed2",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wenvoe, Street Scene"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/62aaf778-ea2d-2728-85e1-d5f891bf5c1e",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Wenvoe Castle"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/df9e1467-1765-03c1-7ab1-d49dd18a36cc",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sutton (House), near Cowbridge"
+        ]
+      }
+    },
+    {
+      "id": "https://digital.epexio.com/glamorgan/manifests/descriptions/b664df50-f166-657b-d3bf-b5e86ac88c59",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "The Great War Memorial, Wenvoe"
+        ]
+      }
+    }
+  ]
+}
