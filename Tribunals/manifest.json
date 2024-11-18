@@ -151,6 +151,12 @@
                             },
                             "on": "https://damsssl.llgc.org.uk/iiif/2.0/4001851/canvas/4001852.json"
                         }
+                    ],
+                    "otherContent": [
+                      {
+                        "@id":"https://nlw-paulm.github.io/Tribunals/ABD-4001851.json",
+                        "@type":"sc:AnnotationList"
+                      }
                     ]
                 },
                 {
@@ -193,6 +199,12 @@
                             },
                             "on": "https://damsssl.llgc.org.uk/iiif/2.0/4001851/canvas/4001853.json"
                         }
+                    ],
+                    "otherContent": [
+                      {
+                        "@id":"https://nlw-paulm.github.io/Tribunals/ABD-4001851.json",
+                        "@type":"sc:AnnotationList"
+                      }
                     ]
                 },
                 {
@@ -235,6 +247,12 @@
                             },
                             "on": "https://damsssl.llgc.org.uk/iiif/2.0/4001851/canvas/4001854.json"
                         }
+                    ],
+                    "otherContent": [
+                      {
+                        "@id":"https://nlw-paulm.github.io/Tribunals/ABD-4001851.json",
+                        "@type":"sc:AnnotationList"
+                      }
                     ]
                 },
                 {
@@ -8580,12 +8598,6 @@
                             },
                             "on": "https://damsssl.llgc.org.uk/iiif/2.0/4001851/canvas/4002053.json"
                         }
-                    ],
-                    "otherContent": [
-                      {
-                        "@id":"https://nlw-paulm.github.io/Tribunals/ABD-4001851.json",
-                        "@type":"sc:AnnotationList"
-                      }
                     ]
                 }
             ]
