@@ -1,0 +1,318 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/collection/botanic-garden-meise",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "Botanic Garden of Meise"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000027109205V/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Acalypha wilmsii Pax ex Prain & Hutch."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000027109243V/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Grewia flava DC."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000027108635V/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dyschoriste rogersii S.Moore"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000027109236V/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Grewia hexamita Burret"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000027108642V/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Grewia bicolor Juss."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000014246722/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Gymnosporia polyacantha Szyszył."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000020155766/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Thunbergia neglecta Sond."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000018021196/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Breonadia salicina (Vahl) Hepper & J.R.I.Wood"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000017306409/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Flueggea virosa (Roxb. ex Willd.) Voigt"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000016755093/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pyrenacantha grandiflora Baill."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000016139374/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Afzelia quanzensis Welw."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000016050501/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chenopodium ambrosioides L."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000015976000/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Homalium dentatum (Harv.) Warb."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000015793928/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Cephalocroton mollis Klotzsch"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000015641397/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Colophospermum mopane (J.Kirk ex Benth.) J.Léonard"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000015641366/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Colophospermum mopane (J.Kirk ex Benth.) J.Léonard"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000015641342/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Colophospermum mopane (J.Kirk ex Benth.) J.Léonard"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000015152923/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Geigeria schinzii subsp. rhodesiana (S.Moore) Merxm."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000015059598/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Combretum hereroense Schinz"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000015015242/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vernonia fastigiata Oliv. & Hiern"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000014830068/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kanahia laniflora (Forssk.) R.Br."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000014763298/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kleinia longiflora DC."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000014060892/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pteleopsis myrtifolia (M.A.Lawson) Engl. & Diels"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000013801205/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Brayulinea densa (Willd.) Small"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000013747367/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Othonna sp."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000013731915/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Hermbstaedtia fleckii (Schinz) Baker & C.B.Clarke"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000013726027/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ozoroa paniculosa (Sond.) R.Fern. & A.Fern."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000013720346/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Lannea schweinfurthii var. stuhlmannii (Engl.) Kokwaro"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000009586857/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Diospyros mespiliformis Hochst. ex A.DC."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000009043503/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ceratotheca triloba (Bernh.) Hook.f."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000009043527/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Combretum apiculatum Sond."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000009043510/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Aptosimum lineare Marloth & Engl."
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000005248285/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Hymenodictyon austro-africanum J. E. & S. M. Burrows"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000005248186/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Gardenia resiniflua Hiern"
+        ]
+      }
+    }
+  ]
+}
