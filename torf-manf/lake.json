@@ -1,21 +1,3159 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://example.org/collection/lake",
-  "type": "Collection",
-  "label": {
-    "en": [
-      "Lake Collection"
-    ]
-  },
-  "items": [
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "label": "Tule Lake Japanese Language Library Collection",
+  "@id": "https://iiif.library.ucla.edu/collections/ark%3A%2F21198%2Fz1qv83mc",
+  "@type": "sc:Collection",
+  "viewingHint": "paged",
+  "manifests": [
     {
-      "id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kt6c08%2Fmanifest",
-      "type": "Manifest",
-      "label": {
-        "en": [
-          "Sample Item"
-        ]
-      }
+      "label": "Adauchi Jōrurizaka | 仇討淨瑠璃坂",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vb43d7%2Fmanifest"
+    },
+    {
+      "label": "Ninin nyōbō",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sn4s2h%2Fmanifest"
+    },
+    {
+      "label": "Niō no ken: ichimei shūyō shijūshichigen | 仁王の拳: 一名修養四十七言",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jb609m%2Fmanifest"
+    },
+    {
+      "label": "Nise Murasaki inaka Genji | 偐紫田舍源氏",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wf3z1m%2Fmanifest"
+    },
+    {
+      "label": "Nishihankyū o megurite | 西半球を巡りて",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1b66563%2Fmanifest"
+    },
+    {
+      "label": "Niwa Fumio senshū, v. 06 | 丹羽文雄選集, v. 06",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kt6c08%2Fmanifest"
+    },
+    {
+      "label": "Niwa Fumio senshū, v. 07 | 丹羽文雄選集, v. 07",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bh28gh%2Fmanifest"
+    },
+    {
+      "label": "Noboru taiyō | 昇る太洋",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wx4sqq%2Fmanifest"
+    },
+    {
+      "label": "Nochi no yo, v. 02 | 後の世, v. 02",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bc9mn5%2Fmanifest"
+    },
+    {
+      "label": "Norakura kurabu | ノラクラ倶楽部",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15n1tt2%2Fmanifest"
+    },
+    {
+      "label": "Nōgyō sekai, v. 30 no. 12 (1935), v. 31 no. 01 (1936) | 農業世界, v. 30 no. 12 (1935), v. 31 no. 01 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11k8x3m%2Fmanifest"
+    },
+    {
+      "label": "Nōgyō sekai, v. 32 no. 15, 17 (1937) | 農業世界, v. 32 no. 15, 17 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wt8djd%2Fmanifest"
+    },
+    {
+      "label": "Nōgyō sekai, v. 33 no. 03 (1938), v. 32 no. 17 (1937) | 農業世界, v. 33 no. 03 (1938), v. 32 no. 17 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1s27nt0%2Fmanifest"
+    },
+    {
+      "label": "Nōgyō sekai, v. 34 no. 01 (1939), v. 35 no. 09, 12 (1940) | 農業世界, v. 34 no. 01 (1939), v. 35 no. 09, 12 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1n96x27%2Fmanifest"
+    },
+    {
+      "label": "Nōgyō sekai, v. 34 no. 05-06 (1939) | 農業世界, v. 34 no. 05-06 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1hn4vrt%2Fmanifest"
+    },
+    {
+      "label": "Nōgyō sekai, v. 36 no. 03, 05 (1941) | 農業世界, v. 36 no. 03, 05 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1cw441w%2Fmanifest"
+    },
+    {
+      "label": "Nōgyō sekai, v. 36 no. 09, 12 (1941) | 農業世界, v. 36 no. 09, 12 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1843cbx%2Fmanifest"
+    },
+    {
+      "label": "Nōgyō, no. 703-704 (1939) | 農業, no. 703-704 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qk73jb%2Fmanifest"
+    },
+    {
+      "label": "Nōgyō, no. 707-709 (1939) | 農業, no. 707-709 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kt6bs5%2Fmanifest"
+    },
+    {
+      "label": "Nōson keizairon | 農村経済論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1ph1c6w%2Fmanifest"
+    },
+    {
+      "label": "Nyonin aika | 女人哀歌",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17d8pjp%2Fmanifest"
+    },
+    {
+      "label": "Nyonin aishi | 女人哀詞",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16n0gsd%2Fmanifest"
+    },
+    {
+      "label": "Nyuipin no kokuhaku | 女兵の告白",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mx2fkj%2Fmanifest"
+    },
+    {
+      "label": "Ochiai, Kaneko-shi chūtō kokugo tokuhon yoshū jisho: maki 1 | 落合・金子氏中等国語読本予習辞書: 巻一",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14809hb%2Fmanifest"
+    },
+    {
+      "label": "Ochiai, Kaneko-shi chūtō kokugo tokuhon yoshū jisho: maki 8 | 落合・金子氏中等国語読本予習辞書: 巻八",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1cp33k6%2Fmanifest"
+    },
+    {
+      "label": "Ochiai, Kaneko-shi chūtō kokugo tokuhon yoshū jisho: maki 9 | 落合・金子氏中等国語読本予習辞書: 巻九",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17x2bt1%2Fmanifest"
+    },
+    {
+      "label": "Ochiba no gotoku: chōhen shōsetsu | 落葉の如く: 長篇小説",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mw9s8z%2Fmanifest"
+    },
+    {
+      "label": "Odoru sakana | おどる魚",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x69kzb%2Fmanifest"
+    },
+    {
+      "label": "Oishiku yasuku tegaru ni dekiru Nihon Shina Seiyō kateiryōri: tsuketari okashi no koshiraekata | 美味しく廉く手軽に出来る日本支那西洋家庭料理: 附お菓子の拵へ方",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dp3z1p%2Fmanifest"
+    },
+    {
+      "label": "Okamoto Kanoko shū | 岡本かの子集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15r4gh2%2Fmanifest"
+    },
+    {
+      "label": "Okuno Tamio kessakushū | 奧野他見男傑作集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1q052sf%2Fmanifest"
+    },
+    {
+      "label": "Omou ga mama ni | 思ふがままに",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1m42t67%2Fmanifest"
+    },
+    {
+      "label": "Onchō no ōkoku | 恩寵の王国",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1pm02qj%2Fmanifest"
+    },
+    {
+      "label": "Onna o toraete | 女を捉へて",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18m733t%2Fmanifest"
+    },
+    {
+      "label": "Onna yo otoko o sabake | 女よ男を裁け",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17m638c%2Fmanifest"
+    },
+    {
+      "label": "Onnadoraku | 女道楽",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11w51h6%2Fmanifest"
+    },
+    {
+      "label": "Opera no kōgai | ヲペラの梗概",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sk1cj0%2Fmanifest"
+    },
+    {
+      "label": "Oppunhaimu shū | オップンハイム集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1cc6nvf%2Fmanifest"
+    },
+    {
+      "label": "Orivā Tsuisuto | オリヴア－・ツウイスト",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sg2gpc%2Fmanifest"
+    },
+    {
+      "label": "Osanaki tomo e | 幼き友へ",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1f24xqq%2Fmanifest"
+    },
+    {
+      "label": "Osaragi Jirō shū | 大仏次郎集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1zs8qsj%2Fmanifest"
+    },
+    {
+      "label": "Oshaku | 雛妓",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1j73b7p%2Fmanifest"
+    },
+    {
+      "label": "Otome techō | 乙女手帖",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16x55cz%2Fmanifest"
+    },
+    {
+      "label": "Ō Edo no omoide | 大江戶の思出",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11d1hcv%2Fmanifest"
+    },
+    {
+      "label": "Ō Henrī tanpenshū | オー・ヘンリー短篇集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1f865fv%2Fmanifest"
+    },
+    {
+      "label": "Ō-Bei ifujinden | 欧米偉婦人伝",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15f4dzz%2Fmanifest"
+    },
+    {
+      "label": "Ōbantō kobantō | 大番頭小番頭",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1936nhk%2Fmanifest"
+    },
+    {
+      "label": "Ōbei yori kokoku o",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bg754b%2Fmanifest"
+    },
+    {
+      "label": "Ōkami no ongaeshi | 狼の恩返し",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1b33pnz%2Fmanifest"
+    },
+    {
+      "label": "Ōkuma-haku hyakuwa | 大隈伯百話",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1nw9gm1%2Fmanifest"
+    },
+    {
+      "label": "Ōnishi Hakushi zenshū, v. 01 | 大西搏士全集, v. 01",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19m48n7%2Fmanifest"
+    },
+    {
+      "label": "Ōshū bijutsu junreiki | 欧州美術巡礼記",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vf47jq%2Fmanifest"
+    },
+    {
+      "label": "Ōtani Kōzui zenshū, v. 09 | 大谷光瑞全集, v. 09",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jx86tf%2Fmanifest"
+    },
+    {
+      "label": "Pari rōjō nisshi: kyūmei \"Hōfu sensō shiryaku\" | 巴里籠城日誌: 旧名「法普戦争誌略」",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gn7tt4%2Fmanifest"
+    },
+    {
+      "label": "Pekin | 北京",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14n8r18%2Fmanifest"
+    },
+    {
+      "label": "Penjiiri kōtō joshi shokanbun | ペン字入高等女子書翰文",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1d894cc%2Fmanifest"
+    },
+    {
+      "label": "Pieru to Jan | ピエルとジヤン",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18t4nbh%2Fmanifest"
+    },
+    {
+      "label": "Pītā Pan | ピータァ・パン",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1523wkn%2Fmanifest"
+    },
+    {
+      "label": "Poketto kaisha yōran | ポケット会社要覧",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1p657s8%2Fmanifest"
+    },
+    {
+      "label": "Pō hyōden | ポオ評伝",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1300zds%2Fmanifest"
+    },
+    {
+      "label": "Purebusu keizaigaku | プレブス経済学",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz13s0kpr%2Fmanifest"
+    },
+    {
+      "label": "Rakugo zenshū, v. 02 | 落語全集, v. 02",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15n5s46%2Fmanifest"
+    },
+    {
+      "label": "Red love",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1131n0g%2Fmanifest"
+    },
+    {
+      "label": "Redī obu za reiku | レディ・オブ・ザ・レイク",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kt6jgm%2Fmanifest"
+    },
+    {
+      "label": "Reikai ijin kaikyoroku | 霊界偉人快挙録",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x40kk9%2Fmanifest"
+    },
+    {
+      "label": "Reikon no yukusaki | 霊魂のゆくさき",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16x9404%2Fmanifest"
+    },
+    {
+      "label": "Rekishi kōwa | 歷史講話",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tn7423%2Fmanifest"
+    },
+    {
+      "label": "Ren'ai tokuhon | 恋愛読本",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x73dtj%2Fmanifest"
+    },
+    {
+      "label": "Renju hisshōhō: gomoku narabe no yarikata to kachikata | 連珠必勝法: 五目並べの遣方と勝方",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1p081jq%2Fmanifest"
+    },
+    {
+      "label": "Rennyo Shōnin | 蓮如上人",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10w809x%2Fmanifest"
+    },
+    {
+      "label": "Rentanjutsu | 錬胆術",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1289txq%2Fmanifest"
+    },
+    {
+      "label": "Return Light Fraternity / Colma, California, U.S.A.",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15q9c4f%2Fmanifest"
+    },
+    {
+      "label": "Rikon seru shijūonna no omoikitta kokuhaku | 離婚せる四十女の思ひ切った告白",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kt6q1v%2Fmanifest"
+    },
+    {
+      "label": "Rinjin yawa | 隣人夜話",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1228p3v%2Fmanifest"
+    },
+    {
+      "label": "Risō no yōchien: ikani sureba hoiku no risō wa jissaika sarerudeshō ka?? | 理想の幼稚園: いかにすれば保育の理想は実際化されるでしょうか??",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1md4zms%2Fmanifest"
+    },
+    {
+      "label": "Risshi funtō monogatari | 立志奮闘物語",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tr5zzz%2Fmanifest"
+    },
+    {
+      "label": "Risshin no kiso | 立身の基礎",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wj2gwp%2Fmanifest"
+    },
+    {
+      "label": "Risshin zayūmei | 立身座右銘",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11d1ptr%2Fmanifest"
+    },
+    {
+      "label": "Robinson Kurūsō | ロビンソン・クルーソー",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1zd3x8m%2Fmanifest"
+    },
+    {
+      "label": "Rohan sōsho, v. 01 | 露伴叢書, v. 01",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1zw8vwk%2Fmanifest"
+    },
+    {
+      "label": "Rokkuferā den | ロックフェラー傳",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rp31tx%2Fmanifest"
+    },
+    {
+      "label": "Ronbun oyobi kashū | 倫文及歌集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1997tgn%2Fmanifest"
+    },
+    {
+      "label": "Ronrigaku yōgi | 論理学要義",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jj0w5c%2Fmanifest"
+    },
+    {
+      "label": "Ronrigaku | 論理学",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1095rnh%2Fmanifest"
+    },
+    {
+      "label": "Roshia shi | 露西亜史",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11s2cnz%2Fmanifest"
+    },
+    {
+      "label": "Rōdō mondai no chishiki | 労働問題の知識",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gr6j9r%2Fmanifest"
+    },
+    {
+      "label": "Rōshi o shite kyō ni arashimeba | 老子をして今日に在らしめば",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qg8ddm%2Fmanifest"
+    },
+    {
+      "label": "Rubaiyatto | ルバイヤット",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1h230f6%2Fmanifest"
+    },
+    {
+      "label": "Ruka den fukuinsho | ルカ傳福音書",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10677t8%2Fmanifest"
+    },
+    {
+      "label": "Ryojō | 旅情",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1t78brs%2Fmanifest"
+    },
+    {
+      "label": "Ryokui no seibo | 緑衣の聖母",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1034kvp%2Fmanifest"
+    },
+    {
+      "label": "Ryōri sōdan | 料理相談",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1hn4vzh%2Fmanifest"
+    },
+    {
+      "label": "Saigyō Hōshi hyōden | 西行法師評傳",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mq4pst%2Fmanifest"
+    },
+    {
+      "label": "Saikin no Kankoku | 最近の韓国",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vr3117%2Fmanifest"
+    },
+    {
+      "label": "Saikin rinri gakusetsu no kenkyū  | 最近倫理学説の研究",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1483x8s%2Fmanifest"
+    },
+    {
+      "label": "Saikisu tasuku: zokushin to shakai seido | サイキス・タスク: 俗信と社会制度",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gg0dts%2Fmanifest"
+    },
+    {
+      "label": "Saisan no shikata | 採算の仕方",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17x5zhk%2Fmanifest"
+    },
+    {
+      "label": "Saishin Eibun wayaku no yōryō | 最新英文和譯の要領",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1hr3kh1%2Fmanifest"
+    },
+    {
+      "label": "Saishin Shina ryokō annai | 最新支那旅行案内",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dp3rkc%2Fmanifest"
+    },
+    {
+      "label": "Saishin engeika hōten, v.34 no.01 suppl. (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18h32st%2Fmanifest"
+    },
+    {
+      "label": "Saishin kenkyū seiyō shiron | 最新研究西洋史論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15n5s80%2Fmanifest"
+    },
+    {
+      "label": "Saishin kogata shashinjutsu | 最新小型写真術",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jf4h93%2Fmanifest"
+    },
+    {
+      "label": "Saishin ōtobai zensho | 最新オートバイ全書",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1nm36w8%2Fmanifest"
+    },
+    {
+      "label": "Saishin shōyō eibun tegami hōten | 最新商用英文手紙宝典",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1203x8d%2Fmanifest"
+    },
+    {
+      "label": "Saishinshiki kinsei shōgyō boki | 最新式近世商業簿記",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1f57g4w%2Fmanifest"
+    },
+    {
+      "label": "Saiyūki | 西遊記",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15r252r%2Fmanifest"
+    },
+    {
+      "label": "Saku to hyōron | 作と評論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1r30mx9%2Fmanifest"
+    },
+    {
+      "label": "Sandē mainichi, v. 19 no. 44 (1940) | サンデー每日, v. 19 no. 44 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1nt0sch%2Fmanifest"
+    },
+    {
+      "label": "Sangaku seifuku bōkenki | 山岳征服冒険記",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rp0j07%2Fmanifest"
+    },
+    {
+      "label": "Sangokuichi no hanayomesama wa | 三国一の花嫁樣は",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gv5f21%2Fmanifest"
+    },
+    {
+      "label": "Sangyō gōdōron | 產業合同論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1329nwf%2Fmanifest"
+    },
+    {
+      "label": "Sanjutsu no hanashi | 算術の話",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k45s1d%2Fmanifest"
+    },
+    {
+      "label": "Sasaki Kuni zenshū, v. 01 | 佐々木邦全集, v. 01",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mq0rcr%2Fmanifest"
+    },
+    {
+      "label": "Sasaki Kuni zenshū, v. 02 | 佐々木邦全集, v. 02",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gz00nd%2Fmanifest"
+    },
+    {
+      "label": "Satsu no kaigun Chō no rikugun | 薩の海軍長の陸軍",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jq6p30%2Fmanifest"
+    },
+    {
+      "label": "Sei",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wd8gm0%2Fmanifest"
+    },
+    {
+      "label": "Sei ni mezameru koro | 性に眼覚める頃",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x426fq%2Fmanifest"
+    },
+    {
+      "label": "Sei ni mezameru koro: Murō Saisei sōsakushū | 性に眼覚める頃: 室生犀星創作集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18d9grk%2Fmanifest"
+    },
+    {
+      "label": "Sei o toshite | 生を賭して",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1j778vf%2Fmanifest"
+    },
+    {
+      "label": "Seifu | 政府",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10w8071%2Fmanifest"
+    },
+    {
+      "label": "Seiji keizai kōgi, v. 10 | 政治経済講義, v. 10",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1j201px%2Fmanifest"
+    },
+    {
+      "label": "Seiji keizai kōgi, v. 13 | 政治経済講義, v. 13",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1q33kgw%2Fmanifest"
+    },
+    {
+      "label": "Seiji keizai kōgi, v. 14 | 政治経済講義, v. 14",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1d898x6%2Fmanifest"
+    },
+    {
+      "label": "Seijin kyōiku | 成人教育",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1329tcs%2Fmanifest"
+    },
+    {
+      "label": "Seikaku handanhō | 性格判断法",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gg0mgs%2Fmanifest"
+    },
+    {
+      "label": "Seikatsu tenkō jitsuwa: Okkusufōdo Grūpu undō shōkai | 生活轉向実話: オックスフォード・グループ運動紹介",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17t7fpb%2Fmanifest"
+    },
+    {
+      "label": "Seikatsu to bungaku | 生活と文学",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sz60qc%2Fmanifest"
+    },
+    {
+      "label": "Seikatsu to eichi | 生活と叡智",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dk57kw%2Fmanifest"
+    },
+    {
+      "label": "Seiken iketsu monogatari | 聖賢偉傑物語",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1m71hqw%2Fmanifest"
+    },
+    {
+      "label": "Seiki no shihaisha hāsuto | 世紀の支配者ハースト",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18x30nb%2Fmanifest"
+    },
+    {
+      "label": "Seikō no jiki: ningen banji nijūnen | 成功の時機: 人間万事二十年",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1746bhk%2Fmanifest"
+    },
+    {
+      "label": "Seimei no kagaku | 生命の科学",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1164fjb%2Fmanifest"
+    },
+    {
+      "label": "Seimei no kanmuri | 生命の冠",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1z093gh%2Fmanifest"
+    },
+    {
+      "label": "Seimei no michi e: Eden yori Eden ni | 生命の路: エデンよりエデンへ",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x15th5%2Fmanifest"
+    },
+    {
+      "label": "Seimei | 生命",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kx57wx%2Fmanifest"
+    },
+    {
+      "label": "Seinen kōwa: Shūyō risshi | 青年講話: 修養立志",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1v79bjs%2Fmanifest"
+    },
+    {
+      "label": "Seinen kunren shinsen kokugo tokuhon: kan 1 | 青年訓練新撰国語読本: 巻一",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1q58p7k%2Fmanifest"
+    },
+    {
+      "label": "Seishi kentō | 静思健闘",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k45mg5%2Fmanifest"
+    },
+    {
+      "label": "Seisho jinbutsu no kyōkun | 聖書の人物の教訓",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wt8dsj%2Fmanifest"
+    },
+    {
+      "label": "Seishōnen daihyakka hōten | 青少年大百科宝典",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19h5drk%2Fmanifest"
+    },
+    {
+      "label": "Seishun wa uruwashi: hoka ippen | 青春は美し: 他一篇",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10361hb%2Fmanifest"
+    },
+    {
+      "label": "Seishun | 青春",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qk73r1%2Fmanifest"
+    },
+    {
+      "label": "Seiyō ijinden | 西洋偉人伝",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mq128h%2Fmanifest"
+    },
+    {
+      "label": "Sekai Taisen shi, 1914-1918, v. 01 | 世界大戰史, 一九一四年--一九一八年, v. 01",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rc6r0w%2Fmanifest"
+    },
+    {
+      "label": "Sekai dōchū kaban no chiri | 世界道中かばんの塵",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1s852vq%2Fmanifest"
+    },
+    {
+      "label": "Sekai dōwashū: rokunensei | 世界童話集: 六年生",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12v89g5%2Fmanifest"
+    },
+    {
+      "label": "Sekai kobanashi: kaigyaku | 世界小話: 諧謔",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kf1jfg%2Fmanifest"
+    },
+    {
+      "label": "Sekai kōgei bijutsu monogatari | 世界工芸美術物語",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1hx7bpm%2Fmanifest"
+    },
+    {
+      "label": "Sekai man'yū annai | 世界漫遊案內",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x44j17%2Fmanifest"
+    },
+    {
+      "label": "Sekai ni okeru Meiji Tennō | 世界に於ける明治天皇",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bm0zq6%2Fmanifest"
+    },
+    {
+      "label": "Sekai no henkyoku | 世界の変局",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1620kpf%2Fmanifest"
+    },
+    {
+      "label": "Sekai o aruku",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1cg4678%2Fmanifest"
+    },
+    {
+      "label": "Sekai o ie to shite | 世界を家として",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gc1wx8%2Fmanifest"
+    },
+    {
+      "label": "Sekaiteki gendaikun | 世界的現代訓",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sp02vz%2Fmanifest"
+    },
+    {
+      "label": "Sekirōjō hitan, shissō fujin | 赤狼城秘譚・失踪夫人",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1106pq5%2Fmanifest"
+    },
+    {
+      "label": "Sekkyō kōen jitsuen shinshiryō | 説教講演実演新資料",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11930bx%2Fmanifest"
+    },
+    {
+      "label": "Semi: zuihitsushū | 蝉: 隨筆集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12p2b7f%2Fmanifest"
+    },
+    {
+      "label": "Sen, Man, Shi no hatsutabi nira no nioi | 鮮滿支の初旅韮の匂ひ",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1r881rs%2Fmanifest"
+    },
+    {
+      "label": "Sengo no rekkyō: tsuketari shidō to shōgyō | 戦後の列強: 附, 士道と商業",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1q62956%2Fmanifest"
+    },
+    {
+      "label": "Senkyo seido ron | 選挙制度論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17j14xq%2Fmanifest"
+    },
+    {
+      "label": "Senpūri no Ōbei | 旋風裡の欧米",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11h06mx%2Fmanifest"
+    },
+    {
+      "label": "Senrigan",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17q3fj0%2Fmanifest"
+    },
+    {
+      "label": "Senshinroku | 洗心錄",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12p4nrn%2Fmanifest"
+    },
+    {
+      "label": "Sensō to zaisan | 戦争と財產",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1843cjm%2Fmanifest"
+    },
+    {
+      "label": "Setsurei meisaku senshū: gendai bungō | 雪嶺名作選集: 現代文豪",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11k8xbr%2Fmanifest"
+    },
+    {
+      "label": "Sevira no rihatsushi | セヴィラの理髪師",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jq890v%2Fmanifest"
+    },
+    {
+      "label": "Shaka no shōgai to shisō | 釈迦の生涯と思想",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14r7ms4%2Fmanifest"
+    },
+    {
+      "label": "Shakai hōshi no shikata | 社会奉仕の仕方",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10m1w41%2Fmanifest"
+    },
+    {
+      "label": "Shakai no dōyō to seishinteki kakusei | 社会の動揺と精神的覚醒",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xt34f5%2Fmanifest"
+    },
+    {
+      "label": "Shakaikun | 社会訓",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1386w0m%2Fmanifest"
+    },
+    {
+      "label": "Shakairyoku | 社会力",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bd17nx%2Fmanifest"
+    },
+    {
+      "label": "Shashin geijutsu no hyōgen | 写真芸術の表現",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1523jhm%2Fmanifest"
+    },
+    {
+      "label": "Shashin geppō, v. 28 no. 06 (1923) | 写真月報, v. 28 no. 06 (1923)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19h5k9t%2Fmanifest"
+    },
+    {
+      "label": "Shigo ni reikon nashi: shūkyō mondai no gendaiteki na kaisetsu | 死後に霊魂なし: 宗教問題の現代的な解説",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1p36wks%2Fmanifest"
+    },
+    {
+      "label": "Shigosen nanboku | 子午線南北",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1j77379%2Fmanifest"
+    },
+    {
+      "label": "Shihan kyōka heimen kika: tsuketari sanjutsu | 師範教科平面幾何 : 附算術",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1nh0cst%2Fmanifest"
+    },
+    {
+      "label": "Shijō bunseki | 市場分析",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kq3q7c%2Fmanifest"
+    },
+    {
+      "label": "Shikei yori muzai e: saiban monogatari  | 死刑より無罪へ: 裁判物語",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1fc4vsw%2Fmanifest"
+    },
+    {
+      "label": "Shiki no heika sashikata, v.1",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12z5nm0%2Fmanifest"
+    },
+    {
+      "label": "Shikiji enzetsu taikan | 式辞演説大観",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18h8ckr%2Fmanifest"
+    },
+    {
+      "label": "Shima no aki | 島の秋",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sc013k%2Fmanifest"
+    },
+    {
+      "label": "Shimaki Kensaku shū | 島木健作集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19h579p%2Fmanifest"
+    },
+    {
+      "label": "Shimizu no sanjutsu: saikin no nyūgaku shiken mondai to kyōkasho to o moto toshita jitsuryoku yōsei | 清水の算術: 最近の入学試験問題と敎科書を基とした実力養成",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14b90zj%2Fmanifest"
+    },
+    {
+      "label": "Shimomura Etsuo shū | 下村悦夫集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1c021cd%2Fmanifest"
+    },
+    {
+      "label": "Shin dōwa tokuhon: sannensei | 新童話読本: 三年生",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19d2wdq%2Fmanifest"
+    },
+    {
+      "label": "Shin fūfu nikki: kaigyaku shōsetsu | 新夫婦日記: 諧謔小説",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kq5b5p%2Fmanifest"
+    },
+    {
+      "label": "Shin jidō tokuhon: kagai kyōshitsu | 新児童読本: 課外教室",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11s2pks%2Fmanifest"
+    },
+    {
+      "label": "Shin joen, 1940 no. 01 | 新女苑, 1940 no. 01",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rk44wd%2Fmanifest"
+    },
+    {
+      "label": "Shin joen, 1940 no. 04 | 新女苑, 1940 no. 04",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mt3d70%2Fmanifest"
+    },
+    {
+      "label": "Shin joen, 1940 no. 07 | 新女苑, 1940 no. 07",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1h22nfp%2Fmanifest"
+    },
+    {
+      "label": "Shin joen, 1940 no. 08 | 新女苑, 1940 no. 08",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1c91wph%2Fmanifest"
+    },
+    {
+      "label": "Shin keshōhō, seiyō igaku | 新化粧法・整容医学",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1135km7%2Fmanifest"
+    },
+    {
+      "label": "Shin ren'airon | 新恋愛論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14g1b7m%2Fmanifest"
+    },
+    {
+      "label": "Shin uzumaki: shōsetsu. Mitsuko no maki | 新渦巻: 小説. 光子の巻",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16m8vxf%2Fmanifest"
+    },
+    {
+      "label": "Shin yaku Seisho: fuhyō | 新約聖書: 符標",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x73dzb%2Fmanifest"
+    },
+    {
+      "label": "Shin'yaku monogatari | 新約物語",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1g83c4g%2Fmanifest"
+    },
+    {
+      "label": "Shina yon oku no okyakusama: zen yaku | 支那四億のお客さま: 全訳",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1h22twk%2Fmanifest"
+    },
+    {
+      "label": "Shinchō, v. 38 no. 02 (1941) | 新潮, v. 38 no. 02 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mt3d19%2Fmanifest"
+    },
+    {
+      "label": "Shingaku shūyō monogatari | 心学修養物語",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1161s4z%2Fmanifest"
+    },
+    {
+      "label": "Shinka no hanashi, v. 01 | 進化の話, v. 01",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gv57n5%2Fmanifest"
+    },
+    {
+      "label": "Shinkaron kōwa | 進化論講話",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rg5n26%2Fmanifest"
+    },
+    {
+      "label": "Shinkō ijin gunzō | 信仰偉人群像",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14n8r35%2Fmanifest"
+    },
+    {
+      "label": "Shinkō wa kaku shite erareru | 信仰は斯くして得られる",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mx295h%2Fmanifest"
+    },
+    {
+      "label": "Shinkyoku: Dante | 神曲: ダンテ",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dg6j44%2Fmanifest"
+    },
+    {
+      "label": "Shinpen botchan | 新編坊つちやん",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1r848jg%2Fmanifest"
+    },
+    {
+      "label": "Shinpen shokan bunrei | 新編書簡文例",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10d4nqt%2Fmanifest"
+    },
+    {
+      "label": "Shinsaikun: konrei no maki | 新細君: 婚禮の卷",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tb8gxq%2Fmanifest"
+    },
+    {
+      "label": "Shinsei joshi kokugo tokuhon | 新制女子国語読本",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tv0qjt%2Fmanifest"
+    },
+    {
+      "label": "Shinsei, v. 01 | 新生, v. 01",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mt12rt%2Fmanifest"
+    },
+    {
+      "label": "Shinsei, v. 02 | 新生, v. 02",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1h20b0c%2Fmanifest"
+    },
+    {
+      "label": "Shinsen Mori Ōgai shū | 新選森鷗外集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1w16fwm%2Fmanifest"
+    },
+    {
+      "label": "Shinsen Uno Chiyo shū | 新選宇野千代集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15b9p0k%2Fmanifest"
+    },
+    {
+      "label": "Shinsen Uno Kōji shū | 新選宇野浩二集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sr8sf0%2Fmanifest"
+    },
+    {
+      "label": "Shinsen Yoshida Genjirō shū, v. 02 | 新選吉田絃二郎集, v. 02",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1067dch%2Fmanifest"
+    },
+    {
+      "label": "Shinsen daini shōnen tokuhon dokuannai | 新撰第二少年読本独案内",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1z70fzx%2Fmanifest"
+    },
+    {
+      "label": "Shinsen daisan shōnen tokuhon hotori annai | 新撰第参少年読本独案内",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19655pp%2Fmanifest"
+    },
+    {
+      "label": "Shinshiki jitsuyō daisūgaku kyōkasho | 新式実用代数学教科",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kd7xgd%2Fmanifest"
+    },
+    {
+      "label": "Shinshin sakkashū | 新進作家集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz13j9787%2Fmanifest"
+    },
+    {
+      "label": "Shinshun | 新春",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1h807r2%2Fmanifest"
+    },
+    {
+      "label": "Shinyaku seisho ryakuchū | 新約聖書略註",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sr8ks0%2Fmanifest"
+    },
+    {
+      "label": "Shiroki te no hitobito | 白き手の人々",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1131frv%2Fmanifest"
+    },
+    {
+      "label": "Shishigari no hito, hoka ni-hen | 獅子狩の人, 他二篇",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14r7fb7%2Fmanifest"
+    },
+    {
+      "label": "Shitoteki shūkyō | 使徒的宗教",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gz3z2h%2Fmanifest"
+    },
+    {
+      "label": "Shizen to jinsei | 自然と人生",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x44qcs%2Fmanifest"
+    },
+    {
+      "label": "Shizen to shūkyō | 自然と宗教",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1zw781z%2Fmanifest"
+    },
+    {
+      "label": "Shizenkai to ningenkai | 自然界と人間界",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mt3knf%2Fmanifest"
+    },
+    {
+      "label": "Shizukanaru tsuchi | 静かなる土",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1839mbr%2Fmanifest"
+    },
+    {
+      "label": "Shogaku Eigo dokushū shinsho | 初学英語独修新書",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tf9q9z%2Fmanifest"
+    },
+    {
+      "label": "Shokanshū mokuroku (tsuketari Ishikawa Takuboku nenpu) | 書簡集目錄 (附石川啄木年譜)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x44hzx%2Fmanifest"
+    },
+    {
+      "label": "Shokudōraku: zōho chūshaku, natsu no maki | 食道楽: 増補注釈, 夏の巻",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16v0dp9%2Fmanifest"
+    },
+    {
+      "label": "Shokumin seisaku hanron | 殖民政策汎論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rz8zdc%2Fmanifest"
+    },
+    {
+      "label": "Shosei jōshiki hōten | 処世常識宝典",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1pk649x%2Fmanifest"
+    },
+    {
+      "label": "Shoseikun | 処世訓",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1b956jn%2Fmanifest"
+    },
+    {
+      "label": "Shoshinbun sakuhō | 書信文作法",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14z51nm%2Fmanifest"
+    },
+    {
+      "label": "Shotō Eigo kaiwa no dai ippo | 初等英語会話の第一步",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12c8r0f%2Fmanifest"
+    },
+    {
+      "label": "Shōgaku kokugo tokuhon jishūsho: jinjō yogakunen, zenki | 小学国語読本自修書: 尋常四学年, 前期",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1548n89%2Fmanifest"
+    },
+    {
+      "label": "Shōgi no kyūsho: Komaochi hen | 将棋の急所: 駒落篇",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1hb8z2h%2Fmanifest"
+    },
+    {
+      "label": "Shōgitai senshi | 彰義隊戦史",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1ck8688%2Fmanifest"
+    },
+    {
+      "label": "Shōgyō eisakubun kōgi: kaitei, v. 01 | 商業英作文講義: 改訂, v. 01",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1g520cn%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 10 no. 12 (1932) | 少女倶楽部, v. 10 no. 12 (1932)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mh3hv6%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 11 no. 05 (1933) | 少女倶楽部, v. 11 no. 05 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14b8vpx%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 11 no. 07 (1933) | 少女倶楽部, v. 11 no. 07 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10k83x4%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 11 no. 08 (1933) | 少女倶楽部, v. 11 no. 08 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vt7mg9%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 11 no. 09 (1933) | 少女倶楽部, v. 11 no. 09 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1r55k5m%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 12 no. 01 (1934) | 少女倶楽部, v. 12 no. 01 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1md4tdf%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 12 no. 02, suppl. (1934) | 少女倶楽部, v. 12 no. 02, suppl. (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz13c1tj3%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 12 no. 03 (1934) | 少女倶楽部, v. 12 no. 03 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gn42m6%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 12 no. 05 (1934) | 少女倶楽部, v. 12 no. 05 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bw3b07%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 12 no. 07 (1934) | 少女倶楽部, v. 12 no. 07 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1742k98%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 12 no. 10, suppl. (1934) | 少女倶楽部, v. 12 no. 10, suppl. (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1zm1b26%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 13 no. 04, suppl. (1935) | 少女倶楽部, v. 13 no. 04, suppl. (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tx98sp%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 13 no. 06 (1935) | 少女倶楽部, v. 13 no. 06 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1q58j17%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 13 no. 06, suppl. (1935) | 少女倶楽部, v. 13 no. 06, suppl. (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kd7s7m%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 13 no. 11 (1935) | 少女倶楽部, v. 13 no. 11 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1fn71jq%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 14 no. 03, suppl. (1936) | 少女倶楽部, v. 14 no. 03, suppl. (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19w68vf%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 14 no. 07, suppl. (1936) | 少女倶楽部, v. 14 no. 07, suppl. (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1645j30%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 14 no. 08, suppl. (1936) | 少女倶楽部, v. 14 no. 08, suppl. (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12c4sc8%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 14 no. 11 (1936) | 少女倶楽部, v. 14 no. 11 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xq309p%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15 no. 01 (1937) | 少女倶楽部, v. 15 no. 01 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sz27jh%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15 no. 03 (1937) | 少女倶楽部, v. 15 no. 03 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1p61gt3%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15 no. 03, suppl. (1937) | 少女倶楽部, v. 15 no. 03, suppl. (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jf0r3s%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15 no. 04 (1937) | 少女倶楽部, v. 15 no. 04 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dp00dw%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15 no. 05 (1937) | 少女倶楽部, v. 15 no. 05 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18w97n5%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15 no. 06 (1937) | 少女倶楽部, v. 15 no. 06 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1548gz6%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15 no. 09, suppl. (1937) | 少女倶楽部, v. 15 no. 09, suppl. (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11g6fn6%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15 no. 10 (1937) | 少女倶楽部, v. 15 no. 10 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wq5z5x%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15 no. 13 (1937) | 少女倶楽部, v. 13 no. 10 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rz56d4%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15 no. 14 (1937) | 少女倶楽部, v. 15 no. 14 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1n64frm%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15, n. 02",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tn1t7b%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 15, n. 07",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1pw12gj%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 16 no. 01 (1938) | 少女倶楽部, v. 16 no. 01 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1hf3q2r%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 16 no. 05 (1938) | 少女倶楽部, v. 16 no. 05 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1cp2z9k%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 16 no. 14 (1938) | 少女倶楽部, v. 16 no. 14 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17x26hb%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 17 no. 01 (1939) | 少女倶楽部, v. 17 no. 01 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1480573%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 17 no. 02 (1939) | 少女倶楽部, v. 17 no. 02 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10g9dht%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 17 no. 03 (1939) | 少女倶楽部, v. 17 no. 03 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vq8wz7%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 17 no. 04 (1939) | 少女倶楽部, v. 17 no. 04 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qz8596%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 17 no. 06 (1939) | 少女倶楽部, v. 17 no. 06 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1m67dm7%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 17 no. 08 (1939) | 少女倶楽部, v. 17 no. 08 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gf6nwh%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 17 no. 10 (1939) | 少女倶楽部, v. 17 no. 10 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bp5x56%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 17 no. 11 (1939) | 少女倶楽部, v. 17 no. 11 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1713vs6%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 17 no. 12 (1939) | 少女倶楽部, v. 17 no. 12 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz138341t%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 18 no. 03 (1940) | 少女倶楽部, v. 18 no. 03 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1zh2mj4%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 18 no. 06 (1940) | 少女倶楽部, v. 18 no. 06 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tr1vvv%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 18 no. 11 (1940) | 少女倶楽部, v. 18 no. 11 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1q0145p%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 19 no. 01 (1941) | 少女倶楽部, v. 19 no. 01 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k70cfz%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 19 no. 03 (1941) | 少女倶楽部, v. 19 no. 03 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1ff9mqp%2Fmanifest"
+    },
+    {
+      "label": "Shōjo kurabu, v. 19 no. 06 (1941) | 少女倶楽部, v. 19 no. 06 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19s7kc7%2Fmanifest"
+    },
+    {
+      "label": "Shōkōjo | 小公女",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16m925f%2Fmanifest"
+    },
+    {
+      "label": "Shōkōshi | 小公子",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17h7hj8%2Fmanifest"
+    },
+    {
+      "label": "Shōnan ikō | 小楠遺稿",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1426vgq%2Fmanifest"
+    },
+    {
+      "label": "Shōnen ijin tokuhon: Ninomiya Sontoku, Nakae Tōju | 少年偉人読本: 二宮尊德, 中江藤樹",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz199462p%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 20, n. 10",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k409r4%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 26 no. 04 (1939) | 少年倶楽部, v. 26 no. 04 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1034dmg%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 27 no. 07 (1940) | 少年倶楽部, v. 27 no. 07 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vb3x5n%2Fmanifest"
+    },
+    {
+      "label": "Shōsōin gyobutsu tokubetsu tenkan mokuroku | 正倉院御物特別展観目錄",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1hv2g5z%2Fmanifest"
+    },
+    {
+      "label": "Shōten kigyō gōdō no jissai: Nihon shōgyō no saihensei | 商店街企業合同の実際: 日本商業の再編成",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dw15fv%2Fmanifest"
+    },
+    {
+      "label": "Shōwa dōinrei | 昭和動員令",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz13n7xsh%2Fmanifest"
+    },
+    {
+      "label": "Shōwa kaji kyōkasho: gekan | 昭和家事教科書: 下巻",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1cz8wb7%2Fmanifest"
+    },
+    {
+      "label": "Shu no kigen | 種の起源",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1np7shk%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 15 no. 12 (1931) | 主婦の友, v. 15 no. 12 (1931)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1r570v9%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 16 no. 02 (1932) | 主婦の友, v. 16 no. 02 (1932)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1md6840%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 16 no. 04 (1932) | 主婦の友, v. 16 no. 04 (1932)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gn5hd8%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 16 no. 05 (1932) | 主婦の友, v. 16 no. 05 (1932)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bw4rq0%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 16 no. 06 (1932) | 主婦の友, v. 16 no. 06 (1932)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz174410c%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 16 no. 11 (1932) | 主婦の友, v. 16 no. 11 (1932)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz13c3876%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 17 no. 02 (1933) | 主婦の友, v. 17 no. 02 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1zm2rsz%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 17 no. 02, suppl. (1933) | 主婦之友, v. 17 no. 02, suppl. (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz13v5580%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 17 no. 03 (1933) | 主婦の友, v. 17 no. 03 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tz0qgz%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 17 no. 04 (1933) | 主婦の友, v. 17 no. 04 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1q59zr0%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 17 no. 05 (1933) | 主婦の友, v. 17 no. 05 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kd9712%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 17 no. 06 (1933) | 主婦の友, v. 17 no. 06 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1fn8g8w%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 17 no. 10 (1933) | 主婦の友, v. 17 no. 10 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19w7qj5%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 17 no. 12 (1933) | 主婦の友, v. 17 no. 12 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1646zs9%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 18 no. 01 (1934) | 主婦の友, v. 18 no. 01 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12c673t%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 18 no. 02 (1934) | 主婦の友, v. 18 no. 02 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xq4f1v%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 18 no. 03 (1934) | 主婦の友, v. 18 no. 03 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sz3pbk%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 18 no. 05 (1934) | 主婦の友, v. 18 no. 05 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1p62xm5%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 18 no. 11, suppl. (1934) | 主婦の友, v. 18 no. 11, suppl. (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jf25vc%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 18 no. 12 (1934) | 主婦の友, v. 18 no. 12 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dp1f42%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 19 no. 01 (1935) | 主婦の友, v. 19 no. 01 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18x0pcw%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 19 no. 04 (1935) | 主婦の友, v. 19 no. 04 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1549xqt%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 19 no. 05 (1935) | 主婦の友, v. 19 no. 05 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11g7wbx%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 19 no. 06 (1935) | 主婦の友, v. 19 no. 06 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wq7cw2%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 19 no. 08 (1935) | 主婦の友, v. 19 no. 08 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rz6n66%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 19 no. 10 (1935) | 主婦の友, v. 19 no. 10 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1n65wgs%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 19 no. 12 (1935) | 主婦の友, v. 19 no. 12 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1hf54rf%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 20 no. 01, suppl. (1936) | 主婦の友, v. 20 no. 01, suppl. (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1cp4d14%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 20 no. 05 (1936) | 主婦の友, v. 20 no. 05 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17x3n9d%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 20 no. 06 (1936) | 主婦の友, v. 20 no. 06 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15819gk%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 20 no. 07 (1936) | 主婦の友, v. 20 no. 07 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1481kzv%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 20 no. 07, suppl. (1936) | 主婦の友, v. 20 no. 07, suppl. (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10h0v80%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 20 no. 08 (1936) | 主婦の友, v. 20 no. 08 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vr0bqs%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 20 no. 09 (1936) | 主婦の友, v. 20 no. 09 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11h0jqd%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 20 no. 09, suppl. (1936) | 主婦の友, v. 20 no. 09, suppl. (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1064r2g%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 20 no. 11 (1936) | 主婦の友, v. 20 no. 11 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qz9m0x%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 20 no. 12 (1936) | 主婦の友, v. 20 no. 12 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1m68v9z%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 21 no. 02 (1937) | 主婦の友, v. 21 no. 02 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gf83km%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 21 no. 04 (1937) | 主婦の友, v. 21 no. 04 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bp7bwb%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 22 no. 01 (1938) | 主婦の友, v. 22 no. 01 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17159hr%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 22 no. 02 (1938) | 主婦の友, v. 22 no. 02 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1384jtg%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 22 no. 03 (1938) | 主婦の友, v. 22 no. 03 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wr027h%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 22 no. 04 (1938) | 主婦の友, v. 22 no. 04 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1zh42bk%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 22 no. 05 (1938) | 主婦の友, v. 22 no. 05 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tr39mv%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 22 no. 06 (1938) | 主婦の友, v. 22 no. 06 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1q02jwf%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 22 no. 07 (1938) | 主婦の友, v. 22 no. 07 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k71t6k%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 22 no. 07, suppl. (1938) | 主婦の友, v. 22 no. 07, suppl. (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1fj9rv5%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 22 no. 08 (1938) | 主婦の友, v. 22 no. 08 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19s9147%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 22 no. 09 (1938) | 主婦の友, v. 22 no. 09 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16188gq%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 22 no. 11 (1938) | 主婦の友, v. 22 no. 11 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1287hqj%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 23 no. 02 (1939) | 主婦の友, v. 23 no. 02 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xh717n%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 23 no. 03 (1939) | 主婦の友, v. 23 no. 03 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sr68hx%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 23 no. 04 (1939) | 主婦の友, v. 23 no. 04 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1p05hr2%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 23 no. 05 (1939) | 主婦の友, v. 23 no. 05 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jb3ggh%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 23 no. 06 (1939) | 主婦の友, v. 23 no. 06 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dk2qrs%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 23 no. 08 (1939) | 主婦の友, v. 23 no. 08 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18t2029%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 23 no. 10 (1939) | 主婦の友, v. 23 no. 10 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz152179f%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 23 no. 11 (1939) | 主婦の友, v. 23 no. 11 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1190gkq%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 23 no. 12 (1939) | 主婦の友, v. 23 no. 12 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wj002c%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 24 no. 01 (1940) | 主婦の友, v. 24 no. 01 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rr97b3%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 24 no. 04 (1940) | 主婦の友, v. 24 no. 04 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1n3761d%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 24 no. 05 (1940) | 主婦の友, v. 24 no. 05 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1hb6f9p%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 24 no. 06 (1940) | 主婦の友, v. 24 no. 06 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1ck5pkz%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 24 no. 07 (1940) | 主婦の友, v. 24 no. 07 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17t4xv7%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 24 no. 08 (1940) | 主婦の友, v. 24 no. 08 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz142464m%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 24 no. 10 (1940) | 主婦の友, v. 24 no. 10 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1093fdw%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 24 no. 11 (1940) | 主婦の友, v. 24 no. 11 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vj2z0h%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 24 no. 12 (1940) | 主婦の友, v. 24 no. 12 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qw0wm6%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 25 no. 01 (1941) | 主婦の友, v. 25 no. 01 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1m404w5%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 25 no. 04 (1941) | 主婦の友, v. 25 no. 04 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gb9d6r%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 25 no. 05 (1941) | 主婦の友, v. 25 no. 05 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bk8ng1%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 25 no. 07 (1941) | 主婦の友, v. 25 no. 07 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16t7wr9%2Fmanifest"
+    },
+    {
+      "label": "Shufu no tomo, v. 25 no. 11 (1941) | 主婦の友, v. 25 no. 11 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rz99gs%2Fmanifest"
+    },
+    {
+      "label": "Shukubunron | 職分論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vj5fw3%2Fmanifest"
+    },
+    {
+      "label": "Shukuga chōsaibun no sakurei to jissai: rōdoku to aisatsu | 祝賀弔祭文の作例と実際: 朗読と挨拶",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kx5814%2Fmanifest"
+    },
+    {
+      "label": "Shukusatsu yononaka | 縮刷世の中",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qs4q3w%2Fmanifest"
+    },
+    {
+      "label": "Shumi no bukkyō o kataru | 趣味の佛教を語る",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1106w98%2Fmanifest"
+    },
+    {
+      "label": "Shumi no niwazukuri | 趣味の庭つくり",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1nw9b26%2Fmanifest"
+    },
+    {
+      "label": "Shumi no taishū kagaku | 趣味の大衆科学",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17j1bc1%2Fmanifest"
+    },
+    {
+      "label": "Shumi no tenmon | 趣味の天文",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19x022q%2Fmanifest"
+    },
+    {
+      "label": "Shunrō kaichoshū: dai 3-kan | 春浪快著集: 第3卷",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1ns83wn%2Fmanifest"
+    },
+    {
+      "label": "Shunsen | 春箋",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x70wz0%2Fmanifest"
+    },
+    {
+      "label": "Shuzan anzan jitsuyō sokusan | 珠算暗算実用速算",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gz44hs%2Fmanifest"
+    },
+    {
+      "label": "Shūchin Shinago sokushū | 袖珍支那語速習",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k74b3k%2Fmanifest"
+    },
+    {
+      "label": "Shūkyō shinrigaku yori mitaru Taruso no Pauro | 宗教心理学より観たるタルソのパウロ",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xm87f7%2Fmanifest"
+    },
+    {
+      "label": "Shūkyō tetsugaku | 宗敎哲学",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1z41k8z%2Fmanifest"
+    },
+    {
+      "label": "Shūkyō to jinsei",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k11mc8%2Fmanifest"
+    },
+    {
+      "label": "Shūneberugu nikki: ongaku zuihitsu | シューネベルグ日記 : 音楽随筆",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xb2478%2Fmanifest"
+    },
+    {
+      "label": "Shūyō bungei meisakusen | 修養文芸名作選",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bs8qn5%2Fmanifest"
+    },
+    {
+      "label": "Shūyō no dōtei | 修養の道程",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz164998v%2Fmanifest"
+    },
+    {
+      "label": "Shūyō shitan | 修養史談",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1620xsx%2Fmanifest"
+    },
+    {
+      "label": "Shūyō to jinbutsu",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1z6553z%2Fmanifest"
+    },
+    {
+      "label": "Shūyō zenshū, v. 02 | 修養全集, v. 02",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16r1hpw%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 18 no. 04 (1931) | 少年倶楽部, v. 18 no. 04 (1931)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19p90m2%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 20 no. 12 (1933) | 少年倶楽部, v. 20 no. 12 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15x87z7%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 21 no. 02 (1934) | 少年倶楽部, v. 21 no. 02 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1257h8p%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 21 no. 04 (1934) | 少年倶楽部, v. 21 no. 04 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xh5q58%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 21 no. 10 (1934) | 少年倶楽部, v. 21 no. 10 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sr4zg0%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 21 no. 12 (1934) | 少年倶楽部, v. 21 no. 12 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1p046p2%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 22 no. 01, suppl. (1935) | 少年倶楽部, v. 22 no. 01 , suppl.(1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1j73fwf%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 22 no. 03 (1935) | 少年倶楽部, v. 22 no. 03 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dg2q54%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 22 no. 05 (1935) | 少年倶楽部, v. 22 no. 05 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18q1zh9%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 22 no. 12 (1935) | 少年倶楽部, v. 22 no. 12 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14z16vv%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 23 no. 01 (1936) | 少年倶楽部, v. 23 no. 01 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11895jm%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 23 no. 03 (1936) | 少年倶楽部, v. 23 no. 03 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wh8p2b%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 23 no. 04 (1936) | 少年倶楽部, v. 23 no. 04 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rr7x95%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 23 no. 04, suppl. (1936) | 少年倶楽部, v. 23 no. 04, suppl. (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1n075jp%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 23 no. 05 (1936) | 少年倶楽部, v. 23 no. 05 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1h76dr2%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 23 no. 06 (1936) | 少年倶楽部, v. 23 no. 06 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1cg5p43%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 23 no. 11 (1936) | 少年倶楽部, v. 23 no. 11 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17t3mrs%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 24 no. 01 (1937) | 少年倶楽部, v. 24 no. 01 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1422w3p%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 24 no. 06 (1937) | 少年倶楽部, v. 24 no. 06 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10924ds%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 24 no. 08 (1937) | 少年倶楽部, v. 24 no. 08 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vj1mx3%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 24 no. 11 (1937) | 少年倶楽部, v. 24 no. 11 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qs0w5b%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 25 no. 05 (1938) | 少年倶楽部, v. 25 no. 05 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1m104f9%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 25 no. 11 (1938) | 少年倶楽部, v. 25 no. 11 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1g79csx%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 25 no. 13 (1938) | 少年倶楽部, v. 25 no. 13 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bk7bb4%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 25 no. 14 (1938) | 少年倶楽部, v. 25 no. 14 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16t6kqr%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 26 no. 01 (1939) | 少年倶楽部, v. 26 no. 01 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1325v0r%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 26 no. 03 (1939) | 少年倶楽部, v. 26 no. 03 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1z95bg0%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 26 no. 05 (1939) | 少年倶楽部, v. 26 no. 05 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tj4kpc%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 26 no. 08 (1939) | 少年倶楽部, v. 26 no. 08 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1ps3tzn%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 26 no. 09 (1939) | 少年倶楽部, v. 26 no. 09 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k1339x%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 26 no. 11 (1939) | 少年倶楽部, v. 26 no. 11 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1fc11xm%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 27 no. 02 (1940) | 少年倶楽部, v. 27 no. 02 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19m099n%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 27 no. 04 (1940) | 少年倶楽部, v. 27 no. 04 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15t9jjx%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 27 no. 11 (1940) | 少年倶楽部, v. 27 no. 11 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1228ss2%2Fmanifest"
+    },
+    {
+      "label": "Shōnen kurabu, v. 27 no. 12 (1940) | 少年倶楽部, v. 27 no. 12 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x9898q%2Fmanifest"
+    },
+    {
+      "label": "Sokoku no sukui : sekkyō to zuihitsu",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1h467kq%2Fmanifest"
+    },
+    {
+      "label": "Sorekara| それから",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bc9swc%2Fmanifest"
+    },
+    {
+      "label": "Sōkō Bukkyōkai kaikyō sanjūnen kinenshi | 桑港佛教會開教三十年記念誌",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vr2vkz%2Fmanifest"
+    },
+    {
+      "label": "Sōmoku chūgyo | 草木虫魚",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1cc88t6%2Fmanifest"
+    },
+    {
+      "label": "Sōsei jidai to fuso no seikatsu: kodai seito no shōgai ni arawaretaru shinri no kagayaki | 創世時代と父祖の生活: 古代聖徒の生涯に現れたる真理の輝き",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1ps7nxn%2Fmanifest"
+    },
+    {
+      "label": "Sōtaisei tetsugaku to Shu no inori, v. 01 | 相対性哲学と主の祈, v. 01",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1d607fd%2Fmanifest"
+    },
+    {
+      "label": "Sōzō | 創造",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14r7mxx%2Fmanifest"
+    },
+    {
+      "label": "Subarashii omoitsuki | すばらしい思ひつき",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1t78ggv%2Fmanifest"
+    },
+    {
+      "label": "Sugao no Hariwuddo",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19k8tcf%2Fmanifest"
+    },
+    {
+      "label": "Sunkōroku | 寸光録",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jb64ww%2Fmanifest"
+    },
+    {
+      "label": "Suteobune: shukusatsu | 捨小舟: 縮刷",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1nm0q0p%2Fmanifest"
+    },
+    {
+      "label": "Tabako to jinsei (極東福音社, 1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kw9z5c%2Fmanifest"
+    },
+    {
+      "label": "Tada tsumibito no tame: Okkusufōdo Daigaku shūkyō undō o chūshin to shite | ただ罪人のため: オクスフォ-ド大学宗教運動を中心として",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1zh6ch9%2Fmanifest"
+    },
+    {
+      "label": "Taikai no hotori | 大海のほとり",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1p0430v%2Fmanifest"
+    },
+    {
+      "label": "Taiken no shūkyō | 体験の宗教",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15v3cd4%2Fmanifest"
+    },
+    {
+      "label": "Taishō no seinen to Ozaki Yukio | 大正の青年と尾崎行雄",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1nh4b69%2Fmanifest"
+    },
+    {
+      "label": "Taishō shisen | 大正詩選",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18x30v1%2Fmanifest"
+    },
+    {
+      "label": "Taishō gonin otoko | 大正五人男",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sn649j%2Fmanifest"
+    },
+    {
+      "label": "Taiyō no nai machi | 太陽のない街",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14z1346%2Fmanifest"
+    },
+    {
+      "label": "Tajō takon | 多情多恨",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14j68gh%2Fmanifest"
+    },
+    {
+      "label": "Takamagahara wa Ōmi nari: Nihon taikoshi no gōriteki kenkyū | 高天原は近江なり: 日本太古史の合理的研究",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1w76csh%2Fmanifest"
+    },
+    {
+      "label": "Takasugi Shinsaku | 高杉晋作",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1ck8bw0%2Fmanifest"
+    },
+    {
+      "label": "Takayama Chogyū no Nichiren ron | 高山樗牛の日蓮論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bd3rh3%2Fmanifest"
+    },
+    {
+      "label": "Takayama Chogyū to Nichiren Shōnin | 高山樗牛と日蓮上人",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12901j6%2Fmanifest"
+    },
+    {
+      "label": "Takeda Rintarō shū | 武田麟太郎集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1f8601d%2Fmanifest"
+    },
+    {
+      "label": "Takuboku jojō shishū: Ishikawa Takuboku shisen | 啄木抒情詩集: 石川啄木詩選",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1232mrm%2Fmanifest"
+    },
+    {
+      "label": "Takumi to koi | たくみと戀",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k70cdh%2Fmanifest"
+    },
+    {
+      "label": "Tamio-san monogatari | 他見男さん物語",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rc6xfs%2Fmanifest"
+    },
+    {
+      "label": "Tanbō gashu | 探訪画趣",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jt70d5%2Fmanifest"
+    },
+    {
+      "label": "Tanoshiki omoide | 楽しき思い出",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1106w41%2Fmanifest"
+    },
+    {
+      "label": "Tanpen shōsetsu hen: jidaimono | 短篇小說篇: 時代物",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1354dqf%2Fmanifest"
+    },
+    {
+      "label": "Tansu | 箪笥",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11930h5%2Fmanifest"
+    },
+    {
+      "label": "Tate yoko no anzan to atarashiki sokusanhō",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1f80vnj%2Fmanifest"
+    },
+    {
+      "label": "Tekunokurashī | テクノクラシー",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1fg3cpd%2Fmanifest"
+    },
+    {
+      "label": "Ten no chichi ni kaere: sekkyōshū | 天の父に歸れ: 説教集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1fr9h5c%2Fmanifest"
+    },
+    {
+      "label": "Tenraku no shishū: yomimonoshū | 轉落の詩集: 読物集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16q9671%2Fmanifest"
+    },
+    {
+      "label": "Tensai no hakken: tenpu nōryoku hatsugenhō | 天才の発見: 天賦能力発現法",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1w18sd7%2Fmanifest"
+    },
+    {
+      "label": "Tensairon | 天才論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bw736j%2Fmanifest"
+    },
+    {
+      "label": "Tesu, v. 01 | テス, v. 01",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tc0tfw%2Fmanifest"
+    },
+    {
+      "label": "Tesu, v. 02 | テス, v. 02",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16j43wp%2Fmanifest"
+    },
+    {
+      "label": "Tetsugaku gaisetsu: mono to ga | 哲学概説: 物と我",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1426q2p%2Fmanifest"
+    },
+    {
+      "label": "Tetsugaku nyūmon no chishiki | 哲学入門の知識",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1cp6wzs%2Fmanifest"
+    },
+    {
+      "label": "Tetsugaku yori seiji e | 哲学より政治へ",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tf9q55%2Fmanifest"
+    },
+    {
+      "label": "Tetsuri to jinsei | 哲理と人生",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15v3chg%2Fmanifest"
+    },
+    {
+      "label": "Tetteiron | 徹底論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tn78mx%2Fmanifest"
+    },
+    {
+      "label": "Tokai to inaka | 都会と田舎",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10w4742%2Fmanifest"
+    },
+    {
+      "label": "Tokuiku to chiryoku | 德育と智力",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vt7rrj%2Fmanifest"
+    },
+    {
+      "label": "Tokutomi Kenjirō | 德冨健次郎",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18722zx%2Fmanifest"
+    },
+    {
+      "label": "Tonchi Saburō",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12561bd%2Fmanifest"
+    },
+    {
+      "label": "Tonneru: hoka nihen | トンネル: 外二篇",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rg1h5c%2Fmanifest"
+    },
+    {
+      "label": "Torusutoi jūnikō | トルストイ十二講",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xx455d%2Fmanifest"
+    },
+    {
+      "label": "Torusutoi tanpen senshū | トルストイ短篇選集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15n5zqw%2Fmanifest"
+    },
+    {
+      "label": "Toshi keieiron | 都市経営論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1203xcr%2Fmanifest"
+    },
+    {
+      "label": "Toshi no kenkyū | 都市の研究",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k45mkh%2Fmanifest"
+    },
+    {
+      "label": "Toyō bakugekitai jissenki | 渡洋爆擊隊実戦記",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wf18p3%2Fmanifest"
+    },
+    {
+      "label": "Tōjin Okichi | 唐人お吉",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17f045f%2Fmanifest"
+    },
+    {
+      "label": "Tōkyō kanjōsen | 東京環狀線",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15n3fqx%2Fmanifest"
+    },
+    {
+      "label": "Tōson shōnen dokuhon, v. 04 | 藤村少年読本, v. 04",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16j0ggb%2Fmanifest"
+    },
+    {
+      "label": "Tōzai kokon jōshigun | 東西古今娘子軍",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1zh6k4v%2Fmanifest"
+    },
+    {
+      "label": "Tsuchi ni shitashimu shumi no shiki engei | 土に親しむ趣味の四季園芸",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1d31j30%2Fmanifest"
+    },
+    {
+      "label": "Tsukikageshū | 月影集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1290603%2Fmanifest"
+    },
+    {
+      "label": "Tsukiyama sansui niwatsukuri no hiden | 築山山水庭作秘傳",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18m730g%2Fmanifest"
+    },
+    {
+      "label": "Tsuzurikata kyōshitsu | 綴方教室",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz13c1zsw%2Fmanifest"
+    },
+    {
+      "label": "Tsūka chōsetsuron | 通貨調節論",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1t22cp9%2Fmanifest"
+    },
+    {
+      "label": "Tsūzoku rinridan | 通俗倫理談",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1d31qhf%2Fmanifest"
+    },
+    {
+      "label": "Tsūzoku shinri kimon seitō | 通俗心理奇問正答",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1h51jh0%2Fmanifest"
+    },
+    {
+      "label": "Tule Lake War Relocation Project Map",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xm35s0%2Fmanifest"
+    },
+    {
+      "label": "Tōno Bangei | トーノ・バンゲイ",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1g25m7d%2Fmanifest"
+    },
+    {
+      "label": "Uchū seibutsu oyobi jinrui sōsei: kosekki jidai genshi jinrui no bijutsu | 宇宙・生物及人類創成: 古石器時代原始人類の美術",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dz9vv7%2Fmanifest"
+    },
+    {
+      "label": "Ukiyo kōshinkyoku | 浮世行進曲",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1w47gv0%2Fmanifest"
+    },
+    {
+      "label": "Umare zariseba | 生れざりせば",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qk3bn2%2Fmanifest"
+    },
+    {
+      "label": "Umitsubame | 海燕",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1pk7r5z%2Fmanifest"
+    },
+    {
+      "label": "Umoreshi sekai: shinpi shugi | 埋れし世界: 神秘主義",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tv4bff%2Fmanifest"
+    },
+    {
+      "label": "Unmei | 運命",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz181513c%2Fmanifest"
+    },
+    {
+      "label": "Unsui monogatari | 雲水物語",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xh9bhq%2Fmanifest"
+    },
+    {
+      "label": "Ushiwakamaru: manga to ebanashi | 牛若丸: マンガトエバナシ",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kq3wgk%2Fmanifest"
+    },
+    {
+      "label": "Uso no chikara, Jinsei, Sekai no kao | 嘘の力, 人生, 世界の顔",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1b94vj4%2Fmanifest"
+    },
+    {
+      "label": "Utsukushii koyomi | 美しい暦",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mq0xmz%2Fmanifest"
+    },
+    {
+      "label": "Utsukushiki hito | 美しき人",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1160bcb%2Fmanifest"
+    },
+    {
+      "label": "Uwaki na piuritan | 浮気な清教徒",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bg8hbj%2Fmanifest"
+    },
+    {
+      "label": "Uyūge | 有憂華",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k12zmx%2Fmanifest"
+    },
+    {
+      "label": "Uzu: shōsetsu | 渦: 小説",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15b5wt9%2Fmanifest"
+    },
+    {
+      "label": "Vendetta | ヴェンデッタ",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18h863d%2Fmanifest"
+    },
+    {
+      "label": "Waga hi waga yume | 我が日我が夢",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bp5x4r%2Fmanifest"
+    },
+    {
+      "label": "Waga jinsei to shūkyō | わが人生と宗教",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tb6w2q%2Fmanifest"
+    },
+    {
+      "label": "Waga shinkō to seikatsu | 我が信仰と生活",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bm156b%2Fmanifest"
+    },
+    {
+      "label": "Waga shōgai | わが生涯",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16v0djh%2Fmanifest"
+    },
+    {
+      "label": "Wagako no bitoku: shukusatsu | 我子の美德: 縮刷",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1r023xt%2Fmanifest"
+    },
+    {
+      "label": "Waguneru monogatari | ワグネル物語",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18t4gwm%2Fmanifest"
+    },
+    {
+      "label": "Wakai hito | 若い人",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1n071v2%2Fmanifest"
+    },
+    {
+      "label": "Wakaki Eruteru no kanashimi | 若きエルテルの悲み",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tn35ht%2Fmanifest"
+    },
+    {
+      "label": "Wakaki Eruteru no warai | 若きエルテルの笑い",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12k2669%2Fmanifest"
+    },
+    {
+      "label": "Wakariyasuki tegami no kakikata | わかり易き手紙の書き方",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1fg3k9z%2Fmanifest"
+    },
+    {
+      "label": "Warai | 笑",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1552fkx%2Fmanifest"
+    },
+    {
+      "label": "Warera ikani iku beki ka | 吾等如何に生くべきか",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1m715md%2Fmanifest"
+    },
+    {
+      "label": "Warera no Shu naru Sukuinushi Iesu Kirisuto no Shin'yaku Seisho: kaiyaku | 我らの主なる救主イエス・キリストの新約聖書: 改訳",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz13s0d89%2Fmanifest"
+    },
+    {
+      "label": "Warera no yuku michi | 我等の行く道",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xx458r%2Fmanifest"
+    },
+    {
+      "label": "Yae no shiokaze: higeki | 八重の潮風: 悲劇",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1c92346%2Fmanifest"
+    },
+    {
+      "label": "Yama no sachi | 山の幸",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1j17c5n%2Fmanifest"
+    },
+    {
+      "label": "Yamaguni  |山国",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15f4m54%2Fmanifest"
+    },
+    {
+      "label": "Yamaimo nikki",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15x6s2f%2Fmanifest"
+    },
+    {
+      "label": "Yami no chikara | 闇の力",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12v9r4f%2Fmanifest"
+    },
+    {
+      "label": "Yaso no jinkaku | 耶蘇の人格",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1717mrc%2Fmanifest"
+    },
+    {
+      "label": "Yasokyō no Nihon teki kenkyū | 耶蘇教の日本的研究",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1zd7vs1%2Fmanifest"
+    },
+    {
+      "label": "Yo no naka | 世の中",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rs1jk8%2Fmanifest"
+    },
+    {
+      "label": "Yokomitsu Riichi shū | 横光利一集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1z708dp%2Fmanifest"
+    },
+    {
+      "label": "Yonen kurabu, v. 12 no. 10 (1937) | 幼年倶楽部, v. 12 no. 10 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qg4rxz%2Fmanifest"
+    },
+    {
+      "label": "Yoru hiraku | 夜ひらく",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kt41jj%2Fmanifest"
+    },
+    {
+      "label": "Yoru no Pari | 夜のパリ",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1426hc7%2Fmanifest"
+    },
+    {
+      "label": "Yoru no hikari | 夜の光",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1h76939%2Fmanifest"
+    },
+    {
+      "label": "Yoru no kōjōmachi | 夜の工場町",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1p9069q%2Fmanifest"
+    },
+    {
+      "label": "Yoru no kōrasu | 夜の合唱",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1c59f6h%2Fmanifest"
+    },
+    {
+      "label": "Yoshida Yūzō | 吉田雄藏",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1f53b8h%2Fmanifest"
+    },
+    {
+      "label": "Yoshii Isamu hen | 吉井勇篇",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1104c8v%2Fmanifest"
+    },
+    {
+      "label": "Yoshikawa Eiji kessakushū, v. 02 | 吉川英治傑作集, v. 02",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1c60vvx%2Fmanifest"
+    },
+    {
+      "label": "Yoshiya Nobuko senshū. v. 01 | 吉屋信子選集, v. 01",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1x737cn%2Fmanifest"
+    },
+    {
+      "label": "Yoshiya Nobuko senshū. v. 03 | 吉屋信子選集, v. 03",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1z41k5m%2Fmanifest"
+    },
+    {
+      "label": "Yoshiya Nobuko senshū. v. 09 | 吉屋信子選集, v. 09",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12w22j7%2Fmanifest"
+    },
+    {
+      "label": "Yowamushi Tarō buyūden | 弱虫太郎武勇伝",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1np83g7%2Fmanifest"
+    },
+    {
+      "label": "Yōbō to jinkaku (東亞堂書房, 1913)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16q6d98%2Fmanifest"
+    },
+    {
+      "label": "Yōgaku yawa | 洋楽夜話",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qw3ddv%2Fmanifest"
+    },
+    {
+      "label": "Yōmeigaku kōwa | 陽明学講話",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jt9h8b%2Fmanifest"
+    },
+    {
+      "label": "Yōsai no shiori | 洋裁の栞",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1z70fvk%2Fmanifest"
+    },
+    {
+      "label": "Yōshoku no tabekata to yōfuku no kikata | 洋食の食べ方と洋服の着方",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gc22gw%2Fmanifest"
+    },
+    {
+      "label": "Yuasa Hatsuko | 湯淺初子",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1329ns3%2Fmanifest"
+    },
+    {
+      "label": "Yui Shōsetsu | 由比正雪",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vb86hb%2Fmanifest"
+    },
+    {
+      "label": "Yukeru aishi ni kataru | 逝ける愛子に語る",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1n39vdz%2Fmanifest"
+    },
+    {
+      "label": "Yuki no hi | 雪の日",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15n2122%2Fmanifest"
+    },
+    {
+      "label": "Yukitomo Rifū shū | 行友李風集",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17b000h%2Fmanifest"
+    },
+    {
+      "label": "Yume handan hizōsho: shinrei kannō | 夢判断秘蔵書: 神霊感応",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19d6qcq%2Fmanifest"
+    },
+    {
+      "label": "Yumedono | 夢殿",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19d6hxd%2Fmanifest"
+    },
+    {
+      "label": "Yūben no shūren | 雄弁の修練",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wj2nfx%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 29 no. 07, suppl. (1938) | 雄辯, v. 29 no. 07, suppl. (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12v847z%2Fmanifest"
+    },
+    {
+      "label": "Yūgō | ユーゴー",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1nh20n7%2Fmanifest"
+    },
+    {
+      "label": "Yūrei | 幽霊",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz11k554t%2Fmanifest"
+    },
+    {
+      "label": "Yūtōsei no dōwa: rokunensei | 優等生の童話: 六年生",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16b2xws%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 07 no. 06 (1932) | 幼年倶楽部, v. 07 no. 06 (1932)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sj7jj0%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 07 no. 08 (1932) | 幼年倶楽部, v. 07 no. 08 (1932)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1ns6sz2%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 07 no. 12 (1932) | 幼年倶楽部, v. 07 no. 12 (1932)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1j44rkg%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 08 no. 03 (1933) | 幼年倶楽部, v. 08 no. 03 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dc40x1%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 08 no. 06 (1933) | 幼年倶楽部, v. 08 no. 06 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18m3858%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 08 no. 07 (1933) | 幼年倶楽部, v. 08 no. 07 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14v2hfj%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 08 no. 08 (1933) | 幼年倶楽部, v. 08 no. 08 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1131rpp%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 08 no. 09 (1933) | 幼年倶楽部, v. 08 no. 09 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1wb186s%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 08 no. 11 (1933) | 幼年倶楽部, v. 08 no. 11 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1rk0hjz%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 10 no. 08 (1935) | 幼年倶楽部, v. 10 no. 08 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1mw8g5h%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 11 no. 01 (1936) | 幼年倶楽部, v. 11 no. 01 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1h47qjf%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 11 no. 03 (1936) | 幼年倶楽部, v. 11 no. 03 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1cc6zs8%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 11 no. 05 (1936) | 幼年倶楽部, v. 11 no. 05 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz17m66zk%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 11 no. 06 (1936) | 幼年倶楽部, v. 11 no. 06 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz13v5g5c%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 11 no. 11 (1936) | 幼年倶楽部, v. 11 no. 11 (1936)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1034qhv%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 12 no. 05 (1937) | 幼年倶楽部, v. 12 no. 05 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vb473v%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 12 no. 07 (1937) | 幼年倶楽部, v. 12 no. 07 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qp25r0%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 12 no. 08 (1937) | 幼年倶楽部, v. 12 no. 08 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kq415k%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 13 no. 01 (1938) | 幼年倶楽部, v. 13 no. 01 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kx1f3k%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 13 no. 06 (1938) | 幼年倶楽部, v. 13 no. 06 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1g50pbq%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 13 no. 11 (1938) | 幼年倶楽部, v. 13 no. 11 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bc9xjj%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 14 no. 08 (1939) | 幼年倶楽部, v. 14 no. 08 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz16m95sr%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 14 no. 10 (1939) | 幼年倶楽部, v. 14 no. 10 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12v8f3w%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 15 no. 05 (1940) | 幼年倶楽部, v. 15 no. 05 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1z37xqv%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 15 no. 06 (1940) | 幼年倶楽部, v. 15 no. 06 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tf5wcd%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 16 no. 01 (1941) | 幼年倶楽部, v. 16 no. 01 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1pp54qz%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 16 no. 03 (1941) | 幼年倶楽部, v. 16 no. 03 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1jx4d0n%2Fmanifest"
+    },
+    {
+      "label": "Yōnen kurabu, v. 16 no. 05 (1941) | 幼年倶楽部, v. 16 no. 05 (1941)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1f53n5w%2Fmanifest"
+    },
+    {
+      "label": "Yōso kidan: Jūkichi toromono hichō | 妖鼠奇談: 十吉捕物秘帖",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1qs0rgq%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 19 no. 05, suppl. (1928) | 雄辯, v. 19 no. 05, suppl. (1928)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1327507%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 22 no. 03 (1931) | 雄辯, v. 22 no. 03 (1931)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1z96nhj%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 23 no. 03 (1932) | 雄辯, v. 23 no. 03 (1932)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1tn4m70%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 24 no. 03 (1933) | 雄辯, v. 24 no. 03 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1pw3vh8%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 24 no. 05 (1933) | 雄辯, v. 24 no. 05 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1k433rs%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 24 no. 05, suppl. (1933) | 雄辯, v. 24 no. 05, suppl. (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1fc2c1g%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 24 no. 06 (1933) | 雄辯, v. 24 no. 06 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz19m1m9r%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 24 no. 07 (1933) | 雄辯, v. 24 no. 07 (1933)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz15v0vjk%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 25 no. 09 (1934) | 雄辯, v. 25 no. 09 (1934)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12303v0%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 26 no. 05 (1935) | 雄辯, v. 26 no. 05 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1xd89sg%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 26 no. 10 (1935) | 雄辯, v. 26 no. 10 (1935)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sn7k3m%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 28 no. 03 (1937) | 雄辯, v. 28 no. 03 (1937)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1nw6tcw%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 29 no. 10 (1938) | 雄辯, v. 29 no. 10 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1j462nv%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 29 no. 11 (1938) | 雄辯, v. 29 no. 11 (1938)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dc59x4%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 30 no. 09 (1939) | 雄辯, v. 30 no. 09 (1939)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18m4k5c%2Fmanifest"
+    },
+    {
+      "label": "Yūben, v. 31 no. 03 (1940) | 雄辯, v. 31 no. 03 (1940)",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14v3thj%2Fmanifest"
+    },
+    {
+      "label": "Zen Nihon shoryū ikebana taikan | 全日本諸流活花大鑑",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1p081n2%2Fmanifest"
+    },
+    {
+      "label": "Zen no kotsuzui | 禅の骨髄",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1h51jc6%2Fmanifest"
+    },
+    {
+      "label": "Zen no menboku | 禅の面目",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1kj07vs%2Fmanifest"
+    },
+    {
+      "label": "Zenkoku kōsen daisū shiken mondai kaishaku: daisugaku mondai tokikata chakuganten, furoku | 全国高専代数試験問題解釈: 代数学問題解き方着眼点, 附録",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1vq9278%2Fmanifest"
+    },
+    {
+      "label": "Zettai no jihi ni yokushite | 絶對の慈悲に浴して",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz12c8jcw%2Fmanifest"
+    },
+    {
+      "label": "Zoku Vagabondo tsūshin | 続ヴァガボンド通信",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1g54h9q%2Fmanifest"
+    },
+    {
+      "label": "Zoku matatabi shin hakkei | 続股旅新八景",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1sj8vj3%2Fmanifest"
+    },
+    {
+      "label": "Zuihitsu teijo | 隨筆貞女",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz18d758t%2Fmanifest"
+    },
+    {
+      "label": "Zushi monogatari: Hototogisu shōsetsu sōsho | 逗子物語: 不如歸小説叢書",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1dv7jh7%2Fmanifest"
+    },
+    {
+      "label": "[Hannibaru and two other titles] | [ンニバル and two other titles]",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz14j6d71%2Fmanifest"
+    },
+    {
+      "label": "[Jinrui no shinpo and one other title] | [人類の進歩 and one other title]",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz10s5nfd%2Fmanifest"
+    },
+    {
+      "label": "[Kazu no rekishi and two other titles] | [数の歴史 and two other titles]",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1ht8nb6%2Fmanifest"
+    },
+    {
+      "label": "[Kodomo rikuwashitsu and two other titles] | [こどもりくわしつ and two other titles]",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1bh2mgn%2Fmanifest"
+    },
+    {
+      "label": "[Mukashi no Igirisu and two other titles] | [昔のイギリス and two other titles]",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1w154xz%2Fmanifest"
+    },
+    {
+      "label": "[Mushitori no hanashi and two other titles] | [虫とりの話 and two other titles]",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1nh0pp6%2Fmanifest"
+    },
+    {
+      "label": "[Ongakuka monogatari and three other titles] | [音楽家物語 and three other titles]",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1r84d8j%2Fmanifest"
+    },
+    {
+      "label": "[Shumi no kikagaku and two other titles] | [趣味の幾何学 and two other titles]",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1897506%2Fmanifest"
+    },
+    {
+      "label": "[Tenninkuwa-hime mongatari and two other titles] | [てんにんくわ姫物語 and two other titles]",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1896v1j%2Fmanifest"
+    },
+    {
+      "label": "[Yoshikiri and two other titles] | [よしきり and two other titles]",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1s81f9k%2Fmanifest"
+    },
+    {
+      "label": "[Ōzora no shita and two other titles] | [大空の下 and two other titles]",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1d27wq4%2Fmanifest"
+    },
+    {
+      "label": "Ōzora ni tobu | 大空に飛ぶ",
+      "@type": "sc:Manifest",
+      "@id": "https%3A%2F%2Fiiif.library.ucla.edu%2Fark%253A%252F21198%252Fz1gf6nv2%2Fmanifest"
     }
   ]
 }
