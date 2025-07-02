@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://example.org/iiif/collection/botanic-garden-meise",
+  "id": "https://nlw-paulm.github.io/torf-manf/botanic_garden_meise_collection.json",
   "type": "Collection",
   "label": {
     "en": [

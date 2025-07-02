@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "label": "Tule Lake Japanese Language Library Collection",
-  "@id": "https://iiif.library.ucla.edu/collections/ark%3A%2F21198%2Fz1qv83mc",
+  "@id": "https://nlw-paulm.github.io/torf-manf/lake.json",
   "@type": "sc:Collection",
   "viewingHint": "paged",
   "manifests": [
