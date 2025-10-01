@@ -5,34 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clover Viewer</title>
     <script src="https://unpkg.com/@samvera/clover-iiif/dist/clover-iiif.umd.production.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #clover-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            gap: 0;
+        }
+        #clover1, #clover2 {
+            width: 50%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Clover Viewer</h1>
-    <div style="display: flex; gap: 10px;">
-        <div id="clover1" style="height: 600px; width: 50%;"></div>
-        <div id="clover2" style="height: 600px; width: 50%;"></div>
-    </div>
-    <div id="clover-embed">
-        <h3>Embed these Clover viewers in your CMS:</h3>
-        <pre>&lt;iframe src="https://nlw-paulm.github.io/viewers/clover-viewer.html" width="100%" height="700" frameborder="0"&gt;&lt;/iframe&gt;</pre>
+    <div id="clover-container">
+        <div id="clover1"></div>
+        <div id="clover2"></div>
     </div>
 
     <script>
         window.addEventListener('load', function() {
             if (typeof Clover !== 'undefined') {
+                const urlParams = new URLSearchParams(window.location.search);
+                const manifestUrl = urlParams.get('manifest') || 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json';
+                
                 Clover.Viewer({
                     target: 'clover1',
-                    manifest: 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json',
+                    manifest: manifestUrl,
                     canvasId: 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/canvas/1238000'
                 });
 
                 Clover.Viewer({
                     target: 'clover2',
-                    manifest: 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json',
+                    manifest: manifestUrl,
                     canvasId: 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/canvas/1238001'
                 });
-            } else {
-                document.getElementById('clover1').innerHTML = '<p>Error loading Clover viewer. Please refresh the page.</p>';
             }
         });
     </script>

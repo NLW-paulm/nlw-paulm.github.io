@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirador Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mirador/3.3.0/mirador.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #mirador {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="mirador"></div>
+
+    <script>
+        window.addEventListener('load', function() {
+            if (typeof Mirador !== 'undefined') {
+                const urlParams = new URLSearchParams(window.location.search);
+                const manifestUrl = urlParams.get('manifest') || 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json';
+                
+                Mirador.viewer({
+                    id: 'mirador',
+                    windows: [{
+                        manifestId: manifestUrl,
+                        canvasIndex: 0
+                    }, {
+                        manifestId: manifestUrl,
+                        canvasIndex: 1
+                    }],
+                    workspaceControlPanel: {
+                        enabled: false
+                    },
+                    window: {
+                        allowClose: false,
+                        allowMaximize: false,
+                        allowFullscreen: true,
+                        allowWindowSideBar: false
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
