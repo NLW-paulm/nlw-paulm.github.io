@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annona Viewer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@thegetty/annona@latest/dist/annona.css">
+    <script src="https://cdn.jsdelivr.net/npm/@thegetty/annona@latest/dist/annona.js"></script>
+</head>
+<body>
+    <h1>Annona Viewer</h1>
+    <div id="annona"></div>
+    <div id="annona-embed">
+        <h3>Embed this Annona viewer in your CMS:</h3>
+        <pre>&lt;iframe src="https://nlw-paulm.github.io/viewers/annona-viewer.html" width="100%" height="700" frameborder="0"&gt;&lt;/iframe&gt;</pre>
+    </div>
+
+    <script>
+        window.addEventListener('load', function() {
+            if (typeof Annona !== 'undefined') {
+                Annona.imageViewer({
+                    target: 'annona',
+                    manifest: 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json',
+                    canvases: [0, 1]
+                });
+            } else {
+                document.getElementById('annona').innerHTML = '<p>Error loading Annona viewer. Please refresh the page.</p>';
+            }
+        });
+    </script>
+</body>
+</html>
