@@ -3,43 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IIIF Viewers - Index</title>
+    <title>IIIF Viewers - Embed Documentation</title>
 </head>
 <body>
-    <h1>IIIF Viewers</h1>
-    <p>Select a viewer to display images from the IIIF manifest:</p>
+    <h1>IIIF Viewers - Embed Documentation</h1>
+    <p>Clean, embeddable IIIF viewers ready for your CMS.</p>
     
-    <h2>Available Viewers:</h2>
+    <h2>How to Use</h2>
+    <p>Each viewer is accessible via a clean URL with no visible UI elements except the viewer itself. Simply embed using an iframe tag in your CMS.</p>
     
-    <h3>Mirador Viewer</h3>
-    <p>Feature-rich IIIF viewer with side-by-side canvas comparison.</p>
-    <p><a href="mirador-viewer.html">View Mirador</a></p>
-    <pre>&lt;iframe src="https://nlw-paulm.github.io/viewers/mirador-viewer.html" width="100%" height="700" frameborder="0"&gt;&lt;/iframe&gt;</pre>
+    <h2>Mirador Viewer</h2>
+    <p><strong>URL:</strong> <a href="mirador-viewer.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json" target="_blank">mirador-viewer.html</a></p>
+    <p><strong>Features:</strong> Two canvases side by side, minimal controls</p>
+    <h3>Embed Code:</h3>
+    <pre>&lt;iframe src="https://nlw-paulm.github.io/viewers/mirador-viewer.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json" width="100%" height="600" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</pre>
     
-    <h3>Annona Viewer</h3>
-    <p>Lightweight annotation and image viewer by Getty.</p>
-    <p><a href="annona-viewer.html">View Annona</a></p>
-    <pre>&lt;iframe src="https://nlw-paulm.github.io/viewers/annona-viewer.html" width="100%" height="700" frameborder="0"&gt;&lt;/iframe&gt;</pre>
+    <h2>Annona Viewer</h2>
+    <p><strong>URL:</strong> <a href="annona-viewer.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json" target="_blank">annona-viewer.html</a></p>
+    <p><strong>Features:</strong> Lightweight Getty viewer, two canvases</p>
+    <h3>Embed Code:</h3>
+    <pre>&lt;iframe src="https://nlw-paulm.github.io/viewers/annona-viewer.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json" width="100%" height="600" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</pre>
     
-    <h3>Clover Viewer</h3>
-    <p>Modern IIIF viewer with two instances side-by-side.</p>
-    <p><a href="clover-viewer.html">View Clover</a></p>
-    <pre>&lt;iframe src="https://nlw-paulm.github.io/viewers/clover-viewer.html" width="100%" height="700" frameborder="0"&gt;&lt;/iframe&gt;</pre>
-    
-    <h3>All Viewers</h3>
-    <p>Modern IIIF viewers with two instances side-by-side.</p>
-    <p><a href="iiif_viewers_page.html">View all on one page</a></p>
-    
+    <h2>Clover Viewer</h2>
+    <p><strong>URL:</strong> <a href="clover-viewer.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json" target="_blank">clover-viewer.html</a></p>
+    <p><strong>Features:</strong> Modern viewer, two instances side by side</p>
+    <h3>Embed Code:</h3>
+    <pre>&lt;iframe src="https://nlw-paulm.github.io/viewers/clover-viewer.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json" width="100%" height="600" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</pre>
     
     <hr>
     
-    <h2>Manifest Used:</h2>
-    <p><a href="https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json" target="_blank">https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json</a></p>
+    <h2>Using Different Manifests</h2>
+    <p>To use a different IIIF manifest, add the <code>?manifest=</code> parameter to the URL:</p>
+    <pre>https://nlw-paulm.github.io/viewers/mirador-viewer.html?manifest=YOUR_MANIFEST_URL</pre>
     
-    <h2>Instructions:</h2>
-    <p>1. Host these HTML files on your static page infrastructure</p>
-    <p>2. Copy the iframe embed code for the viewer you want to use</p>
-    <p>3. Paste the iframe code into your CMS (JavaScript will be contained within the iframe)</p>
-    <p>4. Update "https://your-domain.com/" with your actual domain URL</p>
+    <h2>Setup Instructions</h2>
+    <ol>
+        <li>Host mirador-viewer.html, annona-viewer.html, and clover-viewer.html on your static infrastructure</li>
+        <li>Replace "https://nlw-paulm.github.io/viewers/" in the embed codes above with your actual domain</li>
+        <li>Copy the iframe code and paste it into your CMS</li>
+        <li>The manifest parameter can be changed to display different IIIF resources</li>
+    </ol>
+    
+    <h2>Comparison with Universal Viewer</h2>
+    <p>These viewers work exactly like the National Library of Wales Universal Viewer at viewer.library.wales</p>
+    <p>Just like their implementation, these are clean viewer pages with no extra UI, ready for iframe embedding.</p>
 </body>
 </html>
