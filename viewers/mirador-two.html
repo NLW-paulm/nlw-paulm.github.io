@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mirador Viewer</title>
+    <title>Mirador Viewer - Two Manifests</title>
     <link rel="stylesheet" href="https://unpkg.com/mirador@latest/dist/mirador.min.css">
     <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
     <style>
@@ -30,16 +30,19 @@
         window.addEventListener('load', function() {
             if (typeof Mirador !== 'undefined') {
                 const urlParams = new URLSearchParams(window.location.search);
-                const manifestUrl = urlParams.get('manifest') || 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json';
+                const manifest1 = urlParams.get('manifest1') || 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json';
+                const manifest2 = urlParams.get('manifest2') || 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json';
+                const canvas1 = parseInt(urlParams.get('canvas1')) || 0;
+                const canvas2 = parseInt(urlParams.get('canvas2')) || 1;
                 
                 Mirador.viewer({
                     id: 'mirador',
                     windows: [{
-                        manifestId: manifestUrl,
-                        canvasIndex: 0
+                        manifestId: manifest1,
+                        canvasIndex: canvas1
                     }, {
-                        manifestId: manifestUrl,
-                        canvasIndex: 1
+                        manifestId: manifest2,
+                        canvasIndex: canvas2
                     }],
                     workspaceControlPanel: {
                         enabled: false
