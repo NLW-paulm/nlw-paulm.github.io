@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Annona Viewer</title>
+    <title>Annona Dual Viewer</title>
     <link rel="stylesheet" href="https://ncsu-libraries.github.io/annona/dist/annona.css">
     <script src="https://ncsu-libraries.github.io/annona/dist/annona.js"></script>
     <style>
@@ -11,31 +11,43 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-        }
-        #annona {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            display: flex; /* Use flexbox to lay out the containers */
+            height: 100vh; /* Ensure the body takes up the full viewport height */
             width: 100%;
-            height: 100vh;
+        }
+        /* Define a common class for the viewer containers */
+        .viewer-container {
+            width: 50%; /* Each container takes half the width */
+            height: 100%;
+            position: relative; /* Needed for OpenSeadragon to render correctly */
         }
     </style>
 </head>
 <body>
-    <div id="annona"></div>
+    <div id="viewer-left" class="viewer-container"></div>
+    
+    <div id="viewer-right" class="viewer-container"></div>
 
     <script>
         window.addEventListener('load', function() {
             if (typeof Annona !== 'undefined') {
-                const urlParams = new URLSearchParams(window.location.search);
-                const manifestUrl = urlParams.get('manifest') || 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json';
                 
+                // 1. Book of Remembrance Viewer (Left)
                 Annona.imageViewer({
-                    target: 'annona',
-                    manifest: manifestUrl,
-                    canvases: [0, 1]
+                    target: 'viewer-left',
+                    // Manifest: The Welsh Book of Remembrance 1928
+                    manifest: 'https://damsssl.llgc.org.uk/iiif/2.0/4642022/manifest.json',
+                    // Canvas: Uses the canvas ID string for page 65 (Canvas Index 64)
+                    canvases: 'https://damsssl.llgc.org.uk/iiif/2.0/4642022/canvas/4642367.json' 
+                });
+
+                // 2. Appeal Cases Viewer (Right)
+                Annona.imageViewer({
+                    target: 'viewer-right',
+                    // Manifest: Appeal cases, [1916-1918]
+                    manifest: 'https://damsssl.llgc.org.uk/iiif/2.0/4078677/manifest.json',
+                    // Canvas: Uses the canvas ID string for page 68v (Canvas Index 67)
+                    canvases: 'https://damsssl.llgc.org.uk/iiif/2.0/4078677/canvas/4078804.json' 
                 });
             }
         });
