@@ -34,24 +34,32 @@
         <div id="osd2"></div>
     </div>
 
-    <script>
+     <script>
         window.addEventListener('load', async function() {
             const urlParams = new URLSearchParams(window.location.search);
-            const manifestUrl = urlParams.get('manifest') || 'https://damsssl.llgc.org.uk/iiif/2.0/4078677/manifest.json';
-            const canvas1Index = parseInt(urlParams.get('canvas1')) || 86;
-            const canvas2Index = parseInt(urlParams.get('canvas2')) || 126;
+            
+            // Support both single manifest or two manifests
+            const manifest1Url = urlParams.get('manifest1') || urlParams.get('manifest') || 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json';
+            const manifest2Url = urlParams.get('manifest2') || urlParams.get('manifest') || 'https://damsssl.llgc.org.uk/iiif/2.0/1237999/manifest.json';
+            
+            const canvas1Index = parseInt(urlParams.get('canvas1')) || 0;
+            const canvas2Index = parseInt(urlParams.get('canvas2')) || 1;
 
             try {
-                // Fetch the manifest
-                const response = await fetch(manifestUrl);
-                const manifest = await response.json();
+                // Fetch both manifests
+                const response1 = await fetch(manifest1Url);
+                const manifest1 = await response1.json();
                 
-                // Get canvases
-                const canvases = manifest.sequences[0].canvases;
+                const response2 = await fetch(manifest2Url);
+                const manifest2 = await response2.json();
+                
+                // Get canvases from each manifest
+                const canvases1 = manifest1.sequences[0].canvases;
+                const canvases2 = manifest2.sequences[0].canvases;
                 
                 // Extract image info URLs for the specified canvases
-                const canvas1 = canvases[canvas1Index];
-                const canvas2 = canvases[canvas2Index];
+                const canvas1 = canvases1[canvas1Index];
+                const canvas2 = canvases2[canvas2Index];
                 
                 const imageUrl1 = canvas1.images[0].resource.service['@id'] + '/info.json';
                 const imageUrl2 = canvas2.images[0].resource.service['@id'] + '/info.json';
