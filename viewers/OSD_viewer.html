@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenSeadragon Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            gap: 0;
+        }
+        #osd1, #osd2 {
+            width: 50%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="osd1"></div>
+        <div id="osd2"></div>
+    </div>
+
+    <script>
+        window.addEventListener('load', async function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const manifestUrl = urlParams.get('manifest') || 'https://damsssl.llgc.org.uk/iiif/2.0/4078677/manifest.json';
+            const canvas1Index = parseInt(urlParams.get('canvas1')) || 86;
+            const canvas2Index = parseInt(urlParams.get('canvas2')) || 126;
+
+            try {
+                // Fetch the manifest
+                const response = await fetch(manifestUrl);
+                const manifest = await response.json();
+                
+                // Get canvases
+                const canvases = manifest.sequences[0].canvases;
+                
+                // Extract image info URLs for the specified canvases
+                const canvas1 = canvases[canvas1Index];
+                const canvas2 = canvases[canvas2Index];
+                
+                const imageUrl1 = canvas1.images[0].resource.service['@id'] + '/info.json';
+                const imageUrl2 = canvas2.images[0].resource.service['@id'] + '/info.json';
+
+                // Initialize OpenSeadragon viewers
+                const viewer1 = OpenSeadragon({
+                    id: "osd1",
+                    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+                    tileSources: imageUrl1,
+                    showNavigationControl: true,
+                    showNavigator: true,
+                    navigatorPosition: "BOTTOM_RIGHT"
+                });
+
+                const viewer2 = OpenSeadragon({
+                    id: "osd2",
+                    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+                    tileSources: imageUrl2,
+                    showNavigationControl: true,
+                    showNavigator: true,
+                    navigatorPosition: "BOTTOM_RIGHT"
+                });
+
+            } catch (error) {
+                console.error('Error loading manifest:', error);
+                document.getElementById('osd1').innerHTML = '<p style="padding: 20px;">Error loading images. Please check the manifest URL.</p>';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mirador Viewer</title>
-    <link rel="stylesheet" href="https://unpkg.com/mirador@latest/dist/mirador.min.css">
     <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
     <style>
         body {
@@ -36,19 +35,26 @@
                     id: 'mirador',
                     windows: [{
                         manifestId: manifestUrl,
-                        canvasIndex: 0
+                        canvasIndex: 0,
+                        view: 'single'
                     }, {
                         manifestId: manifestUrl,
-                        canvasIndex: 1
+                        canvasIndex: 1,
+                        view: 'single'
                     }],
                     workspaceControlPanel: {
                         enabled: false
                     },
-                    window: {
+                   window: {
                         allowClose: false,
                         allowMaximize: false,
                         allowFullscreen: true,
-                        allowWindowSideBar: false
+                        allowWindowSideBar: false,
+                        defaultView: 'single',
+                        views: [
+                            { key: 'single', behaviors: ['individuals'] },
+                            { key: 'book', behaviors: ['paged'] }
+                        ]
                     }
                 });
             }
