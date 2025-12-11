@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexitime Calculation Tool</title>
+    <style>
+        /* [Existing CSS Styles] */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; background-color: #f4f7f6; color: #333; }
+        .container { max-width: 1000px; margin: auto; background: #fff; padding: 20px 40px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+        h1, h2 { color: #007bff; border-bottom: 2px solid #e9ecef; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #555; margin-top: 20px; }
+        label { display: block; margin-top: 10px; font-weight: 600; }
+        input[type="file"] { margin-bottom: 15px; }
+        button { background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; transition: background-color 0.3s; margin-right: 5px; }
+        button:hover:not(.active) { background-color: #218838; }
+        button.active { background-color: #007bff; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 0.9em; }
+        th, td { border: 1px solid #dee2e6; padding: 10px; text-align: left; }
+        th { background-color: #f8f9fa; font-weight: 700; }
+        .flexi-table-container { border: 1px solid #ccc; padding: 15px; border-radius: 6px; margin-bottom: 30px; background-color: #fdfdff; }
+        .warning-icon { font-size: 1.2em; vertical-align: middle; margin-left: 5px; cursor: help; }
+        .yellow-warning { color: gold; }
+        .red-warning { color: red; }
+        .missing-warning { color: orange; }
+        .summary-box { background-color: #e9f7ff; border-left: 5px solid #007bff; padding: 15px; margin: 15px 0; border-radius: 4px; font-weight: 600; }
+        .difference-box { margin-top: 10px; padding: 10px; border: 1px solid #dee2e6; border-radius: 4px; }
+        select { padding: 5px; border-radius: 3px; border: 1px solid #ccc; }
+        .flexi-day-status { min-width: 120px; display: block; }
+        .clocking-breakdown { font-size: 0.85em; color: #555; white-space: normal; line-height: 1.2; }
+
+        /* Modal Styles */
+        .modal { display: none; position: fixed; z-index: 10; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4); }
+        .modal-content { background-color: #fefefe; margin: 5% auto; padding: 20px; border: 1px solid #888; width: 90%; max-width: 900px; border-radius: 8px; }
+        .close { color: #aaa; float: right; font-size: 28px; font-weight: bold; }
+        .close:hover, .close:focus { color: #000; text-decoration: none; cursor: pointer; }
+        textarea { width: 98%; height: 200px; padding: 10px; border: 1px solid #ccc; font-family: monospace; margin-bottom: 10px; }
+        .review-table td input { width: 95%; padding: 5px; box-sizing: border-box; border: 1px solid #ddd; }
+        .review-table th { white-space: nowrap; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Flexitime Calculation Tool</h1>
+        <p>You can define your periods either by uploading the **Flexitime List (Brought Forward) CSV** or by pasting all daily records and manually setting the balance.</p>
+
+        <label for="flexitimeFile">1. Flexitime List (Brought Forward Records) <small>(Optional, required for multi-period structure)</small>:</label>
+        <input type="file" id="flexitimeFile" accept=".csv">
+
+        <label for="holidayFile">2. Holiday Absence List <small>(Optional)</small>:</label>
+        <input type="file" id="holidayFile" accept=".csv">
+
+        <label for="sicknessFile">3. Sickness Absence List <small>(Optional)</small>:</label>
+        <input type="file" id="sicknessFile" accept=".csv">
+        
+        <button onclick="document.getElementById('pasteModal').style.display='block'">Paste Unstructured Data</button>
+        <span id="pasteStatus" style="margin-left: 10px; color: #555;"></span>
+
+        <hr style="margin-top: 20px;">
+        <button onclick="processFiles()">Calculate Flexitime</button>
+        
+        <div id="filterControls" style="margin-top: 20px; border-top: 1px solid #eee; padding-top: 10px; display: none;">
+            <strong>Filter Results:</strong>
+            <button id="filterAll" class="active" onclick="setFilter('all')">Show All</button>
+            <button id="filterWarnings" onclick="setFilter('warnings')">Show Days Below Target (⚠️ or ❓)</button>
+            <button id="filterMissing" onclick="setFilter('missing')">Show Unrecorded Days Only (❓)</button>
+        </div>
+        
+        <div id="results" style="margin-top: 30px;"></div>
+    </div>
+
+    <div id="pasteModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="document.getElementById('pasteModal').style.display='none'">&times;</span>
+        <h2>Paste Unstructured Clocking/Absence Data</h2>
+        <p>Paste the raw text copied directly from the screen interface below.</p>
+        <textarea id="rawDataTextarea"></textarea>
+        <button onclick="parseRawDataAndShowReview()">Parse Data for Review</button>
+
+        <div id="reviewArea" style="margin-top: 20px; display: none;">
+            <h3>Review and Clean Data</h3>
+            <p><strong>⚠️ IMPORTANT: Only Clocking Records are being used.</strong> Please ensure the **Start Date/Time** and **Duration (HH:MM)** are correct. Leave/Absence records are ignored here and should be manually added via the final results table dropdowns if not in the CSV files.</p>
+            <p><strong>Step 1: Clocking Records.</strong></p>
+            <div id="reviewRecords"></div>
+            
+            <button style="margin-top: 20px;" onclick="submitCleanedData()">Submit Cleaned Data & Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+        // --- CONSTANTS ---
+        const DAILY_TARGET_MINS = 7 * 60 + 24; // 444 minutes (7:24)
+        const HALF_DAY_MINS = 3 * 60 + 42; // 222 minutes (3:42)
+        const WEEKLY_TARGET_MINS = 35 * 60;   // 2100 minutes (35:00)
+        const YELLOW_ICON = '<span class="warning-icon yellow-warning" title="Below 7:24 target">⚠️</span>';
+        const RED_ICON = '<span class="warning-icon red-warning" title="Below 35:00 weekly target">🛑</span>';
+        const MISSING_ICON = '<span class="warning-icon missing-warning" title="Unrecorded Mon-Fri day">❓</span>';
+        const CHECK_ICON = '<span style="color: green;">✅</span>';
+        
+        const DROPDOWN_OPTIONS = [
+            { value: DAILY_TARGET_MINS + "/Leave", credit: DAILY_TARGET_MINS, text: "Full Day Leave (7:24)", type: "Leave" },
+            { value: HALF_DAY_MINS + "/Half Day Leave", credit: HALF_DAY_MINS, text: "Half Day Leave (3:42)", type: "Half Day Leave" },
+            { value: DAILY_TARGET_MINS + "/Sickness", credit: DAILY_TARGET_MINS, text: "Sickness (7:24)", type: "Sickness" },
+            { value: DAILY_TARGET_MINS + "/Bank Holiday", credit: DAILY_TARGET_MINS, text: "Bank Holiday (7:24)", type: "Bank Holiday" },
+            { value: "0/TOIL", credit: 0, text: "TOIL", type: "TOIL" },
+            { value: "0/Other", credit: 0, text: "Other", type: "Other" }
+        ];
+
+        // --- GLOBAL STATE ---
+        let processedData = []; 
+        let flexiPeriods = [];
+        let globalRawData = {};
+        let currentFilter = 'all'; 
+        let unstructuredData = {
+            flexiRecords: [],
+            absenceCredits: []
+        };
+        let manualBalance = 0; 
+        let clockingBreakdown = {}; // GLOBAL scope for Clocking Breakdown
+
+
+        // --- UTILITY FUNCTIONS ---
+        function csvToDataFrame(csvString) {
+            const lines = csvString.split('\n').filter(line => line.trim().length > 0);
+            if (lines.length === 0) return { columns: [], data: [] };
+            const headerLine = lines[0].trim();
+            const headerRegex = /(".*?"|[^",]+)(?=\s*,|\s*$)/g;
+            const columns = Array.from(headerLine.matchAll(headerRegex)).map(match => match[1].replace(/"/g, '').trim());
+            const data = lines.slice(1).map(line => {
+                const values = Array.from(line.matchAll(headerRegex)).map(match => match[1].replace(/"/g, '').trim());
+                let row = {};
+                columns.forEach((col, i) => { row[col] = values[i] || ''; });
+                return row;
+            });
+            return { columns, data };
+        }
+
+        function timeToMinutes(timeStr) {
+            if (!timeStr || timeStr === '00:00') return 0;
+            let sign = 1;
+            if (timeStr.startsWith('-')) {
+                sign = -1;
+                timeStr = timeStr.substring(1);
+            }
+            const parts = timeStr.split(':');
+            if (parts.length === 2) {
+                const hours = parseInt(parts[0]) || 0;
+                const minutes = parseInt(parts[1]) || 0;
+                return sign * (hours * 60 + minutes);
+            }
+            return 0;
+        }
+
+        function minutesToHhmm(totalMinutes) {
+            if (isNaN(totalMinutes) || totalMinutes === null) return '00:00';
+            totalMinutes = Math.round(totalMinutes);
+            let sign = '';
+            if (totalMinutes < 0) {
+                sign = '-';
+                totalMinutes = Math.abs(totalMinutes);
+            }
+            const hours = Math.floor(totalMinutes / 60);
+            const minutes = totalMinutes % 60;
+            return `${sign}${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+        }
+
+        function parseDate(dateStr) {
+            if (!dateStr) return null;
+            const parts = dateStr.split(' ')[0].split('/');
+            if (parts.length === 3) {
+                const date = new Date(parts[2], parts[1] - 1, parts[0]);
+                if (date.getFullYear() == parts[2] && date.getMonth() == parts[1] - 1 && date.getDate() == parts[0]) {
+                    return date;
+                }
+            }
+            
+            if (dateStr.match(/\d{1,2} [A-Za-z]{3} \d{4}/)) {
+                const date = new Date(dateStr);
+                if (!isNaN(date)) {
+                    return date;
+                }
+            }
+            return null;
+        }
+
+        function dateToDdMm(date) {
+            if (!date) return '';
+            return `${String(date.getDate()).padStart(2, '0')}/${String(date.getMonth() + 1).padStart(2, '0')}`;
+        }
+
+        function getStartOfWeek(date) {
+            const d = new Date(date);
+            const day = d.getDay(); 
+            const diff = d.getDate() - day + (day === 0 ? -6 : 1); 
+            d.setDate(diff);
+            d.setHours(0, 0, 0, 0);
+            return d;
+        }
+
+        function countWorkingDays(start, end) {
+            let count = 0;
+            let current = new Date(start);
+            while (current <= end) {
+                const day = current.getDay();
+                if (day !== 0 && day !== 6) {
+                    count++;
+                }
+                current.setDate(current.getDate() + 1);
+            }
+            return count;
+        }
+
+        // --- UNSTRUCTURED DATA PARSING (IMPROVED FOR TABULAR PASTE) ---
+        function parseUnstructuredData(rawText) {
+            const records = [];
+            
+            const lines = rawText.trim().split('\n').filter(line => line.trim() !== '');
+
+            // Regex for matching Date/Time (DD Mon YYYY HH:MM)
+            const dateTimeRegex = /(\d{1,2} [A-Za-z]{3} \d{4}\s*\d{2}:\d{2})/;
+            
+            for (const line of lines) {
+                // Split by tab (\t)
+                const cols = line.split('\t').map(col => col.trim());
+
+                const messyCol1 = cols[0] || '';
+                const endDateTimeCol2 = cols[1] || '';
+                const durationCol3 = cols[2] || '';
+
+                if (durationCol3.match(/\d{2}:\d{2}/) && messyCol1.includes('Record')) {
+                    
+                    const startDateTimeMatch = messyCol1.match(dateTimeRegex);
+                    const startDateTime = startDateTimeMatch ? startDateTimeMatch[0].trim() : null;
+                    
+                    if (!startDateTime) continue;
+
+                    records.push({
+                        'Start date/time': startDateTime,
+                        'End date/time': endDateTimeCol2, 
+                        'Hours (hh:mm)': durationCol3,
+                        'Type': 'Record', 
+                        'RawIndex': records.length
+                    });
+                } 
+            }
+            return { flexiRecords: records, absenceCredits: [] };
+        }
+
+        function parseRawDataAndShowReview() {
+            const rawText = document.getElementById('rawDataTextarea').value;
+            if (rawText.trim() === '') {
+                document.getElementById('pasteStatus').textContent = 'No data pasted to parse.';
+                return;
+            }
+
+            const parsed = parseUnstructuredData(rawText);
+            
+            unstructuredData = parsed;
+            
+            // --- Render Review Tables ---
+            let recordsHtml = `<p>Found **${parsed.flexiRecords.length} Clocking Records**.</p><table class="review-table"><thead><tr><th>#</th><th>Start Date/Time</th><th>End Date/Time</th><th>Duration (HH:MM)</th><th>Type</th></tr></thead><tbody>`;
+            parsed.flexiRecords.forEach((r, i) => {
+                recordsHtml += `<tr><td>${i + 1}</td>
+                    <td><input type="text" value="${r['Start date/time']}" data-field="Start date/time" data-type="record" data-index="${i}"></td>
+                    <td><input type="text" value="${r['End date/time']}" data-field="End date/time" data-type="record" data-index="${i}"></td>
+                    <td><input type="text" value="${r['Hours (hh:mm)']}" data-field="Hours (hh:mm)" data-type="record" data-index="${i}"></td>
+                    <td>${r.Type}</td></tr>`;
+            });
+            recordsHtml += `</tbody></table>`;
+            
+            const reviewRecordsElement = document.getElementById('reviewRecords');
+            if (reviewRecordsElement) {
+                reviewRecordsElement.innerHTML = recordsHtml; 
+            }
+            
+            const reviewAbsenceElement = document.getElementById('reviewAbsence');
+            if (reviewAbsenceElement) {
+                reviewAbsenceElement.innerHTML = '';
+            }
+
+            document.getElementById('reviewArea').style.display = 'block';
+            document.getElementById('pasteStatus').textContent = `Parsed ${parsed.flexiRecords.length} clockings. Click Calculate Flexitime after review.`;
+        }
+
+        function submitCleanedData() {
+            const readInputs = (type) => {
+                const dataArray = (type === 'record') ? unstructuredData.flexiRecords : unstructuredData.absenceCredits;
+                document.querySelectorAll(`input[data-type="${type}"]`).forEach(input => {
+                    const index = parseInt(input.getAttribute('data-index'));
+                    const field = input.getAttribute('data-field');
+                    
+                    if(dataArray[index]) {
+                        dataArray[index][field] = input.value;
+                    }
+                });
+            };
+
+            readInputs('record');
+
+            document.getElementById('pasteModal').style.display = 'none';
+            document.getElementById('pasteStatus').textContent = `Cleaned data submitted (${unstructuredData.flexiRecords.length} records). Click Calculate Flexitime.`;
+        }
+        
+        // --- CORE LOGIC FUNCTIONS ---
+        function getFlexiPeriods(dfFlexi) {
+             const allRecords = dfFlexi.data.filter(r => r.Type === 'Record').concat(unstructuredData.flexiRecords.filter(r => r.Type === 'Record'));
+             const dfBroughtForward = dfFlexi.data.filter(row => row.Type === 'Brought forward');
+             let periods = [];
+             let bfDates = [];
+             let bfBalances = {};
+
+             dfBroughtForward.forEach(row => {
+                 const date = parseDate(row['Start date/time']);
+                 if (date) {
+                     const dateStr = date.toISOString().split('T')[0];
+                     bfDates.push(date);
+                     bfBalances[dateStr] = (bfBalances[dateStr] || 0) + timeToMinutes(row['Hours (hh:mm)']);
+                 }
+             });
+             bfDates.sort((a, b) => a - b);
+             
+             const hasBroughtForwardRecords = bfDates.length > 0;
+
+             if (hasBroughtForwardRecords) {
+                 const earliestRecordDate = allRecords.length > 0 ? 
+                    allRecords.map(r => parseDate(r['Start date/time'] || r['Start date'])).filter(d => d).sort((a,b) => a-b)[0] || bfDates[0] : 
+                    bfDates[0];
+                 
+                 for (let i = 0; i < bfDates.length; i++) {
+                     const bfDate = bfDates[i];
+                     const bfBalance = bfBalances[bfDate.toISOString().split('T')[0]];
+
+                     let periodEnd = (i + 1 < bfDates.length) ? new Date(bfDates[i + 1]) : null;
+                     if (periodEnd) periodEnd.setDate(periodEnd.getDate() - 1);
+                     
+                     if (!periodEnd) {
+                        const latestRecordDate = allRecords.length > 0 ? 
+                            allRecords.map(r => parseDate(r['Start date/time'] || r['Start date'])).filter(d => d).sort((a,b) => b-a)[0] : 
+                            bfDate;
+                        periodEnd = latestRecordDate;
+                     }
+                    
+                     let start = (i === 0) ? earliestRecordDate : bfDate;
+                     start = getStartOfWeek(start); // Force Monday start
+                     
+                     periods.push({
+                         Period_Num: i + 1,
+                         Start_Date: start,
+                         End_Date: periodEnd,
+                         Start_Balance_Mins: bfBalance,
+                         BF_Date_In_Data: bfDate,
+                         BF_Balance_In_Data: bfBalance,
+                         Next_BF_Balance_In_Data: (i + 1 < bfDates.length) ? bfBalances[bfDates[i+1].toISOString().split('T')[0]] : null
+                     });
+                 }
+             } else {
+                 const allRecords = globalRawData.dfFlexi.data.filter(r => r.Type === 'Record').concat(unstructuredData.flexiRecords);
+                 const allDates = allRecords.map(r => parseDate(r['Start date/time'] || r['Start date'])).filter(d => d);
+
+                 if (allDates.length === 0) return { periods: [] };
+                 
+                 allDates.sort((a,b) => a-b);
+                 let startDate = allDates[0];
+                 const endDate = allDates[allDates.length - 1];
+
+                 startDate = getStartOfWeek(startDate); // Force Monday start
+
+                 periods.push({
+                     Period_Num: 1,
+                     Start_Date: startDate,
+                     End_Date: endDate,
+                     Start_Balance_Mins: manualBalance,
+                     BF_Date_In_Data: startDate,
+                     BF_Balance_In_Data: manualBalance,
+                     Next_BF_Balance_In_Data: null
+                 });
+             }
+
+             return { periods };
+        }
+
+        function calculateAndStructureData(dfFlexi, dfHoliday, dfSickness, existingData = null) {
+            const { periods } = getFlexiPeriods(dfFlexi);
+            
+            // Initialize clockingBreakdown here so it's fresh for each run
+            let clockingBreakdown = {};
+
+            const actualWorkHours = {};
+            const allFlexiRecords = dfFlexi.data.filter(r => r.Type === 'Record').concat(unstructuredData.flexiRecords.filter(r => r.Type === 'Record'));
+            
+            allFlexiRecords.forEach(row => {
+                const date = parseDate(row['Start date/time'] || row['Start date']);
+                if (date) {
+                    const dateStr = date.toISOString().split('T')[0];
+                    const startTime = row['Start date/time'] ? row['Start date/time'].slice(-5) : '??:??';
+                    const endTime = row['End date/time'] ? row['End date/time'].slice(-5) : 'Ongoing';
+                    const duration = row['Hours (hh:mm)'] || '00:00';
+                    const durationMins = timeToMinutes(duration);
+
+                    actualWorkHours[dateStr] = (actualWorkHours[dateStr] || 0) + durationMins;
+                    
+                    clockingBreakdown[dateStr] = clockingBreakdown[dateStr] || [];
+                    if (durationMins > 0) {
+                        clockingBreakdown[dateStr].push(`${startTime}-${endTime}`);
+                    }
+                }
+            });
+
+            const absenceCredit = {};
+            
+            function addAbsenceCredit(df, type, creditLogic) {
+                if (!df || !df.data || df.data.length === 0) return;
+
+                df.data.forEach(row => {
+                    let start = parseDate(row['Start date']);
+                    let end = parseDate(row['End date']);
+                    if (!start || !end) return;
+
+                    let creditPerDayMins = 0;
+                    const factor = creditLogic(row);
+                    const numWorkingDaysInRange = countWorkingDays(start, end);
+
+                    if (numWorkingDaysInRange === 0 || factor === 0) return;
+
+                    if (type === 'Sickness') {
+                        creditPerDayMins = DAILY_TARGET_MINS; 
+                    } else {
+                        const totalCreditMins = factor * DAILY_TARGET_MINS;
+                        creditPerDayMins = totalCreditMins / numWorkingDaysInRange;
+                    }
+                    
+                    let current = new Date(start);
+                    while (current <= end) {
+                        if (current.getDay() !== 0 && current.getDay() !== 6) { 
+                            const dateStr = current.toISOString().split('T')[0];
+                            
+                            if (creditPerDayMins > 0) {
+                                absenceCredit[dateStr] = absenceCredit[dateStr] || {};
+                                absenceCredit[dateStr].credits = absenceCredit[dateStr].credits || [];
+                                
+                                absenceCredit[dateStr].credits.push({ type: type, mins: creditPerDayMins });
+                            }
+                        }
+                        current.setDate(current.getDate() + 1);
+                    }
+                });
+            }
+
+            addAbsenceCredit(globalRawData.dfHoliday, 'Holiday', (row) => parseFloat(row['Working days/hours lost']) || 0);
+            addAbsenceCredit(globalRawData.dfSickness, 'Sickness', (row) => parseFloat(row['Working days lost']) || 0);
+
+            let allPeriodData = [];
+            let currentRunningBalance = periods[0] ? periods[0].Start_Balance_Mins : 0;
+            
+            periods.forEach((p, pIndex) => {
+                let currentDate = new Date(p.Start_Date);
+                let periodEnd = p.End_Date;
+
+                if (pIndex > 0) {
+                    currentRunningBalance = allPeriodData[allPeriodData.length - 1].Running_Balance_Mins;
+                } else {
+                    currentRunningBalance = p.Start_Balance_Mins;
+                }
+
+                while (currentDate <= periodEnd) {
+                    if (currentDate.getDay() !== 0 && currentDate.getDay() !== 6) { 
+                        const dateStr = currentDate.toISOString().split('T')[0];
+                        const date = new Date(currentDate);
+
+                        const actualWork = actualWorkHours[dateStr] || 0;
+                        const fileAbsence = absenceCredit[dateStr] || { credits: [] };
+                        
+                        let totalCreditedMins = 0;
+                        let absenceTypes = new Set();
+
+                        let manualOverride = existingData ? existingData.find(r => r.Date_Str === dateStr && r.Is_Manual) : null;
+                        
+                        const fileCredits = fileAbsence.credits || [];
+                        const totalFileCredit = fileCredits.reduce((sum, c) => sum + c.mins, 0);
+
+                        if (manualOverride) {
+                            let baseCredit = actualWork + totalFileCredit;
+                            let manualCredit = manualOverride.Total_Credited_Mins;
+                            
+                            totalCreditedMins = baseCredit + manualCredit;
+                            
+                            if (baseCredit > 0 && actualWork > 0) absenceTypes.add('Work');
+                            else if (baseCredit > 0) fileCredits.forEach(c => absenceTypes.add(c.type));
+                            
+                            absenceTypes.add(manualOverride.Absence_Type);
+
+                        } else if (actualWork > 0) {
+                            totalCreditedMins = actualWork + totalFileCredit;
+                            absenceTypes.add('Work');
+                            fileCredits.forEach(c => absenceTypes.add(c.type));
+
+                        } else {
+                            totalCreditedMins = totalFileCredit;
+                            fileCredits.forEach(c => absenceTypes.add(c.type));
+                        }
+                        
+                        const netDailyMins = totalCreditedMins - DAILY_TARGET_MINS;
+                        currentRunningBalance += netDailyMins;
+
+                        const rowData = {
+                            Start_Date: date,
+                            Date_Str: dateStr,
+                            Day_Abbrev: date.toLocaleDateString('en-US', { weekday: 'short' }),
+                            Actual_Worked_Mins: actualWork,
+                            File_Credits: fileCredits, 
+                            Absence_Type: Array.from(absenceTypes).join(' + '),
+                            Total_Credited_Mins: totalCreditedMins,
+                            Net_Daily_Mins: netDailyMins,
+                            Running_Balance_Mins: currentRunningBalance,
+                            Week_Start: getStartOfWeek(date),
+                            Month_Year: date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+                            Period_Num: p.Period_Num,
+                            Is_Manual: manualOverride ? manualOverride.Is_Manual : false,
+                            Manual_Credit: manualOverride ? manualOverride.Total_Credited_Mins : 0,
+                            Clocking_Breakdown: clockingBreakdown[dateStr] ? clockingBreakdown[dateStr].join(', ') : ''
+                        };
+                        allPeriodData.push(rowData);
+                    }
+                    currentDate.setDate(currentDate.getDate() + 1);
+                }
+            });
+            
+            const weeklyTotals = allPeriodData.reduce((acc, row) => {
+                const weekStr = row.Week_Start.toISOString().split('T')[0];
+                acc[weekStr] = (acc[weekStr] || 0) + row.Total_Credited_Mins;
+                return acc;
+            }, {});
+
+            allPeriodData.forEach(row => {
+                const weekStr = row.Week_Start.toISOString().split('T')[0];
+                row.Total_Weekly_Mins = weeklyTotals[weekStr];
+                row.Weekly_Warning = (row.Total_Weekly_Mins < WEEKLY_TARGET_MINS) ? RED_ICON : '';
+                
+                if (row.Total_Credited_Mins < DAILY_TARGET_MINS) {
+                    if (row.Actual_Worked_Mins === 0 && row.File_Credits.length === 0 && !row.Is_Manual) {
+                        row.Daily_Warning = MISSING_ICON;
+                    } else {
+                        row.Daily_Warning = YELLOW_ICON;
+                    }
+                } else {
+                    row.Daily_Warning = '';
+                }
+
+                const periodInfo = periods.find(p => p.Period_Num === row.Period_Num);
+                row.BF_Balance_In_Data = periodInfo.BF_Balance_In_Data;
+                row.Next_BF_Balance_In_Data = periodInfo.Next_BF_Balance_In_Data;
+            });
+
+            return allPeriodData;
+        }
+
+        // --- FILTERING LOGIC & RENDERING ---
+        function filterRow(row, filterType) {
+            const warning = row.Daily_Warning;
+            if (filterType === 'all') return true;
+            if (filterType === 'warnings') return warning === YELLOW_ICON || warning === MISSING_ICON;
+            if (filterType === 'missing') return warning === MISSING_ICON;
+            return true;
+        }
+
+        function setFilter(filterType) {
+            currentFilter = filterType;
+            document.querySelectorAll('#filterControls button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.getElementById(`filter${filterType.charAt(0).toUpperCase() + filterType.slice(1)}`).classList.add('active');
+            renderFlexitimeTables(processedData, flexiPeriods); 
+        }
+
+        function renderFlexitimeTables(allData, periods) {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+            
+            document.getElementById('filterControls').style.display = allData.length > 0 ? 'block' : 'none';
+
+            const dataByPeriod = allData.reduce((acc, row) => {
+                acc[row.Period_Num] = acc[row.Period_Num] || [];
+                acc[row.Period_Num].push(row);
+                return acc;
+            }, {});
+
+            let fullHtml = '';
+
+            periods.forEach(p => {
+                const pData = dataByPeriod[p.Period_Num] || [];
+                const filteredPData = pData.filter(row => filterRow(row, currentFilter));
+
+                if (filteredPData.length === 0 && currentFilter !== 'all') {
+                    return; 
+                }
+
+                let periodHtml = `<div class="flexi-table-container">`;
+                periodHtml += `<h2>Flexitime Period ${p.Period_Num} (${dateToDdMm(p.Start_Date)} - ${dateToDdMm(p.End_Date)})</h2>`;
+                periodHtml += `<div class="summary-box">Balance Brought Forward (Data): <strong>${minutesToHhmm(p.BF_Balance_In_Data)}</strong></div>`;
+
+                const dataByMonth = filteredPData.reduce((acc, row) => {
+                    acc[row.Month_Year] = acc[row.Month_Year] || [];
+                    acc[row.Month_Year].push(row);
+                    return acc;
+                }, {});
+
+                for (const month in dataByMonth) {
+                    periodHtml += `<h3>${month}</h3>`;
+                    // UPDATED TABLE HEADERS
+                    periodHtml += `<table><thead><tr><th>Date</th><th>Day</th><th>Clocking Times</th><th>Total Hrs Credited</th><th>Status</th><th>Add Credit</th></tr></thead><tbody>`;
+
+                    const monthData = dataByMonth[month];
+                    const dataByWeek = monthData.reduce((acc, row) => {
+                        acc[row.Week_Start.toISOString().split('T')[0]] = acc[row.Week_Start.toISOString().split('T')[0]] || [];
+                        acc[row.Week_Start.toISOString().split('T')[0]].push(row);
+                        return acc;
+                    }, {});
+
+                    for (const week in dataByWeek) {
+                        const weekData = dataByWeek[week];
+                        let isWeekTotalRendered = false;
+
+                        weekData.forEach((row, rowIndex) => {
+                            let statusHtml = '';
+                            const dateStr = row.Start_Date.toISOString().split('T')[0];
+
+                            const isUnrecordedAndNotManual = row.Daily_Warning === MISSING_ICON && !row.Is_Manual;
+                            const isWorkOnly = row.Actual_Worked_Mins > 0 && row.File_Credits.length === 0 && !row.Is_Manual;
+                            const isEditable = isUnrecordedAndNotManual || isWorkOnly;
+                            
+                            // Get base credit for display
+                            const baseCredit = row.Actual_Worked_Mins + row.File_Credits.reduce((sum, c) => sum + c.mins, 0);
+
+                            // --- STATUS COLUMN CONTENT ---
+                            let statusContent = '';
+                            let dropdownHtml = '---';
+
+                            if (isEditable) {
+                                // Logic for dropdown: Status shows BASE, Dropdown allows ADDITION
+                                const optionsHtml = DROPDOWN_OPTIONS.map(opt => {
+                                    const totalHours = baseCredit + opt.credit;
+                                    const text = opt.type.includes('Half Day') ? `Add Half Day (${minutesToHhmm(totalHours)})` : opt.text;
+                                    return `<option value="${opt.credit}/${opt.type}">${text}</option>`;
+                                }).join('');
+
+                                dropdownHtml = `<select class="flexi-day-status" onchange="updateDailyCredit(this, '${dateStr}')">
+                                    <option value="0/" selected>(Add Credit)</option>
+                                    ${optionsHtml}
+                                </select>`;
+                                
+                                const baseText = baseCredit > 0 ? `Base: ${minutesToHhmm(baseCredit)}` : 'Unrecorded';
+                                statusContent = `(${baseText}) ${row.Daily_Warning}`;
+                            } else {
+                                // Logic for static status (from CSV or previously saved manual input)
+                                let statusType = row.Absence_Type;
+                                if (row.Is_Manual) {
+                                    statusType = `Manual: ${statusType}`;
+                                    dropdownHtml = `(Manually Added: ${minutesToHhmm(row.Manual_Credit)})`;
+                                } 
+                                statusContent = `(${statusType}) ${row.Daily_Warning}`;
+                            }
+                            
+                            // Highlight if manual credit was applied
+                            const rowClass = row.Is_Manual ? 'class="manual-add-row"' : '';
+
+                            // UPDATED ROW STRUCTURE
+                            periodHtml += `<tr ${rowClass} id="row-${dateStr}">
+                                <td>${dateToDdMm(row.Start_Date)}</td>
+                                <td>${row.Day_Abbrev.substring(0, 3)}</td>
+                                <td class="clocking-breakdown">${row.Clocking_Breakdown || 'N/A'}</td>
+                                <td class="credited-hours">${minutesToHhmm(row.Total_Credited_Mins)}</td>
+                                <td class="status-cell">${statusContent}</td>
+                                <td>${dropdownHtml}</td>
+                            </tr>`;
+                            
+                            const unfilteredWeekData = pData.filter(r => r.Week_Start.toISOString().split('T')[0] === week);
+                            const isLastDayOfSegment = rowIndex === weekData.length - 1;
+
+                            if (isLastDayOfSegment && unfilteredWeekData.length > 0 && !isWeekTotalRendered) {
+                                const weekTotal = unfilteredWeekData[0].Total_Weekly_Mins;
+                                const weekWarning = unfilteredWeekData[0].Weekly_Warning;
+
+                                periodHtml += `<tr style="font-weight: bold; background-color: #f0f0f0;">
+                                    <td colspan="3">Week Total</td>
+                                    <td>${minutesToHhmm(weekTotal)}</td>
+                                    <td colspan="2">${weekWarning}</td>
+                                </tr>`;
+                                isWeekTotalRendered = true;
+                            }
+                        });
+                    }
+
+                    periodHtml += `</tbody></table>`;
+                }
+                
+                const lastRow = pData.filter(r => r.Period_Num === p.Period_Num).slice(-1)[0]; 
+                
+                if (!lastRow) {
+                    fullHtml += `</div>`;
+                    return;
+                }
+                
+                const calculatedEndBalance = lastRow.Running_Balance_Mins;
+                const nextBfBalance = lastRow.Next_BF_Balance_In_Data;
+
+                let summaryHtml = `<div class="summary-box">`;
+                summaryHtml += `<h4>Period Summary</h4>`;
+                summaryHtml += `<p>Calculated Closing Balance: <strong id="closing-balance-${p.Period_Num}">${minutesToHhmm(calculatedEndBalance)}</strong></p>`;
+
+                if (nextBfBalance !== null && nextBfBalance !== undefined) {
+                    const diff = calculatedEndBalance - nextBfBalance;
+                    const diffIcon = (diff === 0) ? CHECK_ICON : RED_ICON;
+                    summaryHtml += `<p>Balance Bought Forward (Data): <strong>${minutesToHhmm(nextBfBalance)}</strong></p>`;
+                    summaryHtml += `<div class="difference-box">Difference: <strong>${minutesToHhmm(diff)}</strong> ${diffIcon}</div>`;
+                }
+                summaryHtml += `</div>`;
+
+                periodHtml += summaryHtml;
+                periodHtml += `</div>`;
+                fullHtml += periodHtml;
+            });
+
+            resultsDiv.innerHTML = fullHtml;
+        }
+
+        // --- FILE PROCESSING INITIATION ---
+        function processFiles() {
+            const flexiFile = document.getElementById('flexitimeFile').files[0];
+            const holidayFile = document.getElementById('holidayFile').files[0];
+            const sicknessFile = document.getElementById('sicknessFile').files[0];
+
+            if (!flexiFile && unstructuredData.flexiRecords.length === 0) {
+                alert('Please upload the Flexitime List OR paste unstructured data.');
+                return;
+            }
+
+            const fileInputs = [
+                { file: flexiFile, name: 'dfFlexi', required: false },
+                { file: holidayFile, name: 'dfHoliday', required: false },
+                { file: sicknessFile, name: 'dfSickness', required: false }
+            ];
+
+            const readers = fileInputs.map(input => {
+                return new Promise((resolve, reject) => {
+                    if (!input.file) {
+                        resolve({ name: input.name, csv: '' }); 
+                        return;
+                    }
+                    const reader = new FileReader();
+                    reader.onload = (e) => resolve({ name: input.name, csv: e.target.result });
+                    reader.onerror = reject;
+                    reader.readAsText(input.file);
+                });
+            });
+
+            Promise.all(readers)
+                .then(results => {
+                    globalRawData = {};
+                    results.forEach(res => {
+                        globalRawData[res.name] = res.csv ? csvToDataFrame(res.csv) : { columns: [], data: [] };
+                    });
+                    
+                    const hasBroughtForwardData = globalRawData.dfFlexi.data.some(row => row.Type === 'Brought forward');
+                    const allRecords = globalRawData.dfFlexi.data.filter(r => r.Type === 'Record').concat(unstructuredData.flexiRecords);
+
+
+                    if (hasBroughtForwardData) {
+                        flexiPeriods = getFlexiPeriods(globalRawData.dfFlexi).periods;
+                        processedData = calculateAndStructureData(globalRawData.dfFlexi, globalRawData.dfHoliday, globalRawData.dfSickness);
+                        setFilter(currentFilter);
+                    } else if (allRecords.length > 0) {
+                        manuallyDefinePeriod();
+                    } else {
+                         document.getElementById('results').innerHTML = '<p style="color:red;">Error: No clocking/daily records found to calculate flexitime periods. Please provide data via paste or CSV.</p>';
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('results').innerHTML = `<p style="color:red;">An error occurred during file processing. Ensure files are valid CSVs. Error: ${error.message}</p>`;
+                    console.error(error);
+                });
+        }
+        
+        function manuallyDefinePeriod() {
+            const allRecords = globalRawData.dfFlexi.data.filter(r => r.Type === 'Record').concat(unstructuredData.flexiRecords);
+            const allDates = allRecords.map(r => parseDate(r['Start date/time'] || r['Start date'])).filter(d => d);
+
+            if (allDates.length === 0) {
+                 document.getElementById('results').innerHTML = '<p style="color:red;">Error: No dates found in pasted data or files to define a period. Please ensure valid clockings were provided.</p>';
+                 return;
+            }
+
+            let balanceInput = prompt("No 'Brought forward' records found. Please enter the starting flexitime balance (e.g., -3:41 or 12:05):", "00:00");
+            
+            if (balanceInput === null) return; 
+
+            manualBalance = timeToMinutes(balanceInput) || 0;
+
+            flexiPeriods = getFlexiPeriods({ data: [] }).periods;
+
+            processedData = calculateAndStructureData(globalRawData.dfFlexi, globalRawData.dfHoliday, globalRawData.dfSickness, processedData);
+            renderFlexitimeTables(processedData, flexiPeriods);
+        }
+
+        function updateDailyCredit(selectElement, dateStr) {
+            const selectedValue = selectElement.value;
+            const [creditMinsStr, typeStr] = selectedValue.split('/');
+            
+            const newCreditMins = parseInt(creditMinsStr) || 0;
+            const newType = typeStr || '';
+            const isManual = selectedValue !== "0/"; 
+
+            const index = processedData.findIndex(row => row.Date_Str === dateStr);
+            if (index === -1) return;
+
+            // Store manual credit and re-calculate
+            processedData[index].Manual_Credit = newCreditMins;
+            processedData[index].Absence_Type = newType;
+            processedData[index].Is_Manual = isManual;
+
+            processedData = calculateAndStructureData(globalRawData.dfFlexi, globalRawData.dfHoliday, globalRawData.dfSickness, processedData);
+            renderFlexitimeTables(processedData, flexiPeriods);
+        }
+    </script>
+</body>
+</html>
