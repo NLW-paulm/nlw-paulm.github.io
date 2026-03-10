@@ -1,0 +1,435 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://nlw-paulm.github.io/manifests/pp/top-v3.json",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "The Women’s Peace Petition"
+    ],
+    "cy": [
+      "Deiseb Heddwch y Merched"
+    ]
+  },
+  "summary": {
+    "en": [
+      "The Women’s Peace Petition, sorted by box."
+    ],
+    "cy": [
+      "Deiseb Heddwch y Merched, wedi’i threfnu yn ôl bocs."
+    ]
+  },
+  "logo": [
+    {
+      "id": "https://damsssl.llgc.org.uk/iiif/2.0/image/logo/full/400,/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://damsssl.llgc.org.uk/iiif/2.0/image/logo",
+          "type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level1.json"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD001_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 001"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 001"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD002_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 002"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 002"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD003_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 003"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 003"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD004_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 004"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 004"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD005_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 005"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 005"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD006_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 006"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 006"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD007_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 007"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 007"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD008_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 008"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 008"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD009_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 009"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 009"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD010_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 010"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 010"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD011_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 011"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 011"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD012_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 012"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 012"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD013_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 013"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 013"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD014_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 014"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 014"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD015_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 015"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 015"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD016_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 016"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 016"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD017_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 017"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 017"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD018_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 018"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 018"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD019_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 019"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 019"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD020_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 020"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 020"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD021_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 021"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 021"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD022_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 022"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 022"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD023_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 023"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 023"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD024_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 024"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 024"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD025_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 025"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 025"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD026_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 026"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 026"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD027_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 027"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 027"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD028_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 028"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 028"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD029_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 029"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 029"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD030_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 030"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 030"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD031_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 031"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 031"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD032_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 032"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 032"
+        ]
+      }
+    },
+    {
+      "id": "https://datasyllwr.llgc.org.uk/manifests/PeacePetition/loc/PeaceCollection-HDD033_loc.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Women’s Peace Petition, box 033"
+        ],
+        "cy": [
+          "Deiseb Heddwch y Merched, bocs 033"
+        ]
+      }
+    }
+  ]
+}
